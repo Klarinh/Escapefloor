@@ -2383,3 +2383,398 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.02.10-12.21.32:601][907]AssetCheck: /Game/FirstPerson/Maps/Corridor_v01 Validating asset
 [2025.02.10-12.21.32:602][907]AssetCheck: /Game/Assets_modular/modular_floor1x1 Validating asset
 [2025.02.10-12.21.32:602][907]AssetCheck: /Game/Assets_modular/modular_wall2x1 Validating asset
+[2025.02.10-12.23.02:111][989]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2025.02.10-12.23.02:117][989]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.10-12.23.02:118][989]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_Corridor_v01
+[2025.02.10-12.23.02:128][989]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010223s)
+[2025.02.10-12.23.02:128][989]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/Corridor_v01.Corridor_v01 to /Game/FirstPerson/Maps/UEDPIE_0_Corridor_v01.Corridor_v01 (0.010250s)
+[2025.02.10-12.23.02:145][989]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.02.10-12.23.02:147][989]LogChaosDD: Creating Chaos Debug Draw Scene for world Corridor_v01
+[2025.02.10-12.23.02:148][989]LogPlayLevel: PIE: World Init took: (0.001083s)
+[2025.02.10-12.23.02:148][989]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2025.02.10-12.23.02:148][989]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.10-12.23.02:148][989]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.10-12.23.02:148][989]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.10-12.23.02:148][989]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.10-12.23.02:148][989]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.02.10-12.23.02:148][989]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.10-12.23.02:148][989]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.02.10-12.23.02:148][989]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.10-12.23.02:148][989]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.10-12.23.02:148][989]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.10-12.23.02:148][989]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.10-12.23.02:150][989]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.10-12.23.02:163][989]LogAudioMixer: Display: Using Audio Hardware Device PLE2483H (NVIDIA High Definition Audio)
+[2025.02.10-12.23.02:163][989]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.10-12.23.02:163][989]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.10-12.23.02:163][989]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.10-12.23.02:164][989]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2025.02.10-12.23.02:164][989]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2025.02.10-12.23.02:165][989]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2025.02.10-12.23.02:165][989]LogInit: FAudioDevice initialized with ID 13.
+[2025.02.10-12.23.02:165][989]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2025.02.10-12.23.02:165][989]LogAudio: Display: Audio Device (ID: 13) registered with world 'Corridor_v01'.
+[2025.02.10-12.23.02:165][989]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2025.02.10-12.23.02:198][989]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.10-12.23.02:198][989]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.02.10-12.23.02:203][989]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_Corridor_v01.Corridor_v01 up for play (max tick rate 0) at 2025.02.10-13.23.02
+[2025.02.10-12.23.02:203][989]LogWorld: Bringing up level for play took: 0.004923
+[2025.02.10-12.23.02:205][989]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2025.02.10-12.23.02:209][989]PIE: Server logged in
+[2025.02.10-12.23.02:210][989]PIE: Play in editor total start time 0,093 seconds.
+[2025.02.10-12.23.10:051][758]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 956.003723
+[2025.02.10-12.23.10:201][773]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.10-12.23.10:201][773]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 956.143616, Update Interval: 333.016754
+[2025.02.10-12.23.35:000][134]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.10-12.23.35:000][134]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_Corridor_v01
+[2025.02.10-12.23.35:001][134]LogSlate: Window 'unyielding_corridor Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.02.10-12.23.35:003][134]LogWorld: UWorld::CleanupWorld for Corridor_v01, bSessionEnded=true, bCleanupResources=true
+[2025.02.10-12.23.35:005][134]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.10-12.23.35:007][134]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.10-12.23.35:011][134]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.10-12.23.35:029][134]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.02.10-12.23.35:029][134]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2025.02.10-12.23.35:029][134]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2025.02.10-12.23.35:031][134]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2025.02.10-12.23.35:038][134]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.02.10-12.23.35:091][135]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2025.02.10-12.24.34:117][545]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.02.10-12.24.34:124][545]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.02.10-12.24.34:128][545]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.02.10-12.24.34:141][546]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.02.10-12.24.40:906][333]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_wall
+[2025.02.10-12.24.40:912][333]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.02.10-12.24.43:025][569]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Assets_modular/BP_wall.BP_wall
+[2025.02.10-12.24.43:025][569]LogChaosDD: Creating Chaos Debug Draw Scene for world World_4
+[2025.02.10-12.24.54:681][751]LogChaosDD: Creating Chaos Debug Draw Scene for world World_5
+[2025.02.10-12.25.03:429][587]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Assets_modular/modular_wall2x1.modular_wall2x1
+[2025.02.10-12.25.03:475][587]LogChaosDD: Creating Chaos Debug Draw Scene for world World_6
+[2025.02.10-12.25.03:480][587]LogStreaming: Display: FlushAsyncLoading(558): 1 QueuedPackages, 0 AsyncPackages
+[2025.02.10-12.25.03:497][587]LogStaticMesh: Display: Building static mesh Sphere_inversenormals (Required Memory Estimate: 1.522745 MB)...
+[2025.02.10-12.25.03:504][587]LogStaticMesh: Built static mesh [0.01s] /Engine/EditorMeshes/AssetViewer/Sphere_inversenormals.Sphere_inversenormals
+[2025.02.10-12.25.03:529][587]LogStaticMesh: Display: Building static mesh Floor_Mesh (Required Memory Estimate: 0.022237 MB)...
+[2025.02.10-12.25.03:530][587]LogStaticMesh: Built static mesh [0.00s] /Engine/EditorMeshes/AssetViewer/Floor_Mesh.Floor_Mesh
+[2025.02.10-12.25.26:753][647]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets_modular/modular_wall2x1.modular_wall2x1
+[2025.02.10-12.25.26:753][647]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets_modular/modular_wall2x1.modular_wall2x1
+[2025.02.10-12.25.26:753][647]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets_modular/modular_wall2x1.modular_wall2x1 as actor: StaticMeshActor /Game/FirstPerson/Maps/Corridor_v01.Corridor_v01:PersistentLevel.StaticMeshActor_9
+[2025.02.10-12.25.28:840][893]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.02.10-12.25.28:857][893]LogEditorActor: Deleted 0 Actors (0.051 secs)
+[2025.02.10-12.25.28:861][893]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets_modular/modular_wall2x1.modular_wall2x1
+[2025.02.10-12.25.28:861][893]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets_modular/modular_wall2x1.modular_wall2x1
+[2025.02.10-12.25.28:862][893]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets_modular/modular_wall2x1.modular_wall2x1 as actor: StaticMeshActor /Game/FirstPerson/Maps/Corridor_v01.Corridor_v01:PersistentLevel.StaticMeshActor_10
+[2025.02.10-12.25.31:954][253]Cmd: DELETE
+[2025.02.10-12.25.31:955][253]Cmd: ACTOR DELETE
+[2025.02.10-12.25.31:959][253]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.02.10-12.25.31:971][253]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.02.10-12.25.31:973][253]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2025.02.10-12.27.05:345][513]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.02.10-12.27.11:579][610]LogSlate: Window 'Message' being destroyed
+[2025.02.10-12.27.11:584][610]Message dialog closed, result: Yes, title: Message, text: BP_wall already exists. Do you want to replace it?
+[2025.02.10-12.27.11:584][610]LogSlate: Window 'Save Asset As' being destroyed
+[2025.02.10-12.27.11:610][610]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.10-12.27.11:661][610]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Assets_modular/BP_wall] ([2] browsable assets)...
+[2025.02.10-12.27.11:689][610]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Assets_modular/BP_wall.BP_wall]
+[2025.02.10-12.27.11:689][610]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets_modular/BP_wall]
+[2025.02.10-12.27.11:689][610]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets_modular/BP_wall" FILE="../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Content/Assets_modular/BP_wall.uasset" SILENT=true
+[2025.02.10-12.27.11:692][610]LogSavePackage: Moving output files for package: /Game/Assets_modular/BP_wall
+[2025.02.10-12.27.11:692][610]LogSavePackage: Moving '../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Saved/BP_wallD81D56C3435C2A359EAB04856A1AD531.tmp' to '../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Content/Assets_modular/BP_wall.uasset'
+[2025.02.10-12.27.11:704][610]LogFileHelpers: InternalPromptForCheckoutAndSave took 94.730 ms (total: 638.159 ms)
+[2025.02.10-12.27.11:743][610]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Assets_modular/BP_wall.BP_wall
+[2025.02.10-12.27.11:743][610]LogChaosDD: Creating Chaos Debug Draw Scene for world World_7
+[2025.02.10-12.27.11:842][610]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.02.10-12.27.11:842][610]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.10-12.27.11:907][610]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.10-12.27.11:907][610]LogContentValidation: Enabled validators:
+[2025.02.10-12.27.11:907][610]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.10-12.27.11:907][610]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.10-12.27.11:907][610]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.10-12.27.11:907][610]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.10-12.27.11:907][610]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.10-12.27.11:907][610]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.10-12.27.11:907][610]AssetCheck: /Game/Assets_modular/BP_wall Validating asset
+[2025.02.10-12.27.12:063][610]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.02.10-12.27.12:076][610]LogSlate: Took 0.005570 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.02.10-12.27.16:224][ 27]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Assets_modular/BP_wall.BP_wall_C
+[2025.02.10-12.27.16:224][ 27]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Assets_modular/BP_wall.BP_wall_C
+[2025.02.10-12.27.16:225][ 27]LogActorFactory: Actor Factory spawned Blueprint /Game/Assets_modular/BP_wall.BP_wall as actor: BP_wall_C /Game/FirstPerson/Maps/Corridor_v01.Corridor_v01:PersistentLevel.BP_wall_C_0
+[2025.02.10-12.27.16:226][ 27]LogActorFactory: Actor Factory spawned Blueprint /Game/Assets_modular/BP_wall.BP_wall as actor: BP_wall_C /Game/FirstPerson/Maps/Corridor_v01.Corridor_v01:PersistentLevel.BP_wall_C_0
+[2025.02.10-12.27.18:274][268]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.02.10-12.27.18:275][268]LogEditorActor: Deleted 0 Actors (0.026 secs)
+[2025.02.10-12.27.18:279][268]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Assets_modular/BP_wall.BP_wall_C
+[2025.02.10-12.27.18:279][268]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Assets_modular/BP_wall.BP_wall_C
+[2025.02.10-12.27.18:280][268]LogActorFactory: Actor Factory spawned Blueprint /Game/Assets_modular/BP_wall.BP_wall as actor: BP_wall_C /Game/FirstPerson/Maps/Corridor_v01.Corridor_v01:PersistentLevel.BP_wall_C_1
+[2025.02.10-12.27.18:281][268]LogActorFactory: Actor Factory spawned Blueprint /Game/Assets_modular/BP_wall.BP_wall as actor: BP_wall_C /Game/FirstPerson/Maps/Corridor_v01.Corridor_v01:PersistentLevel.BP_wall_C_1
+[2025.02.10-12.28.53:158][ 47]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1299.108154
+[2025.02.10-12.28.53:282][ 61]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.10-12.28.53:282][ 61]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1299.224976, Update Interval: 314.714813
+[2025.02.10-12.29.44:796][733]Cmd: TRANSACTION UNDO
+[2025.02.10-12.29.44:796][733]LogEditorTransaction: Undo Move Elements
+[2025.02.10-12.29.44:979][733]LogNavigation: Warning: FNavigationOctree::AddNode: Invalid bounds, ignoring None.
+[2025.02.10-12.29.44:979][733]LogNavigation: Warning: FNavigationOctree::AddNode: Invalid bounds, ignoring None.
+[2025.02.10-12.29.44:979][733]LogNavigation: Warning: FNavigationOctree::AddNode: Invalid bounds, ignoring None.
+[2025.02.10-12.29.44:979][733]LogNavigation: Warning: FNavigationOctree::AddNode: Invalid bounds, ignoring None.
+[2025.02.10-12.29.44:979][733]LogNavigation: Warning: FNavigationOctree::AddNode: Invalid bounds, ignoring None.
+[2025.02.10-12.29.44:979][733]LogNavigation: Warning: FNavigationOctree::AddNode: Invalid bounds, ignoring None.
+[2025.02.10-12.29.44:979][733]LogNavigation: Warning: FNavigationOctree::AddNode: Invalid bounds, ignoring None.
+[2025.02.10-12.29.44:979][733]LogNavigation: Warning: FNavigationOctree::AddNode: Invalid bounds, ignoring None.
+[2025.02.10-12.29.44:979][733]LogNavigation: Warning: FNavigationOctree::AddNode: Invalid bounds, ignoring None.
+[2025.02.10-12.30.03:140][724]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2025.02.10-12.30.03:149][724]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.10-12.30.03:149][724]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_Corridor_v01
+[2025.02.10-12.30.03:162][724]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012475s)
+[2025.02.10-12.30.03:162][724]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/Corridor_v01.Corridor_v01 to /Game/FirstPerson/Maps/UEDPIE_0_Corridor_v01.Corridor_v01 (0.012504s)
+[2025.02.10-12.30.03:179][724]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.02.10-12.30.03:182][724]LogChaosDD: Creating Chaos Debug Draw Scene for world Corridor_v01
+[2025.02.10-12.30.03:183][724]LogPlayLevel: PIE: World Init took: (0.001312s)
+[2025.02.10-12.30.03:184][724]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2025.02.10-12.30.03:184][724]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.10-12.30.03:184][724]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.10-12.30.03:184][724]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.10-12.30.03:184][724]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.10-12.30.03:184][724]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.02.10-12.30.03:184][724]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.10-12.30.03:184][724]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.02.10-12.30.03:184][724]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.10-12.30.03:184][724]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.10-12.30.03:184][724]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.10-12.30.03:184][724]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.10-12.30.03:186][724]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.10-12.30.03:200][724]LogAudioMixer: Display: Using Audio Hardware Device PLE2483H (NVIDIA High Definition Audio)
+[2025.02.10-12.30.03:201][724]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.10-12.30.03:201][724]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.10-12.30.03:201][724]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.10-12.30.03:201][724]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2025.02.10-12.30.03:201][724]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2025.02.10-12.30.03:203][724]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2025.02.10-12.30.03:203][724]LogInit: FAudioDevice initialized with ID 14.
+[2025.02.10-12.30.03:203][724]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2025.02.10-12.30.03:203][724]LogAudio: Display: Audio Device (ID: 14) registered with world 'Corridor_v01'.
+[2025.02.10-12.30.03:203][724]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2025.02.10-12.30.03:255][724]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.10-12.30.03:256][724]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.02.10-12.30.03:263][724]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_Corridor_v01.Corridor_v01 up for play (max tick rate 0) at 2025.02.10-13.30.03
+[2025.02.10-12.30.03:263][724]LogWorld: Bringing up level for play took: 0.007166
+[2025.02.10-12.30.03:265][724]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2025.02.10-12.30.03:272][724]PIE: Server logged in
+[2025.02.10-12.30.03:274][724]PIE: Play in editor total start time 0,128 seconds.
+[2025.02.10-12.30.10:907][486]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.10-12.30.10:907][486]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_Corridor_v01
+[2025.02.10-12.30.10:907][486]LogSlate: Window 'unyielding_corridor Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.02.10-12.30.10:911][486]LogWorld: UWorld::CleanupWorld for Corridor_v01, bSessionEnded=true, bCleanupResources=true
+[2025.02.10-12.30.10:913][486]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.10-12.30.10:917][486]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.10-12.30.10:920][486]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.10-12.30.10:932][486]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2025.02.10-12.30.10:932][486]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2025.02.10-12.30.10:933][486]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2025.02.10-12.30.10:941][486]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.02.10-12.30.10:974][487]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2025.02.10-12.31.19:401][179]LogShaderCompilers: Display: ================================================
+[2025.02.10-12.31.19:401][179]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.02.10-12.31.19:401][179]LogShaderCompilers: Display: Total job queries 1.825, among them cache hits 373 (20.44%), DDC hits 1.426 (78.14%), Duplicates 7 (0.38%)
+[2025.02.10-12.31.19:401][179]LogShaderCompilers: Display: Tracking 1.445 distinct input hashes that result in 1.116 distinct outputs (77.23%)
+[2025.02.10-12.31.19:401][179]LogShaderCompilers: Display: RAM used: 655,27 KiB of 1,60 GiB budget. Usage: 0.04%
+[2025.02.10-12.31.19:401][179]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.02.10-12.31.19:401][179]LogShaderCompilers: Display: Shaders Compiled: 19
+[2025.02.10-12.31.19:401][179]LogShaderCompilers: Display: Jobs assigned 19, completed 19 (100%)
+[2025.02.10-12.31.19:401][179]LogShaderCompilers: Display: Average time worker was idle: 747.17 s
+[2025.02.10-12.31.19:401][179]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.19 s
+[2025.02.10-12.31.19:401][179]LogShaderCompilers: Display: Job execution time: average 1.97 s, max 3.22 s
+[2025.02.10-12.31.19:401][179]LogShaderCompilers: Display: Job life time (pending + execution): average 2.03 s, max 3.27
+[2025.02.10-12.31.19:401][179]LogShaderCompilers: Display: Shader code size: average 8,036 KiB, min 2,785 KiB, max 14,039 KiB
+[2025.02.10-12.31.19:401][179]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 6.58 s
+[2025.02.10-12.31.19:401][179]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.03%
+[2025.02.10-12.31.19:401][179]LogShaderCompilers: Display: Jobs were issued in 19 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.02.10-12.31.19:401][179]LogShaderCompilers: Display: Average processing rate: 2.89 jobs/sec
+[2025.02.10-12.31.19:401][179]LogShaderCompilers: Display: Total thread time: 18,787 s
+[2025.02.10-12.31.19:401][179]LogShaderCompilers: Display: Total thread preprocess time: 22,827 s
+[2025.02.10-12.31.19:401][179]LogShaderCompilers: Display: Percentage time preprocessing: 121.51%
+[2025.02.10-12.31.19:401][179]LogShaderCompilers: Display: Effective parallelization: 2.85 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2025.02.10-12.31.19:401][179]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.02.10-12.31.19:401][179]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    3 times, average 1.61 sec, max 1.90 sec, min 1.06 sec)
+[2025.02.10-12.31.19:401][179]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    4 times, average 1.09 sec, max 1.43 sec, min 0.75 sec)
+[2025.02.10-12.31.19:401][179]LogShaderCompilers: Display:                                                 FLumenCardPS (compiled    3 times, average 0.96 sec, max 1.24 sec, min 0.44 sec)
+[2025.02.10-12.31.19:401][179]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    4 times, average 0.80 sec, max 1.03 sec, min 0.58 sec)
+[2025.02.10-12.31.19:401][179]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    3 times, average 0.78 sec, max 0.99 sec, min 0.38 sec)
+[2025.02.10-12.31.19:401][179]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.02.10-12.31.19:401][179]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 25.75% of total time (compiled    3 times, average 1.61 sec, max 1.90 sec, min 1.06 sec)
+[2025.02.10-12.31.19:401][179]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 23.19% of total time (compiled    4 times, average 1.09 sec, max 1.43 sec, min 0.75 sec)
+[2025.02.10-12.31.19:401][179]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 17.00% of total time (compiled    4 times, average 0.80 sec, max 1.03 sec, min 0.58 sec)
+[2025.02.10-12.31.19:401][179]LogShaderCompilers: Display:                                                 FLumenCardPS - 15.40% of total time (compiled    3 times, average 0.96 sec, max 1.24 sec, min 0.44 sec)
+[2025.02.10-12.31.19:401][179]LogShaderCompilers: Display:                                                 FLumenCardVS - 12.39% of total time (compiled    3 times, average 0.78 sec, max 0.99 sec, min 0.38 sec)
+[2025.02.10-12.31.19:401][179]LogShaderCompilers: Display: === Material stats ===
+[2025.02.10-12.31.19:401][179]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.02.10-12.31.19:401][179]LogShaderCompilers: Display: Materials Translated:    137
+[2025.02.10-12.31.19:401][179]LogShaderCompilers: Display: Material Total Translate Time: 0.10 s
+[2025.02.10-12.31.19:401][179]LogShaderCompilers: Display: Material Translation Only: 0.04 s (39%)
+[2025.02.10-12.31.19:401][179]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.02.10-12.31.19:401][179]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.02.10-12.31.19:401][179]LogShaderCompilers: Display: ================================================
+[2025.02.10-12.31.51:881][872]Cmd: DELETE
+[2025.02.10-12.31.51:881][872]Cmd: ACTOR DELETE
+[2025.02.10-12.31.51:887][872]LogEditorActor: Deleted Actor: BP_wall_C
+[2025.02.10-12.31.51:917][872]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2025.02.10-12.31.51:921][872]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2025.02.10-12.31.52:552][941]Cmd: DELETE
+[2025.02.10-12.31.52:552][941]Cmd: ACTOR DELETE
+[2025.02.10-12.31.52:558][941]LogEditorActor: Deleted Actor: BP_wall_C
+[2025.02.10-12.31.52:573][941]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2025.02.10-12.31.52:575][941]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2025.02.10-12.33.23:566][220]Cmd: TRANSACTION UNDO
+[2025.02.10-12.33.23:566][220]LogEditorTransaction: Undo Move Elements
+[2025.02.10-12.33.23:759][220]LogNavigation: Warning: FNavigationOctree::AddNode: Invalid bounds, ignoring None.
+[2025.02.10-12.33.23:759][220]LogNavigation: Warning: FNavigationOctree::AddNode: Invalid bounds, ignoring None.
+[2025.02.10-12.33.23:759][220]LogNavigation: Warning: FNavigationOctree::AddNode: Invalid bounds, ignoring None.
+[2025.02.10-12.33.28:070][689]Cmd: TRANSACTION UNDO
+[2025.02.10-12.33.28:070][689]LogEditorTransaction: Undo Move Elements
+[2025.02.10-12.33.28:241][689]LogNavigation: Warning: FNavigationOctree::AddNode: Invalid bounds, ignoring None.
+[2025.02.10-12.33.28:241][689]LogNavigation: Warning: FNavigationOctree::AddNode: Invalid bounds, ignoring None.
+[2025.02.10-12.33.28:241][689]LogNavigation: Warning: FNavigationOctree::AddNode: Invalid bounds, ignoring None.
+[2025.02.10-12.33.51:324][340]Cmd: TRANSACTION UNDO
+[2025.02.10-12.33.51:324][340]LogEditorTransaction: Undo Clicking on Elements
+[2025.02.10-12.34.30:629][735]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1636.577148
+[2025.02.10-12.34.30:761][751]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.10-12.34.30:762][751]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1636.701294, Update Interval: 322.130798
+[2025.02.10-12.34.58:337][369]Cmd: DELETE
+[2025.02.10-12.34.58:337][369]Cmd: ACTOR DELETE
+[2025.02.10-12.34.58:344][369]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.02.10-12.34.58:345][369]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.02.10-12.34.58:346][369]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.02.10-12.34.58:346][369]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.02.10-12.34.58:347][369]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.02.10-12.34.58:347][369]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.02.10-12.34.58:348][369]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.02.10-12.34.58:348][369]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.02.10-12.34.58:348][369]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.02.10-12.34.58:349][369]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.02.10-12.34.58:349][369]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.02.10-12.34.58:382][369]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.02.10-12.34.58:385][369]LogEditorActor: Deleted 11 Actors (0.048 secs)
+[2025.02.10-12.35.33:933][680]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2025.02.10-12.35.33:992][680]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Maps/Corridor_v01_Auto1
+[2025.02.10-12.35.33:992][680]LogSavePackage: Moving '../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Saved/Corridor_v01_Auto10BCA3ECA419438B42B81C3855ACAB0CE.tmp' to '../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Saved/Autosaves/Game/FirstPerson/Maps/Corridor_v01_Auto1.umap'
+[2025.02.10-12.35.33:993][680]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/Corridor_v01' took 0.108
+[2025.02.10-12.35.33:993][680]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.108
+[2025.02.10-12.40.50:244][629]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2016.188110
+[2025.02.10-12.40.51:244][632]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.10-12.40.51:244][632]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2016.856934, Update Interval: 337.275909
+[2025.02.10-12.47.24:694][812]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2410.635498
+[2025.02.10-12.47.25:688][815]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.10-12.47.25:688][815]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2411.296875, Update Interval: 357.421783
+[2025.02.10-12.54.01:804][  3]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2807.750000
+[2025.02.10-12.54.02:804][  6]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.10-12.54.02:804][  6]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2808.411133, Update Interval: 322.337708
+[2025.02.10-12.59.57:568][ 70]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3163.513672
+[2025.02.10-12.59.58:567][ 73]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.10-12.59.58:567][ 73]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3164.184570, Update Interval: 359.976196
+[2025.02.10-13.06.53:357][317]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3579.307129
+[2025.02.10-13.06.54:351][320]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.10-13.06.54:351][320]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3579.971191, Update Interval: 346.812347
+[2025.02.10-13.08.58:108][692]LogDerivedDataCache: C:/Users/schueler/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.001 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.02.10-13.13.36:792][527]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3982.739258
+[2025.02.10-13.13.37:791][530]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.10-13.13.37:791][530]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3983.405518, Update Interval: 311.010468
+[2025.02.10-13.19.30:880][589]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4336.830566
+[2025.02.10-13.19.31:884][592]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.10-13.19.31:884][593]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4337.497070, Update Interval: 339.226044
+[2025.02.10-13.25.58:351][751]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4724.308105
+[2025.02.10-13.25.59:345][754]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.10-13.25.59:346][754]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4724.973145, Update Interval: 325.326080
+[2025.02.10-13.28.33:555][576]LogRenderer: Display: Invalidated clipmap due to WPO threshold change. This can occur due to resolution or FOV changes.
+[2025.02.10-13.28.49:386][315]LogStreaming: Display: FlushAsyncLoading(563): 1 QueuedPackages, 0 AsyncPackages
+[2025.02.10-13.28.49:434][315]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/schueler/Desktop/modular2.fbx]
+[2025.02.10-13.28.51:368][315]LogSlate: Window 'Import Content' being destroyed
+[2025.02.10-13.28.51:395][315]LogInterchangeEngine: [Pending] Importing
+[2025.02.10-13.28.51:460][316]LogStreaming: Display: FlushAsyncLoading(564): 1 QueuedPackages, 0 AsyncPackages
+[2025.02.10-13.28.51:513][318]LogStaticMesh: Display: Building static mesh modular_ceiling3x3 (Required Memory Estimate: 0.011409 MB)...
+[2025.02.10-13.28.51:513][318]LogStaticMesh: Display: Building static mesh modular_wall05x1 (Required Memory Estimate: 0.011409 MB)...
+[2025.02.10-13.28.51:514][318]LogStaticMesh: Adjacency [0.00s], tris: 2, UVs 2
+[2025.02.10-13.28.51:514][318]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2025.02.10-13.28.51:514][318]LogStaticMesh: Leaves [0.00s]
+[2025.02.10-13.28.51:514][318]LogStaticMesh: Reduce [0.00s]
+[2025.02.10-13.28.51:514][318]LogStaticMesh: Fallback [0.00s], num tris: 2
+[2025.02.10-13.28.51:514][318]LogStaticMesh: Adjacency [0.00s], tris: 2, UVs 2
+[2025.02.10-13.28.51:514][318]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2025.02.10-13.28.51:514][318]LogStaticMesh: ConstrainClusters:
+[2025.02.10-13.28.51:515][318]LogStaticMesh:   Input: 1 Clusters, 2 Triangles and 4 Vertices
+[2025.02.10-13.28.51:515][318]LogStaticMesh:   Output without splits: 1 Clusters, 2 Triangles and 4 Vertices
+[2025.02.10-13.28.51:515][318]LogStaticMesh:   Output with splits: 1 Clusters, 2 Triangles and 4 Vertices
+[2025.02.10-13.28.51:515][318]LogStaticMesh: Leaves [0.00s]
+[2025.02.10-13.28.51:515][318]LogStaticMesh: Reduce [0.00s]
+[2025.02.10-13.28.51:515][318]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 1, Slow Path Clusters: 0, 1 Material: 1, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2025.02.10-13.28.51:515][318]LogStaticMesh: Fallback [0.00s], num tris: 2
+[2025.02.10-13.28.51:515][318]LogStaticMesh: WritePages:
+[2025.02.10-13.28.51:515][318]LogStaticMesh:   Root: GPU size: 216 bytes. 1 Pages. 216.000 bytes per page (0.659% utilization).
+[2025.02.10-13.28.51:515][318]LogStaticMesh:   Streaming: 0 bytes.
+[2025.02.10-13.28.51:515][318]LogStaticMesh:   Page data disk size: 364 bytes. Fixup data size: 24 bytes.
+[2025.02.10-13.28.51:515][318]LogStaticMesh:   Total GPU size: 216 bytes, Total disk size: 388 bytes.
+[2025.02.10-13.28.51:515][318]LogStaticMesh: Encode [0.00s]
+[2025.02.10-13.28.51:515][318]LogStaticMesh: Nanite build [0.00s]
+
+[2025.02.10-13.28.51:515][318]LogStaticMesh: ConstrainClusters:
+[2025.02.10-13.28.51:515][318]LogStaticMesh:   Input: 1 Clusters, 2 Triangles and 4 Vertices
+[2025.02.10-13.28.51:515][318]LogStaticMesh:   Output without splits: 1 Clusters, 2 Triangles and 4 Vertices
+[2025.02.10-13.28.51:515][318]LogStaticMesh:   Output with splits: 1 Clusters, 2 Triangles and 4 Vertices
+[2025.02.10-13.28.51:515][318]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 1, Slow Path Clusters: 0, 1 Material: 1, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2025.02.10-13.28.51:515][318]LogStaticMesh: WritePages:
+[2025.02.10-13.28.51:515][318]LogStaticMesh:   Root: GPU size: 220 bytes. 1 Pages. 220.000 bytes per page (0.671% utilization).
+[2025.02.10-13.28.51:515][318]LogStaticMesh:   Streaming: 0 bytes.
+[2025.02.10-13.28.51:515][318]LogStaticMesh:   Page data disk size: 364 bytes. Fixup data size: 24 bytes.
+[2025.02.10-13.28.51:515][318]LogStaticMesh:   Total GPU size: 220 bytes, Total disk size: 388 bytes.
+[2025.02.10-13.28.51:515][318]LogStaticMesh: Encode [0.00s]
+[2025.02.10-13.28.51:515][318]LogStaticMesh: Nanite build [0.00s]
+
+[2025.02.10-13.28.51:516][318]LogStaticMesh: Built static mesh [0.00s] /Game/Assets_modular/modular_ceiling3x3.modular_ceiling3x3
+[2025.02.10-13.28.51:516][318]LogStaticMesh: Built static mesh [0.00s] /Game/Assets_modular/modular_wall05x1.modular_wall05x1
+[2025.02.10-13.28.51:616][319]LogInterchangeEngine: Display: Interchange import completed [C:/Users/schueler/Desktop/modular2.fbx]
+[2025.02.10-13.28.51:627][319]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.02.10-13.28.51:627][319]LogInterchangeEngine: [Success] Import Done
+[2025.02.10-13.28.54:865][332]LogRenderer: Display: Invalidated clipmap due to WPO threshold change. This can occur due to resolution or FOV changes.
+[2025.02.10-13.30.03:214][325]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.02.10-13.30.03:220][325]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.02.10-13.30.03:225][325]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.02.10-13.30.03:233][326]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.02.10-13.30.14:424][638]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_wall05x1
+[2025.02.10-13.30.14:429][638]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.02.10-13.30.18:206][ 75]LogContentBrowser: Attempting asset rename: BP_wall05x1 -> BP_wall05x1
+[2025.02.10-13.30.27:142][971]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Assets_modular/BP_wall05x1.BP_wall05x1
+[2025.02.10-13.30.27:142][971]LogChaosDD: Creating Chaos Debug Draw Scene for world World_8
+[2025.02.10-13.30.51:153][319]LogChaosDD: Creating Chaos Debug Draw Scene for world World_9
+[2025.02.10-13.31.14:932][545]Cmd: MODE GRID=0
+[2025.02.10-13.31.40:707][ 32]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.02.10-13.31.40:712][ 32]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.10-13.31.40:807][ 32]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.02.10-13.31.40:865][ 32]LogSavePackage: Moving output files for package: /Game/FirstPerson/Maps/Corridor_v01
+[2025.02.10-13.31.40:866][ 32]LogSavePackage: Moving '../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Saved/Corridor_v01C70C228443534A62DEA0FE9244F1AFBE.tmp' to '../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Content/FirstPerson/Maps/Corridor_v01.umap'
+[2025.02.10-13.31.40:879][ 32]LogFileHelpers: Saving map 'Corridor_v01' took 0.137
+[2025.02.10-13.31.40:879][ 32]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets_modular/modular_wall05x1] ([1] browsable assets)...
+[2025.02.10-13.31.40:943][ 32]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets_modular/modular_wall05x1.modular_wall05x1]
+[2025.02.10-13.31.40:944][ 32]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets_modular/modular_wall05x1]
+[2025.02.10-13.31.40:944][ 32]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets_modular/modular_wall05x1" FILE="../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Content/Assets_modular/modular_wall05x1.uasset" SILENT=true
+[2025.02.10-13.31.40:946][ 32]LogSavePackage: Moving output files for package: /Game/Assets_modular/modular_wall05x1
+[2025.02.10-13.31.40:946][ 32]LogSavePackage: Moving '../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Saved/modular_wall05x1407163F247E40B4F55A2039E23DE1CBA.tmp' to '../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Content/Assets_modular/modular_wall05x1.uasset'
+[2025.02.10-13.31.40:949][ 32]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets_modular/modular_ceiling3x3] ([1] browsable assets)...
+[2025.02.10-13.31.40:958][ 32]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets_modular/modular_ceiling3x3.modular_ceiling3x3]
+[2025.02.10-13.31.40:958][ 32]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets_modular/modular_ceiling3x3]
+[2025.02.10-13.31.40:958][ 32]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets_modular/modular_ceiling3x3" FILE="../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Content/Assets_modular/modular_ceiling3x3.uasset" SILENT=true
+[2025.02.10-13.31.40:959][ 32]LogSavePackage: Moving output files for package: /Game/Assets_modular/modular_ceiling3x3
+[2025.02.10-13.31.40:960][ 32]LogSavePackage: Moving '../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Saved/modular_ceiling3x3D09D16624BEE33EE79C0B3BF6BEFB7B5.tmp' to '../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Content/Assets_modular/modular_ceiling3x3.uasset'
+[2025.02.10-13.31.40:960][ 32]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Assets_modular/BP_wall05x1] ([2] browsable assets)...
+[2025.02.10-13.31.40:969][ 32]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Assets_modular/BP_wall05x1.BP_wall05x1]
+[2025.02.10-13.31.40:969][ 32]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets_modular/BP_wall05x1]
+[2025.02.10-13.31.40:969][ 32]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets_modular/BP_wall05x1" FILE="../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Content/Assets_modular/BP_wall05x1.uasset" SILENT=true
+[2025.02.10-13.31.40:971][ 32]LogSavePackage: Moving output files for package: /Game/Assets_modular/BP_wall05x1
+[2025.02.10-13.31.40:971][ 32]LogSavePackage: Moving '../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Saved/BP_wall05x129E6ECB24BEC42A3D6FF3791ABD63778.tmp' to '../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Content/Assets_modular/BP_wall05x1.uasset'
+[2025.02.10-13.31.40:978][ 32]LogFileHelpers: InternalPromptForCheckoutAndSave took 266.318 ms (total: 904.477 ms)
+[2025.02.10-13.31.41:025][ 32]LogContentValidation: Display: Starting to validate 4 assets
+[2025.02.10-13.31.41:025][ 32]LogContentValidation: Enabled validators:
+[2025.02.10-13.31.41:025][ 32]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.10-13.31.41:026][ 32]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.10-13.31.41:026][ 32]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.10-13.31.41:026][ 32]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.10-13.31.41:026][ 32]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.10-13.31.41:026][ 32]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.10-13.31.41:026][ 32]AssetCheck: /Game/FirstPerson/Maps/Corridor_v01 Validating asset
+[2025.02.10-13.31.41:026][ 32]AssetCheck: /Game/Assets_modular/modular_wall05x1 Validating asset
+[2025.02.10-13.31.41:026][ 32]AssetCheck: /Game/Assets_modular/modular_ceiling3x3 Validating asset
+[2025.02.10-13.31.41:026][ 32]AssetCheck: /Game/Assets_modular/BP_wall05x1 Validating asset

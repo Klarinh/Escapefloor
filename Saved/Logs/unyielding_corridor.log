@@ -1495,3 +1495,1125 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.02.25-14.09.23:952][947]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8195.879883
 [2025.02.25-14.09.24:093][964]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.02.25-14.09.24:093][964]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8196.013672, Update Interval: 328.526855
+[2025.02.25-14.10.01:770][965]LogSlate: Window 'Project Settings' being destroyed
+[2025.02.25-14.10.01:773][965]LogSlate: Window 'Project Settings' being destroyed
+[2025.02.25-14.10.59:848][594]LogSlate: Window 'Pick Parent Class for New Widget Blueprint' being destroyed
+[2025.02.25-14.10.59:854][594]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2025.02.25-14.10.59:857][594]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2025.02.25-14.10.59:870][595]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
+[2025.02.25-14.11.05:678][273]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> UI_Mainmenu
+[2025.02.25-14.11.05:688][273]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2025.02.25-14.11.07:229][445]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/UI_Mainmenu.UI_Mainmenu
+[2025.02.25-14.11.07:229][445]LogChaosDD: Creating Chaos Debug Draw Scene for world World_1
+[2025.02.25-14.11.07:235][445]LogChaosDD: Creating Chaos Debug Draw Scene for world World_2
+[2025.02.25-14.11.07:240][445]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2025.02.25-14.11.07:398][445]LogStreaming: Display: FlushAsyncLoading(356): 1 QueuedPackages, 0 AsyncPackages
+[2025.02.25-14.11.09:187][445]LogSlate: Took 0.006025 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.02.25-14.11.09:195][445]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2025.02.25-14.11.09:201][445]LogSlate: Took 0.004870 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2025.02.25-14.12.40:415][  7]LogStreaming: Display: FlushAsyncLoading(553): 1 QueuedPackages, 0 AsyncPackages
+[2025.02.25-14.12.40:494][  7]LogTexture: Display: Building textures: /AudioWidgets/AudioButtonToggle/AudioButton_Corner4x.AudioButton_Corner4x (TFO_AutoDXT, 32x48 x1x1x1) (Required Memory Estimate: 1.242188 MB), EncodeSpeed: Fast
+[2025.02.25-14.12.41:330][ 99]LogScript: Warning: Script Msg: Modulo by zero: Percent_IntInt
+[2025.02.25-14.12.41:330][ 99]LogScript: Warning: Script Msg called by: AudioButtonMatrix_C /Engine/Transient.World_2:UI_Mainmenu_C_6.WidgetTree_0.AudioButtonMatrix
+[2025.02.25-14.12.41:330][ 99]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2025.02.25-14.12.41:330][ 99]LogScript: Warning: Script Msg called by: AudioButtonMatrix_C /Engine/Transient.World_2:UI_Mainmenu_C_6.WidgetTree_0.AudioButtonMatrix
+[2025.02.25-14.12.41:331][ 99]LogScript: Warning: Script Msg: Modulo by zero: Percent_IntInt
+[2025.02.25-14.12.41:331][ 99]LogScript: Warning: Script Msg called by: AudioButtonMatrix_C /Engine/Transient.World_2:UI_Mainmenu_C_6.WidgetTree_0.AudioButtonMatrix
+[2025.02.25-14.12.42:252][206]LogSlate: Took 0.008437 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2025.02.25-14.12.44:870][513]LogScript: Warning: Script Msg: Modulo by zero: Percent_IntInt
+[2025.02.25-14.12.44:870][513]LogScript: Warning: Script Msg called by: AudioButtonMatrix_C /Engine/Transient.World_2:UI_Mainmenu_C_7.WidgetTree_0.AudioButtonMatrix
+[2025.02.25-14.12.44:870][513]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2025.02.25-14.12.44:870][513]LogScript: Warning: Script Msg called by: AudioButtonMatrix_C /Engine/Transient.World_2:UI_Mainmenu_C_7.WidgetTree_0.AudioButtonMatrix
+[2025.02.25-14.12.44:870][513]LogScript: Warning: Script Msg: Modulo by zero: Percent_IntInt
+[2025.02.25-14.12.44:870][513]LogScript: Warning: Script Msg called by: AudioButtonMatrix_C /Engine/Transient.World_2:UI_Mainmenu_C_7.WidgetTree_0.AudioButtonMatrix
+[2025.02.25-14.12.45:370][567]LogScript: Warning: Script Msg: Modulo by zero: Percent_IntInt
+[2025.02.25-14.12.45:370][567]LogScript: Warning: Script Msg called by: AudioButtonMatrix_C /Engine/Transient.World_2:UI_Mainmenu_C_8.WidgetTree_0.AudioButtonMatrix
+[2025.02.25-14.12.45:370][567]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2025.02.25-14.12.45:370][567]LogScript: Warning: Script Msg called by: AudioButtonMatrix_C /Engine/Transient.World_2:UI_Mainmenu_C_8.WidgetTree_0.AudioButtonMatrix
+[2025.02.25-14.12.45:370][567]LogScript: Warning: Script Msg: Modulo by zero: Percent_IntInt
+[2025.02.25-14.12.45:370][567]LogScript: Warning: Script Msg called by: AudioButtonMatrix_C /Engine/Transient.World_2:UI_Mainmenu_C_8.WidgetTree_0.AudioButtonMatrix
+[2025.02.25-14.12.49:652][ 69]LogScript: Warning: Script Msg: Modulo by zero: Percent_IntInt
+[2025.02.25-14.12.49:652][ 69]LogScript: Warning: Script Msg called by: AudioButtonMatrix_C /Engine/Transient.World_2:UI_Mainmenu_C_9.WidgetTree_0.AudioButtonMatrix
+[2025.02.25-14.12.49:652][ 69]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2025.02.25-14.12.49:652][ 69]LogScript: Warning: Script Msg called by: AudioButtonMatrix_C /Engine/Transient.World_2:UI_Mainmenu_C_9.WidgetTree_0.AudioButtonMatrix
+[2025.02.25-14.12.49:652][ 69]LogScript: Warning: Script Msg: Modulo by zero: Percent_IntInt
+[2025.02.25-14.12.49:652][ 69]LogScript: Warning: Script Msg called by: AudioButtonMatrix_C /Engine/Transient.World_2:UI_Mainmenu_C_9.WidgetTree_0.AudioButtonMatrix
+[2025.02.25-14.13.00:012][291]LogScript: Warning: Script Msg: Modulo by zero: Percent_IntInt
+[2025.02.25-14.13.00:012][291]LogScript: Warning: Script Msg called by: AudioButtonMatrix_C /Engine/Transient.World_2:UI_Mainmenu_C_9.WidgetTree_0.AudioButtonMatrix
+[2025.02.25-14.13.00:012][291]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2025.02.25-14.13.00:012][291]LogScript: Warning: Script Msg called by: AudioButtonMatrix_C /Engine/Transient.World_2:UI_Mainmenu_C_9.WidgetTree_0.AudioButtonMatrix
+[2025.02.25-14.13.00:012][291]LogScript: Warning: Script Msg: Modulo by zero: Percent_IntInt
+[2025.02.25-14.13.00:012][291]LogScript: Warning: Script Msg called by: AudioButtonMatrix_C /Engine/Transient.World_2:UI_Mainmenu_C_9.WidgetTree_0.AudioButtonMatrix
+[2025.02.25-14.13.03:708][730]LogScript: Warning: Script Msg: Modulo by zero: Percent_IntInt
+[2025.02.25-14.13.03:708][730]LogScript: Warning: Script Msg called by: AudioButtonMatrix_C /Engine/Transient.World_2:UI_Mainmenu_C_9.WidgetTree_0.AudioButtonMatrix
+[2025.02.25-14.13.03:708][730]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2025.02.25-14.13.03:708][730]LogScript: Warning: Script Msg called by: AudioButtonMatrix_C /Engine/Transient.World_2:UI_Mainmenu_C_9.WidgetTree_0.AudioButtonMatrix
+[2025.02.25-14.13.03:708][730]LogScript: Warning: Script Msg: Modulo by zero: Percent_IntInt
+[2025.02.25-14.13.03:708][730]LogScript: Warning: Script Msg called by: AudioButtonMatrix_C /Engine/Transient.World_2:UI_Mainmenu_C_9.WidgetTree_0.AudioButtonMatrix
+[2025.02.25-14.13.05:128][900]LogScript: Warning: Script Msg: Modulo by zero: Percent_IntInt
+[2025.02.25-14.13.05:128][900]LogScript: Warning: Script Msg called by: AudioButtonMatrix_C /Engine/Transient.World_2:UI_Mainmenu_C_9.WidgetTree_0.AudioButtonMatrix
+[2025.02.25-14.13.05:128][900]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2025.02.25-14.13.05:128][900]LogScript: Warning: Script Msg called by: AudioButtonMatrix_C /Engine/Transient.World_2:UI_Mainmenu_C_9.WidgetTree_0.AudioButtonMatrix
+[2025.02.25-14.13.05:128][900]LogScript: Warning: Script Msg: Modulo by zero: Percent_IntInt
+[2025.02.25-14.13.05:128][900]LogScript: Warning: Script Msg called by: AudioButtonMatrix_C /Engine/Transient.World_2:UI_Mainmenu_C_9.WidgetTree_0.AudioButtonMatrix
+[2025.02.25-14.13.06:998][124]LogScript: Warning: Script Msg: Modulo by zero: Percent_IntInt
+[2025.02.25-14.13.06:998][124]LogScript: Warning: Script Msg called by: AudioButtonMatrix_C /Engine/Transient.World_2:UI_Mainmenu_C_9.WidgetTree_0.AudioButtonMatrix
+[2025.02.25-14.13.06:998][124]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2025.02.25-14.13.06:998][124]LogScript: Warning: Script Msg called by: AudioButtonMatrix_C /Engine/Transient.World_2:UI_Mainmenu_C_9.WidgetTree_0.AudioButtonMatrix
+[2025.02.25-14.13.06:998][124]LogScript: Warning: Script Msg: Modulo by zero: Percent_IntInt
+[2025.02.25-14.13.06:998][124]LogScript: Warning: Script Msg called by: AudioButtonMatrix_C /Engine/Transient.World_2:UI_Mainmenu_C_9.WidgetTree_0.AudioButtonMatrix
+[2025.02.25-14.13.09:305][389]LogScript: Warning: Script Msg: Modulo by zero: Percent_IntInt
+[2025.02.25-14.13.09:305][389]LogScript: Warning: Script Msg called by: AudioButtonMatrix_C /Engine/Transient.World_2:UI_Mainmenu_C_10.WidgetTree_0.AudioButtonMatrix
+[2025.02.25-14.13.09:305][389]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2025.02.25-14.13.09:305][389]LogScript: Warning: Script Msg called by: AudioButtonMatrix_C /Engine/Transient.World_2:UI_Mainmenu_C_10.WidgetTree_0.AudioButtonMatrix
+[2025.02.25-14.13.09:305][389]LogScript: Warning: Script Msg: Modulo by zero: Percent_IntInt
+[2025.02.25-14.13.09:305][389]LogScript: Warning: Script Msg called by: AudioButtonMatrix_C /Engine/Transient.World_2:UI_Mainmenu_C_10.WidgetTree_0.AudioButtonMatrix
+[2025.02.25-14.13.09:640][423]LogScript: Warning: Script Msg: Modulo by zero: Percent_IntInt
+[2025.02.25-14.13.09:640][423]LogScript: Warning: Script Msg called by: AudioButtonMatrix_C /Engine/Transient.World_2:UI_Mainmenu_C_11.WidgetTree_0.AudioButtonMatrix
+[2025.02.25-14.13.09:640][423]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2025.02.25-14.13.09:640][423]LogScript: Warning: Script Msg called by: AudioButtonMatrix_C /Engine/Transient.World_2:UI_Mainmenu_C_11.WidgetTree_0.AudioButtonMatrix
+[2025.02.25-14.13.09:640][423]LogScript: Warning: Script Msg: Modulo by zero: Percent_IntInt
+[2025.02.25-14.13.09:640][423]LogScript: Warning: Script Msg called by: AudioButtonMatrix_C /Engine/Transient.World_2:UI_Mainmenu_C_11.WidgetTree_0.AudioButtonMatrix
+[2025.02.25-14.13.10:741][549]LogScript: Warning: Script Msg: Modulo by zero: Percent_IntInt
+[2025.02.25-14.13.10:741][549]LogScript: Warning: Script Msg called by: AudioButtonMatrix_C /Engine/Transient.World_2:UI_Mainmenu_C_12.WidgetTree_0.AudioButtonMatrix
+[2025.02.25-14.13.10:741][549]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2025.02.25-14.13.10:741][549]LogScript: Warning: Script Msg called by: AudioButtonMatrix_C /Engine/Transient.World_2:UI_Mainmenu_C_12.WidgetTree_0.AudioButtonMatrix
+[2025.02.25-14.13.10:741][549]LogScript: Warning: Script Msg: Modulo by zero: Percent_IntInt
+[2025.02.25-14.13.10:741][549]LogScript: Warning: Script Msg called by: AudioButtonMatrix_C /Engine/Transient.World_2:UI_Mainmenu_C_12.WidgetTree_0.AudioButtonMatrix
+[2025.02.25-14.13.10:890][561]LogScript: Warning: Script Msg: Modulo by zero: Percent_IntInt
+[2025.02.25-14.13.10:890][561]LogScript: Warning: Script Msg called by: AudioButtonMatrix_C /Engine/Transient.World_2:UI_Mainmenu_C_13.WidgetTree_0.AudioButtonMatrix
+[2025.02.25-14.13.10:890][561]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2025.02.25-14.13.10:890][561]LogScript: Warning: Script Msg called by: AudioButtonMatrix_C /Engine/Transient.World_2:UI_Mainmenu_C_13.WidgetTree_0.AudioButtonMatrix
+[2025.02.25-14.13.10:890][561]LogScript: Warning: Script Msg: Modulo by zero: Percent_IntInt
+[2025.02.25-14.13.10:890][561]LogScript: Warning: Script Msg called by: AudioButtonMatrix_C /Engine/Transient.World_2:UI_Mainmenu_C_13.WidgetTree_0.AudioButtonMatrix
+[2025.02.25-14.13.13:049][815]LogScript: Warning: Script Msg: Modulo by zero: Percent_IntInt
+[2025.02.25-14.13.13:049][815]LogScript: Warning: Script Msg called by: AudioButtonMatrix_C /Engine/Transient.World_2:UI_Mainmenu_C_13.WidgetTree_0.AudioButtonMatrix
+[2025.02.25-14.13.13:049][815]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2025.02.25-14.13.13:049][815]LogScript: Warning: Script Msg called by: AudioButtonMatrix_C /Engine/Transient.World_2:UI_Mainmenu_C_13.WidgetTree_0.AudioButtonMatrix
+[2025.02.25-14.13.13:049][815]LogScript: Warning: Script Msg: Modulo by zero: Percent_IntInt
+[2025.02.25-14.13.13:049][815]LogScript: Warning: Script Msg called by: AudioButtonMatrix_C /Engine/Transient.World_2:UI_Mainmenu_C_13.WidgetTree_0.AudioButtonMatrix
+[2025.02.25-14.13.14:507][988]LogScript: Warning: Script Msg: Modulo by zero: Percent_IntInt
+[2025.02.25-14.13.14:507][988]LogScript: Warning: Script Msg called by: AudioButtonMatrix_C /Engine/Transient.World_2:UI_Mainmenu_C_13.WidgetTree_0.AudioButtonMatrix
+[2025.02.25-14.13.14:507][988]LogScript: Warning: Script Msg: Divide by zero: Divide_IntInt
+[2025.02.25-14.13.14:507][988]LogScript: Warning: Script Msg called by: AudioButtonMatrix_C /Engine/Transient.World_2:UI_Mainmenu_C_13.WidgetTree_0.AudioButtonMatrix
+[2025.02.25-14.13.14:507][988]LogScript: Warning: Script Msg: Modulo by zero: Percent_IntInt
+[2025.02.25-14.13.14:507][988]LogScript: Warning: Script Msg called by: AudioButtonMatrix_C /Engine/Transient.World_2:UI_Mainmenu_C_13.WidgetTree_0.AudioButtonMatrix
+[2025.02.25-14.13.42:092][212]LogSlate: Window 'Color Picker' being destroyed
+[2025.02.25-14.13.57:150][981]LogSlate: Window 'Color Picker' being destroyed
+[2025.02.25-14.14.09:982][480]LogSlate: Window 'Color Picker' being destroyed
+[2025.02.25-14.15.29:070][417]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8562.184570
+[2025.02.25-14.15.30:070][420]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.25-14.15.30:070][420]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8562.851562, Update Interval: 336.783356
+[2025.02.25-14.16.10:592][111]LogSlate: Window 'Color Picker' being destroyed
+[2025.02.25-14.16.24:501][736]LogSlate: Window 'Color Picker' being destroyed
+[2025.02.25-14.16.39:647][494]LogSlate: Window 'Color Picker' being destroyed
+[2025.02.25-14.17.01:310][ 26]LogSlate: Window 'Color Picker' being destroyed
+[2025.02.25-14.17.17:635][930]LogSlate: Window 'Color Picker' being destroyed
+[2025.02.25-14.17.23:333][589]LogSlate: Window 'Color Picker' being destroyed
+[2025.02.25-14.18.06:740][672]LogSlate: Window 'Color Picker' being destroyed
+[2025.02.25-14.18.09:423][983]LogStreaming: Display: FlushAsyncLoading(554): 1 QueuedPackages, 0 AsyncPackages
+[2025.02.25-14.18.09:449][983]LogSlate: Took 0.004778 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.02.25-14.18.20:704][289]LogSlate: FontCache flush requested. Reason: Large atlases out of space; 2/1 Textures; frames since last flush: 18418596146535498681
+[2025.02.25-14.18.20:704][289]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.25-14.18.20:714][290]LogSlate: Took 0.006329 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.02.25-14.18.20:724][290]LogSlate: Took 0.005923 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2025.02.25-14.18.20:725][290]LogSlate: Took 0.000117 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.02.25-14.18.20:732][290]LogSlate: Took 0.005847 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2025.02.25-14.18.20:738][290]LogSlate: Took 0.005595 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2025.02.25-14.18.20:745][290]LogSlate: Took 0.005587 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2025.02.25-14.18.20:750][290]LogSlate: Took 0.004795 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.02.25-14.18.20:946][311]LogSlate: FontCache flush requested. Reason: Large atlases out of space; 2/1 Textures; frames since last flush: 22
+[2025.02.25-14.18.20:946][311]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.25-14.18.20:950][312]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.02.25-14.18.20:954][312]LogSlate: Took 0.000165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2025.02.25-14.18.20:954][312]LogSlate: Took 0.000089 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.02.25-14.18.20:955][312]LogSlate: Took 0.000080 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2025.02.25-14.18.20:956][312]LogSlate: Took 0.000057 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2025.02.25-14.18.20:957][312]LogSlate: Took 0.000073 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2025.02.25-14.18.20:958][312]LogSlate: Took 0.000077 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.02.25-14.18.21:043][320]LogSlate: FontCache flush requested. Reason: Large atlases out of space; 2/1 Textures; frames since last flush: 9
+[2025.02.25-14.18.21:043][320]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.25-14.18.21:046][321]LogSlate: Took 0.000130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.02.25-14.18.21:050][321]LogSlate: Took 0.000132 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2025.02.25-14.18.21:050][321]LogSlate: Took 0.000082 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.02.25-14.18.21:051][321]LogSlate: Took 0.000080 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2025.02.25-14.18.21:052][321]LogSlate: Took 0.000056 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2025.02.25-14.18.21:053][321]LogSlate: Took 0.000075 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2025.02.25-14.18.21:054][321]LogSlate: Took 0.000072 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.02.25-14.18.33:095][742]LogEditorTransaction: Undo Edit Skew Amount
+[2025.02.25-14.18.45:760][164]LogSlate: FontCache flush requested. Reason: Large atlases out of space; 2/1 Textures; frames since last flush: 2844
+[2025.02.25-14.18.45:761][164]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.25-14.18.45:765][165]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.02.25-14.18.45:769][165]LogSlate: Took 0.000134 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2025.02.25-14.18.45:769][165]LogSlate: Took 0.000092 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.02.25-14.18.45:770][165]LogSlate: Took 0.000090 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2025.02.25-14.18.45:771][165]LogSlate: Took 0.000067 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2025.02.25-14.18.45:772][165]LogSlate: Took 0.000080 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2025.02.25-14.18.45:773][165]LogSlate: Took 0.000083 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.02.25-14.18.45:875][174]LogSlate: FontCache flush requested. Reason: Large atlases out of space; 2/1 Textures; frames since last flush: 10
+[2025.02.25-14.18.45:876][174]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.25-14.18.45:880][175]LogSlate: Took 0.000143 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.02.25-14.18.45:883][175]LogSlate: Took 0.000132 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2025.02.25-14.18.45:884][175]LogSlate: Took 0.000086 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.02.25-14.18.45:885][175]LogSlate: Took 0.000087 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2025.02.25-14.18.45:886][175]LogSlate: Took 0.000064 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2025.02.25-14.18.45:887][175]LogSlate: Took 0.000082 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2025.02.25-14.18.45:887][175]LogSlate: Took 0.000078 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.02.25-14.18.46:441][237]LogSlate: FontCache flush requested. Reason: Large atlases out of space; 2/1 Textures; frames since last flush: 63
+[2025.02.25-14.18.46:442][237]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.25-14.18.46:447][238]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.02.25-14.18.46:451][238]LogSlate: Took 0.000143 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2025.02.25-14.18.46:452][238]LogSlate: Took 0.000094 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.02.25-14.18.46:453][238]LogSlate: Took 0.000097 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2025.02.25-14.18.46:453][238]LogSlate: Took 0.000067 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2025.02.25-14.18.46:454][238]LogSlate: Took 0.000115 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2025.02.25-14.18.46:455][238]LogSlate: Took 0.000083 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.02.25-14.19.12:299][275]LogSlate: Window 'Color Picker' being destroyed
+[2025.02.25-14.19.29:905][347]LogEditorTransaction: Undo Set Vector Property
+[2025.02.25-14.19.54:285][180]LogEditorTransaction: Undo Set Vector Property
+[2025.02.25-14.20.09:109][869]LogSlate: Took 0.002705 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2025.02.25-14.20.09:222][876]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.02.25-14.20.09:223][876]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.02.25-14.20.09:287][877]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.02.25-14.20.09:293][877]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.02.25-14.20.09:302][878]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.02.25-14.20.09:304][878]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.02.25-14.20.09:359][879]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.02.25-14.20.09:373][880]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.02.25-14.20.09:374][880]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.02.25-14.20.09:430][881]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.02.25-14.20.09:436][881]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.02.25-14.20.09:501][883]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.02.25-14.20.09:508][883]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.02.25-14.20.09:516][884]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.02.25-14.20.09:518][884]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.02.25-14.20.09:574][885]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.02.25-14.20.09:589][886]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.02.25-14.20.09:650][887]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.02.25-14.20.09:658][888]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.02.25-14.21.54:216][  1]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8949.208008
+[2025.02.25-14.21.54:339][ 15]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.25-14.21.54:339][ 15]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8949.322266, Update Interval: 306.496765
+[2025.02.25-14.23.23:934][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2025.02.25-14.23.23:936][ 14]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/blank' took 0.042
+[2025.02.25-14.23.23:936][ 14]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UI/UI_Mainmenu] ([2] browsable assets)...
+[2025.02.25-14.23.23:943][ 14]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UI/UI_Mainmenu.UI_Mainmenu]
+[2025.02.25-14.23.23:943][ 14]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/UI_Mainmenu]
+[2025.02.25-14.23.23:944][ 14]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_Mainmenu" FILE="../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Saved/Autosaves/Game/UI/UI_Mainmenu_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2025.02.25-14.23.23:950][ 14]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/UI/UI_Mainmenu_Auto2
+[2025.02.25-14.23.23:950][ 14]LogSavePackage: Moving '../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Saved/UI_Mainmenu_Auto27AC53AB647ECD338045A2DA0FCA3DFC2.tmp' to '../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Saved/Autosaves/Game/UI/UI_Mainmenu_Auto2.uasset'
+[2025.02.25-14.23.23:950][ 14]LogFileHelpers: Auto-saving content packages took 0.015
+[2025.02.25-14.26.30:761][458]LogSlate: FontCache flush requested. Reason: Large atlases out of space; 2/1 Textures; frames since last flush: 46221
+[2025.02.25-14.26.30:761][458]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.25-14.26.30:765][459]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.02.25-14.26.30:768][459]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2025.02.25-14.26.30:769][459]LogSlate: Took 0.000103 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.02.25-14.26.30:770][459]LogSlate: Took 0.000101 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2025.02.25-14.26.30:770][459]LogSlate: Took 0.000070 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2025.02.25-14.26.30:772][459]LogSlate: Took 0.000102 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2025.02.25-14.26.30:772][459]LogSlate: Took 0.000109 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.02.25-14.27.46:834][439]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9303.376953
+[2025.02.25-14.27.47:835][442]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.25-14.27.47:835][442]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9304.047852, Update Interval: 308.683136
+[2025.02.25-14.30.19:859][ 44]LogSlate: Took 0.001172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2025.02.25-14.31.37:179][485]LogSlate: Window 'Color Picker' being destroyed
+[2025.02.25-14.32.05:296][409]LogSlate: Window 'Color Picker' being destroyed
+[2025.02.25-14.32.34:346][424]LogSlate: Window 'Color Picker' being destroyed
+[2025.02.25-14.32.56:041][667]LogSlate: Window 'Color Picker' being destroyed
+[2025.02.25-14.33.16:035][705]LogSlate: Window 'Color Picker' being destroyed
+[2025.02.25-14.33.29:793][191]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9647.186523
+[2025.02.25-14.33.29:937][206]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.25-14.33.29:937][206]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9647.321289, Update Interval: 306.722015
+[2025.02.25-14.34.26:253][119]LogSlate: Window 'Color Picker' being destroyed
+[2025.02.25-14.34.45:126][ 73]LogSlate: Window 'Color Picker' being destroyed
+[2025.02.25-14.35.22:741][ 32]LogSlate: Took 0.000088 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.02.25-14.38.32:868][331]LogShaderCompilers: Display: ================================================
+[2025.02.25-14.38.32:868][331]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.02.25-14.38.32:868][331]LogShaderCompilers: Display: Total job queries 35, among them cache hits 6 (17.14%), DDC hits 25 (71.43%), Duplicates 1 (2.86%)
+[2025.02.25-14.38.32:868][331]LogShaderCompilers: Display: Tracking 28 distinct input hashes that result in 25 distinct outputs (89.29%)
+[2025.02.25-14.38.32:868][331]LogShaderCompilers: Display: RAM used: 67,27 KiB of 1,60 GiB budget. Usage: 0.00%
+[2025.02.25-14.38.32:868][331]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.02.25-14.38.32:868][331]LogShaderCompilers: Display: Shaders Compiled: 3
+[2025.02.25-14.38.32:868][331]LogShaderCompilers: Display: Jobs assigned 3, completed 3 (100%)
+[2025.02.25-14.38.32:868][331]LogShaderCompilers: Display: Time job spent in pending queue: average 0.09 s, longest 0.11 s
+[2025.02.25-14.38.32:868][331]LogShaderCompilers: Display: Job execution time: average 2.13 s, max 2.43 s
+[2025.02.25-14.38.32:868][331]LogShaderCompilers: Display: Job life time (pending + execution): average 2.22 s, max 2.54
+[2025.02.25-14.38.32:868][331]LogShaderCompilers: Display: Shader code size: average 9,329 KiB, min 5,426 KiB, max 11,586 KiB
+[2025.02.25-14.38.32:868][331]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.54 s
+[2025.02.25-14.38.32:868][331]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.02.25-14.38.32:868][331]LogShaderCompilers: Display: Jobs were issued in 3 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.02.25-14.38.32:868][331]LogShaderCompilers: Display: Average processing rate: 1.18 jobs/sec
+[2025.02.25-14.38.32:868][331]LogShaderCompilers: Display: Total thread time: 1,953 s
+[2025.02.25-14.38.32:868][331]LogShaderCompilers: Display: Total thread preprocess time: 0,562 s
+[2025.02.25-14.38.32:868][331]LogShaderCompilers: Display: Percentage time preprocessing: 28.78%
+[2025.02.25-14.38.32:869][331]LogShaderCompilers: Display: Effective parallelization: 0.77 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2025.02.25-14.38.32:869][331]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.02.25-14.38.32:869][331]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    1 times, average 0.95 sec, max 0.95 sec, min 0.95 sec)
+[2025.02.25-14.38.32:869][331]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.57 sec, max 0.57 sec, min 0.57 sec)
+[2025.02.25-14.38.32:869][331]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.44 sec, max 0.44 sec, min 0.44 sec)
+[2025.02.25-14.38.32:869][331]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.02.25-14.38.32:869][331]LogShaderCompilers: Display:                                                  FVelocityPS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.02.25-14.38.32:869][331]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.02.25-14.38.32:869][331]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader - 48.72% of total time (compiled    1 times, average 0.95 sec, max 0.95 sec, min 0.95 sec)
+[2025.02.25-14.38.32:869][331]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 28.96% of total time (compiled    1 times, average 0.57 sec, max 0.57 sec, min 0.57 sec)
+[2025.02.25-14.38.32:869][331]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 22.32% of total time (compiled    1 times, average 0.44 sec, max 0.44 sec, min 0.44 sec)
+[2025.02.25-14.38.32:869][331]LogShaderCompilers: Display:                                                  FVelocityPS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.02.25-14.38.32:869][331]LogShaderCompilers: Display:                                                 FLumenCardVS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.02.25-14.38.32:869][331]LogShaderCompilers: Display: === Material stats ===
+[2025.02.25-14.38.32:869][331]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.02.25-14.38.32:869][331]LogShaderCompilers: Display: Materials Translated:    125
+[2025.02.25-14.38.32:869][331]LogShaderCompilers: Display: Material Total Translate Time: 0.07 s
+[2025.02.25-14.38.32:869][331]LogShaderCompilers: Display: Material Translation Only: 0.03 s (42%)
+[2025.02.25-14.38.32:869][331]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2025.02.25-14.38.32:869][331]LogShaderCompilers: Display: Material Cache Hits: 17 (14%)
+[2025.02.25-14.38.32:869][331]LogShaderCompilers: Display: ================================================
+[2025.02.25-14.39.16:813][527]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9995.272461
+[2025.02.25-14.39.16:955][544]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.25-14.39.16:955][544]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9995.405273, Update Interval: 324.242065
+[2025.02.25-14.39.19:697][849]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2025.02.25-14.39.19:700][849]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.25-14.39.19:763][849]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UI/UI_Mainmenu] ([2] browsable assets)...
+[2025.02.25-14.39.19:764][849]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UI/UI_Mainmenu.UI_Mainmenu]
+[2025.02.25-14.39.19:764][849]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/UI_Mainmenu]
+[2025.02.25-14.39.19:764][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_Mainmenu" FILE="../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Content/UI/UI_Mainmenu.uasset" SILENT=true
+[2025.02.25-14.39.19:767][849]LogSavePackage: Moving output files for package: /Game/UI/UI_Mainmenu
+[2025.02.25-14.39.19:767][849]LogSavePackage: Moving '../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Saved/UI_MainmenuB3752E2B41ADF553F57EE89700E125A8.tmp' to '../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Content/UI/UI_Mainmenu.uasset'
+[2025.02.25-14.39.19:775][849]LogFileHelpers: InternalPromptForCheckoutAndSave took 75.143 ms (total: 294.525 ms)
+[2025.02.25-14.39.19:804][849]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.25-14.39.19:804][849]LogContentValidation: Enabled validators:
+[2025.02.25-14.39.19:804][849]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.25-14.39.19:804][849]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.25-14.39.19:804][849]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.25-14.39.19:804][849]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.25-14.39.19:804][849]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.25-14.39.19:804][849]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.25-14.39.19:805][849]AssetCheck: /Game/UI/UI_Mainmenu Validating asset
+[2025.02.25-14.40.00:637][632]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2025.02.25-14.40.00:640][632]LogContentBrowser: Creating deferred item: NewWorld
+[2025.02.25-14.40.00:646][633]LogContentBrowser: Renaming the item being created (Deferred Item: NewWorld).
+[2025.02.25-14.40.04:577][105]LogContentBrowser: Attempting asset rename: NewWorld -> MainMenu
+[2025.02.25-14.40.04:579][105]LogChaosDD: Creating Chaos Debug Draw Scene for world MainMenu
+[2025.02.25-14.40.04:581][105]LogContentBrowser: End creating deferred item NewWorld
+[2025.02.25-14.40.06:124][283]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.02.25-14.40.07:346][283]LogSlate: Window 'Save Content' being destroyed
+[2025.02.25-14.40.07:353][283]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.25-14.40.07:401][283]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2025.02.25-14.40.07:403][283]LogSavePackage: Moving output files for package: /Game/FirstPerson/Maps/MainMenu
+[2025.02.25-14.40.07:403][283]LogSavePackage: Moving '../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Saved/MainMenu58FD91644A52B67D9D25E183E6D12B94.tmp' to '../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Content/FirstPerson/Maps/MainMenu.umap'
+[2025.02.25-14.40.07:410][283]LogFileHelpers: Saving map 'MainMenu' took 0.022
+[2025.02.25-14.40.07:474][283]LogFileHelpers: InternalPromptForCheckoutAndSave took 121.398 ms (total: 415.924 ms)
+[2025.02.25-14.40.07:475][283]LogAssetEditorSubsystem: Opening Asset editor for World /Game/FirstPerson/Maps/MainMenu.MainMenu
+[2025.02.25-14.40.07:475][283]Cmd: MAP LOAD FILE="../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Content/FirstPerson/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.02.25-14.40.07:504][283]LogWorld: UWorld::CleanupWorld for blank, bSessionEnded=true, bCleanupResources=true
+[2025.02.25-14.40.07:504][283]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.25-14.40.07:521][283]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.02.25-14.40.07:523][283]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2025.02.25-14.40.07:526][283]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2025.02.25-14.40.07:526][283]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.25-14.40.07:538][283]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.02.25-14.40.07:554][283]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2025.02.25-14.40.07:554][283]LogStreaming: Display: FlushAsyncLoading(555): 1 QueuedPackages, 0 AsyncPackages
+[2025.02.25-14.40.07:555][283]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenu'.
+[2025.02.25-14.40.07:555][283]LogChaosDD: Creating Chaos Debug Draw Scene for world MainMenu
+[2025.02.25-14.40.07:566][283]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.02.25-14.40.07:582][283]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.02.25-14.40.07:595][283]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.02.25-14.40.07:595][283]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,058ms to complete.
+[2025.02.25-14.40.07:654][283]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.25-14.40.07:654][283]LogContentValidation: Enabled validators:
+[2025.02.25-14.40.07:654][283]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.25-14.40.07:654][283]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.25-14.40.07:654][283]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.25-14.40.07:654][283]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.25-14.40.07:654][283]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.25-14.40.07:654][283]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.25-14.40.07:655][283]AssetCheck: /Game/FirstPerson/Maps/MainMenu Validating asset
+[2025.02.25-14.41.19:077][313]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.02.25-14.41.19:082][313]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.02.25-14.41.19:086][313]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.02.25-14.41.19:101][314]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.02.25-14.41.34:440][137]LogContentBrowser: Attempting asset rename: NewBlueprint -> GMB_Mainmenu
+[2025.02.25-14.41.34:446][137]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.02.25-14.41.36:288][353]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/UI/GMB_Mainmenu.GMB_Mainmenu
+[2025.02.25-14.41.36:290][353]LogChaosDD: Creating Chaos Debug Draw Scene for world World_4
+[2025.02.25-14.41.36:379][353]LogStreaming: Display: FlushAsyncLoading(556): 1 QueuedPackages, 0 AsyncPackages
+[2025.02.25-14.41.38:647][561]LogSlate: Window 'GMB_Mainmenu' being destroyed
+[2025.02.25-14.41.38:650][561]LogSlate: Window 'GMB_Mainmenu' being destroyed
+[2025.02.25-14.41.38:662][561]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.02.25-14.41.38:662][561]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.25-14.41.38:670][561]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.02.25-14.41.38:670][561]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.25-14.41.38:704][561]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.02.25-14.41.38:704][561]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.25-14.41.38:787][561]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.02.25-14.42.22:981][958]LogStreaming: Display: FlushAsyncLoading(559): 1 QueuedPackages, 0 AsyncPackages
+[2025.02.25-14.42.24:214][ 70]LogChaosDD: Creating Chaos Debug Draw Scene for world World_5
+[2025.02.25-14.42.24:478][ 83]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/FirstPerson/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu
+[2025.02.25-14.42.24:478][ 83]LogChaosDD: Creating Chaos Debug Draw Scene for world World_6
+[2025.02.25-14.42.53:961][270]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.02.25-14.42.53:964][270]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.25-14.42.54:057][270]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2025.02.25-14.42.54:062][270]LogSavePackage: Moving output files for package: /Game/FirstPerson/Maps/MainMenu
+[2025.02.25-14.42.54:063][270]LogSavePackage: Moving '../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Saved/MainMenu8FE9074649E2D29B7ACF81A6FFCD2E56.tmp' to '../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Content/FirstPerson/Maps/MainMenu.umap'
+[2025.02.25-14.42.54:076][270]LogFileHelpers: Saving map 'MainMenu' took 0.056
+[2025.02.25-14.42.54:076][270]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/GMB_Mainmenu] ([2] browsable assets)...
+[2025.02.25-14.42.54:076][270]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/GMB_Mainmenu]
+[2025.02.25-14.42.54:076][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GMB_Mainmenu" FILE="../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Content/UI/GMB_Mainmenu.uasset" SILENT=true
+[2025.02.25-14.42.54:078][270]LogSavePackage: Moving output files for package: /Game/UI/GMB_Mainmenu
+[2025.02.25-14.42.54:079][270]LogSavePackage: Moving '../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Saved/GMB_Mainmenu384C1B9145B070C7C89FE99FE4D0E35D.tmp' to '../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Content/UI/GMB_Mainmenu.uasset'
+[2025.02.25-14.42.54:086][270]LogFileHelpers: InternalPromptForCheckoutAndSave took 121.693 ms (total: 537.617 ms)
+[2025.02.25-14.42.54:132][270]LogContentValidation: Display: Starting to validate 2 assets
+[2025.02.25-14.42.54:132][270]LogContentValidation: Enabled validators:
+[2025.02.25-14.42.54:132][270]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.25-14.42.54:132][270]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.25-14.42.54:132][270]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.25-14.42.54:132][270]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.25-14.42.54:132][270]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.25-14.42.54:132][270]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.25-14.42.54:132][270]AssetCheck: /Game/FirstPerson/Maps/MainMenu Validating asset
+[2025.02.25-14.42.54:132][270]AssetCheck: /Game/UI/GMB_Mainmenu Validating asset
+[2025.02.25-14.44.32:647][603]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.02.25-14.44.34:651][837]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.25-14.44.34:715][837]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2025.02.25-14.44.34:720][837]LogSavePackage: Moving output files for package: /Game/FirstPerson/Maps/MainMenu
+[2025.02.25-14.44.34:720][837]LogSavePackage: Moving '../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Saved/MainMenu560E5D854A12C6DB3FAF87897FE25928.tmp' to '../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Content/FirstPerson/Maps/MainMenu.umap'
+[2025.02.25-14.44.34:734][837]LogFileHelpers: Saving map 'MainMenu' took 0.056
+[2025.02.25-14.44.34:738][837]LogFileHelpers: InternalPromptForCheckoutAndSave took 86.074 ms (total: 623.692 ms)
+[2025.02.25-14.44.34:778][837]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.25-14.44.34:778][837]LogContentValidation: Enabled validators:
+[2025.02.25-14.44.34:778][837]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.25-14.44.34:778][837]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.25-14.44.34:778][837]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.25-14.44.34:778][837]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.25-14.44.34:778][837]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.25-14.44.34:778][837]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.25-14.44.34:778][837]AssetCheck: /Game/FirstPerson/Maps/MainMenu Validating asset
+[2025.02.25-14.44.43:858][808]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.02.25-14.44.45:760][963]LogSlate: Window 'MainMenu' being destroyed
+[2025.02.25-14.44.45:763][963]LogSlate: Window 'MainMenu' being destroyed
+[2025.02.25-14.44.45:768][963]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.02.25-14.44.45:768][963]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.25-14.44.45:806][963]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.02.25-14.44.46:969][ 95]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/UI/GMB_Mainmenu.GMB_Mainmenu
+[2025.02.25-14.44.46:969][ 95]LogChaosDD: Creating Chaos Debug Draw Scene for world World_7
+[2025.02.25-14.45.23:830][183]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.02.25-14.45.24:390][245]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.25-14.45.24:428][245]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/GMB_Mainmenu] ([2] browsable assets)...
+[2025.02.25-14.45.24:428][245]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/GMB_Mainmenu]
+[2025.02.25-14.45.24:428][245]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GMB_Mainmenu" FILE="../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Content/UI/GMB_Mainmenu.uasset" SILENT=true
+[2025.02.25-14.45.24:430][245]LogSavePackage: Moving output files for package: /Game/UI/GMB_Mainmenu
+[2025.02.25-14.45.24:430][245]LogSavePackage: Moving '../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Saved/GMB_MainmenuCF76B0A5400D788BC00B31BE8D5356D5.tmp' to '../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Content/UI/GMB_Mainmenu.uasset'
+[2025.02.25-14.45.24:435][245]LogFileHelpers: InternalPromptForCheckoutAndSave took 44.234 ms (total: 667.926 ms)
+[2025.02.25-14.45.24:479][245]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.25-14.45.24:479][245]LogContentValidation: Enabled validators:
+[2025.02.25-14.45.24:479][245]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.25-14.45.24:479][245]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.25-14.45.24:479][245]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.25-14.45.24:479][245]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.25-14.45.24:479][245]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.25-14.45.24:479][245]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.25-14.45.24:479][245]AssetCheck: /Game/UI/GMB_Mainmenu Validating asset
+[2025.02.25-14.45.25:341][343]LogSlate: Window 'GMB_Mainmenu' being destroyed
+[2025.02.25-14.45.25:344][343]LogSlate: Window 'GMB_Mainmenu' being destroyed
+[2025.02.25-14.45.25:350][343]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.02.25-14.45.25:350][343]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.25-14.45.25:392][343]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2025.02.25-14.45.28:234][657]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2025.02.25-14.45.28:237][657]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.25-14.45.28:331][657]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2025.02.25-14.45.28:335][657]LogSavePackage: Moving output files for package: /Game/FirstPerson/Maps/MainMenu
+[2025.02.25-14.45.28:335][657]LogSavePackage: Moving '../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Saved/MainMenuFF7D8FF74E8818BBDA4F3FBDD415F22A.tmp' to '../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Content/FirstPerson/Maps/MainMenu.umap'
+[2025.02.25-14.45.28:348][657]LogFileHelpers: Saving map 'MainMenu' took 0.072
+[2025.02.25-14.45.28:353][657]LogFileHelpers: InternalPromptForCheckoutAndSave took 115.996 ms (total: 783.922 ms)
+[2025.02.25-14.45.28:413][657]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.25-14.45.28:413][657]LogContentValidation: Enabled validators:
+[2025.02.25-14.45.28:413][657]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.25-14.45.28:413][657]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.25-14.45.28:413][657]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.25-14.45.28:413][657]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.25-14.45.28:413][657]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.25-14.45.28:413][657]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.25-14.45.28:413][657]AssetCheck: /Game/FirstPerson/Maps/MainMenu Validating asset
+[2025.02.25-14.45.33:646][267]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10373.097656
+[2025.02.25-14.45.33:788][284]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.25-14.45.33:788][284]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10373.229492, Update Interval: 347.810303
+[2025.02.25-14.45.35:020][428]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.02.25-14.45.35:032][428]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.25-14.45.35:041][428]LogOnline: OSS: Created online subsystem instance for: NULL
+[2025.02.25-14.45.35:041][428]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2025.02.25-14.45.35:043][428]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_MainMenu
+[2025.02.25-14.45.35:045][428]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001708s)
+[2025.02.25-14.45.35:045][428]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/MainMenu.MainMenu to /Game/FirstPerson/Maps/UEDPIE_0_MainMenu.MainMenu (0.001754s)
+[2025.02.25-14.45.35:057][428]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.02.25-14.45.35:059][428]LogChaosDD: Creating Chaos Debug Draw Scene for world MainMenu
+[2025.02.25-14.45.35:061][428]LogPlayLevel: PIE: World Init took: (0.002509s)
+[2025.02.25-14.45.35:062][428]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2025.02.25-14.45.35:062][428]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.25-14.45.35:062][428]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.25-14.45.35:062][428]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.25-14.45.35:062][428]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.25-14.45.35:062][428]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.02.25-14.45.35:062][428]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.25-14.45.35:062][428]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.02.25-14.45.35:062][428]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.25-14.45.35:062][428]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.25-14.45.35:062][428]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.25-14.45.35:062][428]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.25-14.45.35:064][428]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.25-14.45.35:077][428]LogAudioMixer: Display: Using Audio Hardware Device Kopfhörer (High Definition Audio Device)
+[2025.02.25-14.45.35:078][428]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.25-14.45.35:078][428]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.25-14.45.35:078][428]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.25-14.45.35:078][428]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2025.02.25-14.45.35:078][428]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2025.02.25-14.45.35:080][428]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2025.02.25-14.45.35:080][428]LogInit: FAudioDevice initialized with ID 2.
+[2025.02.25-14.45.35:080][428]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2025.02.25-14.45.35:080][428]LogAudio: Display: Audio Device (ID: 2) registered with world 'MainMenu'.
+[2025.02.25-14.45.35:080][428]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2025.02.25-14.45.35:086][428]LogLoad: Game class is 'GMB_Mainmenu_C'
+[2025.02.25-14.45.35:087][428]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2025.02.25-15.45.35
+[2025.02.25-14.45.35:088][428]LogWorld: Bringing up level for play took: 0.000872
+[2025.02.25-14.45.35:090][428]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2025.02.25-14.45.35:114][428]PIE: Server logged in
+[2025.02.25-14.45.35:115][428]PIE: Play in editor total start time 0,086 seconds.
+[2025.02.25-14.46.02:215][647]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/UI_Mainmenu.UI_Mainmenu
+[2025.02.25-14.46.02:215][647]LogChaosDD: Creating Chaos Debug Draw Scene for world World_8
+[2025.02.25-14.46.02:220][647]LogChaosDD: Creating Chaos Debug Draw Scene for world World_9
+[2025.02.25-14.46.04:984][921]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.25-14.46.04:984][921]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_MainMenu
+[2025.02.25-14.46.04:985][921]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2025.02.25-14.46.04:985][921]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.25-14.46.04:989][921]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.25-14.46.04:992][921]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.25-14.46.05:022][921]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.25-14.46.05:023][921]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2025.02.25-14.46.05:025][921]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2025.02.25-14.46.05:027][921]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2025.02.25-14.46.05:043][921]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.02.25-14.46.05:061][922]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2025.02.25-14.46.24:298][967]LogEditorTransaction: Undo Edit Width
+[2025.02.25-14.47.41:892][925]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2025.02.25-14.47.42:535][966]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.25-14.47.42:572][966]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UI/UI_Mainmenu] ([2] browsable assets)...
+[2025.02.25-14.47.42:575][966]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UI/UI_Mainmenu.UI_Mainmenu]
+[2025.02.25-14.47.42:575][966]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/UI_Mainmenu]
+[2025.02.25-14.47.42:575][966]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_Mainmenu" FILE="../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Content/UI/UI_Mainmenu.uasset" SILENT=true
+[2025.02.25-14.47.42:579][966]LogSavePackage: Moving output files for package: /Game/UI/UI_Mainmenu
+[2025.02.25-14.47.42:580][966]LogSavePackage: Moving '../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Saved/UI_MainmenuAF9086FD4FFD6465DFBCC5BF3177F54A.tmp' to '../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Content/UI/UI_Mainmenu.uasset'
+[2025.02.25-14.47.42:585][966]LogFileHelpers: InternalPromptForCheckoutAndSave took 50.127 ms (total: 834.049 ms)
+[2025.02.25-14.47.42:621][966]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.25-14.47.42:621][966]LogContentValidation: Enabled validators:
+[2025.02.25-14.47.42:621][966]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.25-14.47.42:621][966]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.25-14.47.42:621][966]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.25-14.47.42:621][966]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.25-14.47.42:621][966]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.25-14.47.42:621][966]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.25-14.47.42:621][966]AssetCheck: /Game/UI/UI_Mainmenu Validating asset
+[2025.02.25-14.47.45:408][263]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.02.25-14.47.45:415][263]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.25-14.47.45:416][263]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_MainMenu
+[2025.02.25-14.47.45:416][263]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000682s)
+[2025.02.25-14.47.45:416][263]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/MainMenu.MainMenu to /Game/FirstPerson/Maps/UEDPIE_0_MainMenu.MainMenu (0.000707s)
+[2025.02.25-14.47.45:428][263]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.02.25-14.47.45:429][263]LogChaosDD: Creating Chaos Debug Draw Scene for world MainMenu
+[2025.02.25-14.47.45:430][263]LogPlayLevel: PIE: World Init took: (0.001060s)
+[2025.02.25-14.47.45:431][263]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2025.02.25-14.47.45:431][263]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.25-14.47.45:431][263]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.25-14.47.45:431][263]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.25-14.47.45:431][263]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.25-14.47.45:431][263]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.02.25-14.47.45:431][263]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.25-14.47.45:431][263]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.02.25-14.47.45:431][263]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.25-14.47.45:431][263]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.25-14.47.45:431][263]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.25-14.47.45:431][263]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.25-14.47.45:433][263]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.25-14.47.45:446][263]LogAudioMixer: Display: Using Audio Hardware Device Kopfhörer (High Definition Audio Device)
+[2025.02.25-14.47.45:446][263]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.25-14.47.45:446][263]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.25-14.47.45:447][263]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.25-14.47.45:447][263]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2025.02.25-14.47.45:447][263]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2025.02.25-14.47.45:449][263]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2025.02.25-14.47.45:449][263]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2025.02.25-14.47.45:449][263]LogInit: FAudioDevice initialized with ID 3.
+[2025.02.25-14.47.45:449][263]LogAudio: Display: Audio Device (ID: 3) registered with world 'MainMenu'.
+[2025.02.25-14.47.45:449][263]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2025.02.25-14.47.45:451][263]LogLoad: Game class is 'GMB_Mainmenu_C'
+[2025.02.25-14.47.45:451][263]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2025.02.25-15.47.45
+[2025.02.25-14.47.45:451][263]LogWorld: Bringing up level for play took: 0.000280
+[2025.02.25-14.47.45:453][263]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2025.02.25-14.47.45:454][263]PIE: Server logged in
+[2025.02.25-14.47.45:455][263]PIE: Play in editor total start time 0,04 seconds.
+[2025.02.25-14.48.20:032][ 71]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.25-14.48.20:032][ 71]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_MainMenu
+[2025.02.25-14.48.20:032][ 71]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2025.02.25-14.48.20:032][ 71]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.25-14.48.20:034][ 71]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.25-14.48.20:037][ 71]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.25-14.48.20:050][ 71]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.02.25-14.48.20:050][ 71]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2025.02.25-14.48.20:050][ 71]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2025.02.25-14.48.20:052][ 71]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2025.02.25-14.48.20:056][ 71]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.25-14.48.20:058][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.02.25-14.48.20:106][ 74]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2025.02.25-14.48.41:349][959]LogSlate: Window 'Color Picker' being destroyed
+[2025.02.25-14.49.20:196][441]LogSlate: Window 'Color Picker' being destroyed
+[2025.02.25-14.49.46:324][757]LogSlate: Window 'Color Picker' being destroyed
+[2025.02.25-14.49.51:702][213]LogSlate: Window 'Color Picker' being destroyed
+[2025.02.25-14.50.02:377][127]LogSlate: Window 'Color Picker' being destroyed
+[2025.02.25-14.50.08:769][683]LogSlate: Window 'Color Picker' being destroyed
+[2025.02.25-14.50.20:112][714]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.02.25-14.50.20:691][749]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.02.25-14.50.20:698][749]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.25-14.50.20:698][749]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_MainMenu
+[2025.02.25-14.50.20:698][749]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000683s)
+[2025.02.25-14.50.20:698][749]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/MainMenu.MainMenu to /Game/FirstPerson/Maps/UEDPIE_0_MainMenu.MainMenu (0.000707s)
+[2025.02.25-14.50.20:709][749]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2025.02.25-14.50.20:710][749]LogChaosDD: Creating Chaos Debug Draw Scene for world MainMenu
+[2025.02.25-14.50.20:711][749]LogPlayLevel: PIE: World Init took: (0.001199s)
+[2025.02.25-14.50.20:712][749]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2025.02.25-14.50.20:712][749]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.25-14.50.20:712][749]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.25-14.50.20:712][749]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.25-14.50.20:712][749]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.25-14.50.20:712][749]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.02.25-14.50.20:712][749]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.25-14.50.20:712][749]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.02.25-14.50.20:712][749]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.25-14.50.20:712][749]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.25-14.50.20:712][749]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.25-14.50.20:712][749]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.25-14.50.20:715][749]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.25-14.50.20:728][749]LogAudioMixer: Display: Using Audio Hardware Device Kopfhörer (High Definition Audio Device)
+[2025.02.25-14.50.20:729][749]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.25-14.50.20:729][749]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.25-14.50.20:729][749]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.25-14.50.20:729][749]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2025.02.25-14.50.20:729][749]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2025.02.25-14.50.20:731][749]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2025.02.25-14.50.20:731][749]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2025.02.25-14.50.20:731][749]LogInit: FAudioDevice initialized with ID 4.
+[2025.02.25-14.50.20:731][749]LogAudio: Display: Audio Device (ID: 4) registered with world 'MainMenu'.
+[2025.02.25-14.50.20:731][749]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2025.02.25-14.50.20:735][749]LogLoad: Game class is 'GMB_Mainmenu_C'
+[2025.02.25-14.50.20:736][749]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2025.02.25-15.50.20
+[2025.02.25-14.50.20:736][749]LogWorld: Bringing up level for play took: 0.000534
+[2025.02.25-14.50.20:738][749]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2025.02.25-14.50.20:740][749]PIE: Server logged in
+[2025.02.25-14.50.20:741][749]PIE: Play in editor total start time 0,044 seconds.
+[2025.02.25-14.50.22:651][902]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.25-14.50.22:651][902]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_MainMenu
+[2025.02.25-14.50.22:651][902]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2025.02.25-14.50.22:651][902]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.25-14.50.22:654][902]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.25-14.50.22:657][902]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.25-14.50.22:709][902]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.02.25-14.50.22:709][902]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2025.02.25-14.50.22:709][902]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2025.02.25-14.50.22:711][902]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2025.02.25-14.50.22:714][902]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.25-14.50.22:716][902]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.02.25-14.50.22:738][903]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2025.02.25-14.50.26:706][139]LogSlate: Window 'Save Asset As' being destroyed
+[2025.02.25-14.50.28:912][331]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2025.02.25-14.50.28:915][331]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.25-14.50.28:970][331]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UI/UI_Mainmenu] ([2] browsable assets)...
+[2025.02.25-14.50.28:972][331]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UI/UI_Mainmenu.UI_Mainmenu]
+[2025.02.25-14.50.28:972][331]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/UI_Mainmenu]
+[2025.02.25-14.50.28:972][331]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_Mainmenu" FILE="../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Content/UI/UI_Mainmenu.uasset" SILENT=true
+[2025.02.25-14.50.28:977][331]LogSavePackage: Moving output files for package: /Game/UI/UI_Mainmenu
+[2025.02.25-14.50.28:977][331]LogSavePackage: Moving '../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Saved/UI_Mainmenu7C02CCAE49F7A1E61B3A2EB10FADC383.tmp' to '../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Content/UI/UI_Mainmenu.uasset'
+[2025.02.25-14.50.28:982][331]LogFileHelpers: InternalPromptForCheckoutAndSave took 66.891 ms (total: 900.940 ms)
+[2025.02.25-14.50.29:015][331]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.25-14.50.29:015][331]LogContentValidation: Enabled validators:
+[2025.02.25-14.50.29:015][331]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.25-14.50.29:015][331]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.25-14.50.29:015][331]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.25-14.50.29:015][331]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.25-14.50.29:015][331]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.25-14.50.29:015][331]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.25-14.50.29:015][331]AssetCheck: /Game/UI/UI_Mainmenu Validating asset
+[2025.02.25-14.50.31:094][549]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.02.25-14.50.31:101][549]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.25-14.50.31:102][549]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_MainMenu
+[2025.02.25-14.50.31:103][549]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000730s)
+[2025.02.25-14.50.31:103][549]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/MainMenu.MainMenu to /Game/FirstPerson/Maps/UEDPIE_0_MainMenu.MainMenu (0.000761s)
+[2025.02.25-14.50.31:114][549]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.02.25-14.50.31:115][549]LogChaosDD: Creating Chaos Debug Draw Scene for world MainMenu
+[2025.02.25-14.50.31:116][549]LogPlayLevel: PIE: World Init took: (0.001094s)
+[2025.02.25-14.50.31:117][549]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2025.02.25-14.50.31:117][549]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.25-14.50.31:117][549]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.25-14.50.31:117][549]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.25-14.50.31:117][549]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.25-14.50.31:117][549]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.02.25-14.50.31:117][549]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.25-14.50.31:117][549]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.02.25-14.50.31:117][549]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.25-14.50.31:117][549]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.25-14.50.31:117][549]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.25-14.50.31:117][549]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.25-14.50.31:119][549]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.25-14.50.31:132][549]LogAudioMixer: Display: Using Audio Hardware Device Kopfhörer (High Definition Audio Device)
+[2025.02.25-14.50.31:132][549]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.25-14.50.31:132][549]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.25-14.50.31:132][549]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.25-14.50.31:132][549]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2025.02.25-14.50.31:132][549]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2025.02.25-14.50.31:134][549]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2025.02.25-14.50.31:134][549]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2025.02.25-14.50.31:134][549]LogInit: FAudioDevice initialized with ID 5.
+[2025.02.25-14.50.31:134][549]LogAudio: Display: Audio Device (ID: 5) registered with world 'MainMenu'.
+[2025.02.25-14.50.31:134][549]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2025.02.25-14.50.31:136][549]LogLoad: Game class is 'GMB_Mainmenu_C'
+[2025.02.25-14.50.31:136][549]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2025.02.25-15.50.31
+[2025.02.25-14.50.31:136][549]LogWorld: Bringing up level for play took: 0.000290
+[2025.02.25-14.50.31:138][549]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2025.02.25-14.50.31:140][549]PIE: Server logged in
+[2025.02.25-14.50.31:140][549]PIE: Play in editor total start time 0,038 seconds.
+[2025.02.25-14.50.53:191][927]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.25-14.50.53:192][927]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_MainMenu
+[2025.02.25-14.50.53:192][927]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2025.02.25-14.50.53:192][927]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.25-14.50.53:196][927]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.25-14.50.53:199][927]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.25-14.50.53:231][927]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.02.25-14.50.53:231][927]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2025.02.25-14.50.53:231][927]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2025.02.25-14.50.53:233][927]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2025.02.25-14.50.53:237][927]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.25-14.50.53:238][927]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2025.02.25-14.50.53:254][928]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2025.02.25-14.51.10:040][472]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.02.25-14.51.10:686][512]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.25-14.51.10:740][512]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UI/UI_Mainmenu] ([2] browsable assets)...
+[2025.02.25-14.51.10:742][512]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UI/UI_Mainmenu.UI_Mainmenu]
+[2025.02.25-14.51.10:742][512]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/UI_Mainmenu]
+[2025.02.25-14.51.10:742][512]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_Mainmenu" FILE="../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Content/UI/UI_Mainmenu.uasset" SILENT=true
+[2025.02.25-14.51.10:747][512]LogSavePackage: Moving output files for package: /Game/UI/UI_Mainmenu
+[2025.02.25-14.51.10:748][512]LogSavePackage: Moving '../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Saved/UI_Mainmenu21F772DF4143883FAC1EEA9E1759FD83.tmp' to '../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Content/UI/UI_Mainmenu.uasset'
+[2025.02.25-14.51.10:754][512]LogFileHelpers: InternalPromptForCheckoutAndSave took 67.784 ms (total: 968.725 ms)
+[2025.02.25-14.51.10:781][512]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.25-14.51.10:781][512]LogContentValidation: Enabled validators:
+[2025.02.25-14.51.10:781][512]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.25-14.51.10:781][512]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.25-14.51.10:781][512]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.25-14.51.10:781][512]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.25-14.51.10:781][512]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.25-14.51.10:781][512]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.25-14.51.10:781][512]AssetCheck: /Game/UI/UI_Mainmenu Validating asset
+[2025.02.25-14.52.19:566][717]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10778.015625
+[2025.02.25-14.52.19:718][731]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.25-14.52.19:718][731]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10778.155273, Update Interval: 336.547119
+[2025.02.25-14.52.29:189][710]LogEditorTransaction: Undo Resize Widget
+[2025.02.25-14.53.07:179][666]LogEditorTransaction: Undo Edit Bottom
+[2025.02.25-14.53.27:578][691]LogEditorTransaction: Undo Edit Bottom
+[2025.02.25-14.54.32:419][695]LogDerivedDataCache: C:/Users/schueler/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.02.25-14.57.08:989][146]LogStreaming: Display: FlushAsyncLoading(560): 1 QueuedPackages, 0 AsyncPackages
+[2025.02.25-14.57.15:776][814]LogStreaming: Display: FlushAsyncLoading(561): 1 QueuedPackages, 0 AsyncPackages
+[2025.02.25-14.57.19:219][138]LogStreaming: Display: FlushAsyncLoading(562): 1 QueuedPackages, 0 AsyncPackages
+[2025.02.25-14.57.21:858][373]LogStreaming: Display: FlushAsyncLoading(563): 1 QueuedPackages, 0 AsyncPackages
+[2025.02.25-14.57.25:641][708]LogStreaming: Display: FlushAsyncLoading(564): 1 QueuedPackages, 0 AsyncPackages
+[2025.02.25-14.57.30:445][139]LogStreaming: Display: FlushAsyncLoading(565): 1 QueuedPackages, 0 AsyncPackages
+[2025.02.25-14.58.02:657][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.02.25-14.58.02:662][ 14]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.25-14.58.02:719][ 14]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UI/UI_Mainmenu] ([2] browsable assets)...
+[2025.02.25-14.58.02:721][ 14]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UI/UI_Mainmenu.UI_Mainmenu]
+[2025.02.25-14.58.02:721][ 14]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/UI_Mainmenu]
+[2025.02.25-14.58.02:721][ 14]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_Mainmenu" FILE="../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Content/UI/UI_Mainmenu.uasset" SILENT=true
+[2025.02.25-14.58.02:726][ 14]LogSavePackage: Moving output files for package: /Game/UI/UI_Mainmenu
+[2025.02.25-14.58.02:727][ 14]LogSavePackage: Moving '../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Saved/UI_MainmenuC10E2D7E4F915E42D766BF96D94B55BE.tmp' to '../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Content/UI/UI_Mainmenu.uasset'
+[2025.02.25-14.58.02:732][ 14]LogFileHelpers: InternalPromptForCheckoutAndSave took 69.767 ms (total: 1.03 sec)
+[2025.02.25-14.58.02:796][ 14]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.25-14.58.02:796][ 14]LogContentValidation: Enabled validators:
+[2025.02.25-14.58.02:796][ 14]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.25-14.58.02:796][ 14]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.25-14.58.02:796][ 14]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.25-14.58.02:796][ 14]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.25-14.58.02:796][ 14]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.25-14.58.02:796][ 14]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.25-14.58.02:797][ 14]AssetCheck: /Game/UI/UI_Mainmenu Validating asset
+[2025.02.25-14.58.08:587][683]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.02.25-14.58.08:595][683]LogPlayLevel: [PlayLevel] Compiling UI_Mainmenu before play...
+[2025.02.25-14.58.08:649][683]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2025.02.25-14.58.08:650][683]LogPlayLevel: PlayLevel: Blueprint regeneration took 56 ms (1 blueprints)
+[2025.02.25-14.58.08:650][683]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_MainMenu
+[2025.02.25-14.58.08:651][683]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000774s)
+[2025.02.25-14.58.08:651][683]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/MainMenu.MainMenu to /Game/FirstPerson/Maps/UEDPIE_0_MainMenu.MainMenu (0.000799s)
+[2025.02.25-14.58.08:665][683]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2025.02.25-14.58.08:665][683]LogChaosDD: Creating Chaos Debug Draw Scene for world MainMenu
+[2025.02.25-14.58.08:666][683]LogPlayLevel: PIE: World Init took: (0.001218s)
+[2025.02.25-14.58.08:667][683]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2025.02.25-14.58.08:667][683]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.25-14.58.08:667][683]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.25-14.58.08:667][683]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.25-14.58.08:667][683]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.25-14.58.08:667][683]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.02.25-14.58.08:667][683]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.25-14.58.08:667][683]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.02.25-14.58.08:667][683]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.25-14.58.08:667][683]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.25-14.58.08:667][683]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.25-14.58.08:667][683]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.25-14.58.08:669][683]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.25-14.58.08:683][683]LogAudioMixer: Display: Using Audio Hardware Device Kopfhörer (High Definition Audio Device)
+[2025.02.25-14.58.08:684][683]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.25-14.58.08:684][683]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.25-14.58.08:684][683]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.25-14.58.08:684][683]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2025.02.25-14.58.08:684][683]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2025.02.25-14.58.08:686][683]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2025.02.25-14.58.08:686][683]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2025.02.25-14.58.08:686][683]LogInit: FAudioDevice initialized with ID 6.
+[2025.02.25-14.58.08:686][683]LogAudio: Display: Audio Device (ID: 6) registered with world 'MainMenu'.
+[2025.02.25-14.58.08:686][683]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2025.02.25-14.58.08:688][683]LogLoad: Game class is 'GMB_Mainmenu_C'
+[2025.02.25-14.58.08:688][683]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2025.02.25-15.58.08
+[2025.02.25-14.58.08:689][683]LogWorld: Bringing up level for play took: 0.000293
+[2025.02.25-14.58.08:690][683]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2025.02.25-14.58.08:692][683]PIE: Server logged in
+[2025.02.25-14.58.08:693][683]PIE: Play in editor total start time 0,099 seconds.
+[2025.02.25-14.58.12:671][137]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.25-14.58.12:671][137]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_MainMenu
+[2025.02.25-14.58.12:671][137]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2025.02.25-14.58.12:671][137]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.25-14.58.12:674][137]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.25-14.58.12:677][137]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.25-14.58.12:688][137]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.25-14.58.12:688][137]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2025.02.25-14.58.12:688][137]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2025.02.25-14.58.12:690][137]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2025.02.25-14.58.12:695][137]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.02.25-14.58.12:752][143]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2025.02.25-14.58.14:970][400]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.25-14.58.14:970][400]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_MainMenu
+[2025.02.25-14.58.14:971][400]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000673s)
+[2025.02.25-14.58.14:971][400]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/MainMenu.MainMenu to /Game/FirstPerson/Maps/UEDPIE_0_MainMenu.MainMenu (0.000698s)
+[2025.02.25-14.58.14:988][400]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2025.02.25-14.58.14:989][400]LogChaosDD: Creating Chaos Debug Draw Scene for world MainMenu
+[2025.02.25-14.58.14:990][400]LogPlayLevel: PIE: World Init took: (0.001089s)
+[2025.02.25-14.58.14:991][400]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2025.02.25-14.58.14:991][400]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.25-14.58.14:991][400]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.25-14.58.14:991][400]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.25-14.58.14:991][400]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.25-14.58.14:991][400]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.02.25-14.58.14:991][400]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.25-14.58.14:991][400]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.02.25-14.58.14:991][400]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.25-14.58.14:991][400]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.25-14.58.14:991][400]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.25-14.58.14:991][400]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.25-14.58.14:993][400]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.25-14.58.15:006][400]LogAudioMixer: Display: Using Audio Hardware Device Kopfhörer (High Definition Audio Device)
+[2025.02.25-14.58.15:006][400]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.25-14.58.15:006][400]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.25-14.58.15:006][400]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.25-14.58.15:006][400]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2025.02.25-14.58.15:006][400]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2025.02.25-14.58.15:008][400]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2025.02.25-14.58.15:008][400]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2025.02.25-14.58.15:008][400]LogInit: FAudioDevice initialized with ID 7.
+[2025.02.25-14.58.15:008][400]LogAudio: Display: Audio Device (ID: 7) registered with world 'MainMenu'.
+[2025.02.25-14.58.15:008][400]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2025.02.25-14.58.15:052][400]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.25-14.58.15:053][400]LogLoad: Game class is 'GMB_Mainmenu_C'
+[2025.02.25-14.58.15:053][400]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2025.02.25-15.58.15
+[2025.02.25-14.58.15:053][400]LogWorld: Bringing up level for play took: 0.000328
+[2025.02.25-14.58.15:055][400]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2025.02.25-14.58.15:060][400]PIE: Server logged in
+[2025.02.25-14.58.15:062][400]PIE: Play in editor total start time 0,093 seconds.
+[2025.02.25-14.58.17:801][700]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.25-14.58.17:801][700]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_MainMenu
+[2025.02.25-14.58.17:801][700]LogSlate: Window 'unyielding_corridor Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.02.25-14.58.17:804][700]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2025.02.25-14.58.17:804][700]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.25-14.58.17:806][700]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.25-14.58.17:809][700]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.25-14.58.17:831][700]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2025.02.25-14.58.17:832][700]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2025.02.25-14.58.17:833][700]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2025.02.25-14.58.17:838][700]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2025.02.25-14.58.17:871][703]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2025.02.25-14.58.42:975][123]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11162.629883
+[2025.02.25-14.58.43:104][136]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.25-14.58.43:104][136]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11162.748047, Update Interval: 358.007751
+[2025.02.25-14.59.20:386][960]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2025.02.25-14.59.21:074][ 33]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.25-14.59.21:117][ 33]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UI/UI_Mainmenu] ([2] browsable assets)...
+[2025.02.25-14.59.21:120][ 33]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UI/UI_Mainmenu.UI_Mainmenu]
+[2025.02.25-14.59.21:120][ 33]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/UI_Mainmenu]
+[2025.02.25-14.59.21:120][ 33]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_Mainmenu" FILE="../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Content/UI/UI_Mainmenu.uasset" SILENT=true
+[2025.02.25-14.59.21:125][ 33]LogSavePackage: Moving output files for package: /Game/UI/UI_Mainmenu
+[2025.02.25-14.59.21:125][ 33]LogSavePackage: Moving '../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Saved/UI_MainmenuADA35596449F4F66E09CCBA990AC9A51.tmp' to '../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Content/UI/UI_Mainmenu.uasset'
+[2025.02.25-14.59.21:134][ 33]LogFileHelpers: InternalPromptForCheckoutAndSave took 59.835 ms (total: 1.09 sec)
+[2025.02.25-14.59.21:188][ 33]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.25-14.59.21:188][ 33]LogContentValidation: Enabled validators:
+[2025.02.25-14.59.21:188][ 33]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.25-14.59.21:188][ 33]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.25-14.59.21:188][ 33]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.25-14.59.21:188][ 33]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.25-14.59.21:188][ 33]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.25-14.59.21:188][ 33]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.25-14.59.21:188][ 33]AssetCheck: /Game/UI/UI_Mainmenu Validating asset
+[2025.02.25-14.59.27:709][793]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2025.02.25-14.59.27:716][793]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.25-14.59.27:717][793]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_MainMenu
+[2025.02.25-14.59.27:717][793]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000731s)
+[2025.02.25-14.59.27:717][793]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/MainMenu.MainMenu to /Game/FirstPerson/Maps/UEDPIE_0_MainMenu.MainMenu (0.000759s)
+[2025.02.25-14.59.27:729][793]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.02.25-14.59.27:730][793]LogChaosDD: Creating Chaos Debug Draw Scene for world MainMenu
+[2025.02.25-14.59.27:731][793]LogPlayLevel: PIE: World Init took: (0.001065s)
+[2025.02.25-14.59.27:732][793]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2025.02.25-14.59.27:732][793]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.25-14.59.27:732][793]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.25-14.59.27:732][793]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.25-14.59.27:732][793]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.25-14.59.27:732][793]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.02.25-14.59.27:732][793]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.25-14.59.27:732][793]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.02.25-14.59.27:732][793]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.25-14.59.27:732][793]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.25-14.59.27:732][793]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.25-14.59.27:732][793]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.25-14.59.27:734][793]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.25-14.59.27:747][793]LogAudioMixer: Display: Using Audio Hardware Device Kopfhörer (High Definition Audio Device)
+[2025.02.25-14.59.27:747][793]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.25-14.59.27:747][793]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.25-14.59.27:747][793]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.25-14.59.27:747][793]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2025.02.25-14.59.27:748][793]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2025.02.25-14.59.27:749][793]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2025.02.25-14.59.27:749][793]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2025.02.25-14.59.27:749][793]LogInit: FAudioDevice initialized with ID 8.
+[2025.02.25-14.59.27:749][793]LogAudio: Display: Audio Device (ID: 8) registered with world 'MainMenu'.
+[2025.02.25-14.59.27:749][793]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2025.02.25-14.59.27:800][793]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.25-14.59.27:800][793]LogLoad: Game class is 'GMB_Mainmenu_C'
+[2025.02.25-14.59.27:801][793]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2025.02.25-15.59.27
+[2025.02.25-14.59.27:801][793]LogWorld: Bringing up level for play took: 0.000315
+[2025.02.25-14.59.27:803][793]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2025.02.25-14.59.27:807][793]PIE: Server logged in
+[2025.02.25-14.59.27:809][793]PIE: Play in editor total start time 0,092 seconds.
+[2025.02.25-14.59.32:895][395]LogShaderCompilers: Display: ================================================
+[2025.02.25-14.59.32:895][395]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.02.25-14.59.32:895][395]LogShaderCompilers: Display: Total job queries 115, among them cache hits 10 (8.70%), DDC hits 34 (29.57%), Duplicates 1 (0.87%)
+[2025.02.25-14.59.32:895][395]LogShaderCompilers: Display: Tracking 104 distinct input hashes that result in 80 distinct outputs (76.92%)
+[2025.02.25-14.59.32:895][395]LogShaderCompilers: Display: RAM used: 87,03 KiB of 1,60 GiB budget. Usage: 0.01%
+[2025.02.25-14.59.32:895][395]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.02.25-14.59.32:895][395]LogShaderCompilers: Display: Shaders Compiled: 70
+[2025.02.25-14.59.32:895][395]LogShaderCompilers: Display: Jobs assigned 70, completed 70 (100%)
+[2025.02.25-14.59.32:895][395]LogShaderCompilers: Display: Average time worker was idle: 60.49 s
+[2025.02.25-14.59.32:895][395]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.11 s
+[2025.02.25-14.59.32:895][395]LogShaderCompilers: Display: Job execution time: average 0.90 s, max 2.43 s
+[2025.02.25-14.59.32:895][395]LogShaderCompilers: Display: Job life time (pending + execution): average 0.96 s, max 2.54
+[2025.02.25-14.59.32:895][395]LogShaderCompilers: Display: Shader code size: average 7,948 KiB, min 3,832 KiB, max 12,484 KiB
+[2025.02.25-14.59.32:895][395]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 20.91 s
+[2025.02.25-14.59.32:895][395]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.02.25-14.59.32:895][395]LogShaderCompilers: Display: Jobs were issued in 70 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.02.25-14.59.32:895][395]LogShaderCompilers: Display: Average processing rate: 3.35 jobs/sec
+[2025.02.25-14.59.32:895][395]LogShaderCompilers: Display: Total thread time: 46,454 s
+[2025.02.25-14.59.32:896][395]LogShaderCompilers: Display: Total thread preprocess time: 1,566 s
+[2025.02.25-14.59.32:896][395]LogShaderCompilers: Display: Percentage time preprocessing: 3.37%
+[2025.02.25-14.59.32:896][395]LogShaderCompilers: Display: Effective parallelization: 2.22 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2025.02.25-14.59.32:896][395]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.02.25-14.59.32:896][395]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    6 times, average 1.12 sec, max 1.72 sec, min 0.95 sec)
+[2025.02.25-14.59.32:896][395]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled   10 times, average 0.96 sec, max 1.26 sec, min 0.82 sec)
+[2025.02.25-14.59.32:896][395]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    1 times, average 0.81 sec, max 0.81 sec, min 0.81 sec)
+[2025.02.25-14.59.32:896][395]LogShaderCompilers: Display:                                                 FDepthOnlyPS (compiled    1 times, average 0.80 sec, max 0.80 sec, min 0.80 sec)
+[2025.02.25-14.59.32:896][395]LogShaderCompilers: Display:              TShadowDepthPSPixelShadowDepth_VirtualShadowMap (compiled    1 times, average 0.79 sec, max 0.79 sec, min 0.79 sec)
+[2025.02.25-14.59.32:896][395]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.02.25-14.59.32:896][395]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 20.74% of total time (compiled   10 times, average 0.96 sec, max 1.26 sec, min 0.82 sec)
+[2025.02.25-14.59.32:896][395]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 18.41% of total time (compiled   14 times, average 0.61 sec, max 0.95 sec, min 0.49 sec)
+[2025.02.25-14.59.32:896][395]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader - 14.43% of total time (compiled    6 times, average 1.12 sec, max 1.72 sec, min 0.95 sec)
+[2025.02.25-14.59.32:896][395]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 13.88% of total time (compiled   14 times, average 0.46 sec, max 0.79 sec, min 0.32 sec)
+[2025.02.25-14.59.32:896][395]LogShaderCompilers: Display:                                                 FLumenCardPS - 10.65% of total time (compiled   10 times, average 0.49 sec, max 0.79 sec, min 0.33 sec)
+[2025.02.25-14.59.32:896][395]LogShaderCompilers: Display: === Material stats ===
+[2025.02.25-14.59.32:896][395]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.02.25-14.59.32:896][395]LogShaderCompilers: Display: Materials Translated:    129
+[2025.02.25-14.59.32:896][395]LogShaderCompilers: Display: Material Total Translate Time: 0.07 s
+[2025.02.25-14.59.32:896][395]LogShaderCompilers: Display: Material Translation Only: 0.03 s (41%)
+[2025.02.25-14.59.32:896][395]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2025.02.25-14.59.32:896][395]LogShaderCompilers: Display: Material Cache Hits: 17 (13%)
+[2025.02.25-14.59.32:896][395]LogShaderCompilers: Display: ================================================
+[2025.02.25-14.59.35:790][737]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.25-14.59.35:790][737]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_MainMenu
+[2025.02.25-14.59.35:791][737]LogSlate: Window 'unyielding_corridor Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.02.25-14.59.35:796][737]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2025.02.25-14.59.35:796][737]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.25-14.59.35:798][737]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.25-14.59.35:802][737]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.25-14.59.35:820][737]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.02.25-14.59.35:821][737]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2025.02.25-14.59.35:821][737]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2025.02.25-14.59.35:822][737]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2025.02.25-14.59.35:827][737]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.02.25-14.59.35:868][739]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2025.02.25-15.01.27:393][282]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.02.25-15.01.34:005][ 14]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/UI/GMB_Mainmenu.GMB_Mainmenu
+[2025.02.25-15.01.34:006][ 14]LogChaosDD: Creating Chaos Debug Draw Scene for world World_15
+[2025.02.25-15.01.43:985][122]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2025.02.25-15.01.44:502][171]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.25-15.01.44:569][171]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/GMB_Mainmenu] ([2] browsable assets)...
+[2025.02.25-15.01.44:569][171]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/GMB_Mainmenu]
+[2025.02.25-15.01.44:569][171]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/GMB_Mainmenu" FILE="../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Content/UI/GMB_Mainmenu.uasset" SILENT=true
+[2025.02.25-15.01.44:571][171]LogSavePackage: Moving output files for package: /Game/UI/GMB_Mainmenu
+[2025.02.25-15.01.44:571][171]LogSavePackage: Moving '../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Saved/GMB_Mainmenu5B40471747B4987B79A02EA64BF97C87.tmp' to '../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Content/UI/GMB_Mainmenu.uasset'
+[2025.02.25-15.01.44:578][171]LogFileHelpers: InternalPromptForCheckoutAndSave took 75.668 ms (total: 1.17 sec)
+[2025.02.25-15.01.44:629][171]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.25-15.01.44:629][171]LogContentValidation: Enabled validators:
+[2025.02.25-15.01.44:629][171]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.25-15.01.44:629][171]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.25-15.01.44:629][171]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.25-15.01.44:629][171]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.25-15.01.44:629][171]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.25-15.01.44:629][171]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.25-15.01.44:629][171]AssetCheck: /Game/UI/GMB_Mainmenu Validating asset
+[2025.02.25-15.01.49:599][725]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/FirstPerson/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu
+[2025.02.25-15.01.49:599][725]LogChaosDD: Creating Chaos Debug Draw Scene for world World_16
+[2025.02.25-15.02.03:819][350]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2025.02.25-15.02.04:784][455]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.25-15.02.04:848][455]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.02.25-15.02.04:851][455]LogSavePackage: Moving output files for package: /Game/FirstPerson/Maps/MainMenu
+[2025.02.25-15.02.04:852][455]LogSavePackage: Moving '../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Saved/MainMenuBB700D7F41D119C760E5A7B3257CC4CA.tmp' to '../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Content/FirstPerson/Maps/MainMenu.umap'
+[2025.02.25-15.02.04:865][455]LogFileHelpers: Saving map 'MainMenu' took 0.056
+[2025.02.25-15.02.04:870][455]LogFileHelpers: InternalPromptForCheckoutAndSave took 86.305 ms (total: 1.26 sec)
+[2025.02.25-15.02.04:927][455]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.25-15.02.04:927][455]LogContentValidation: Enabled validators:
+[2025.02.25-15.02.04:927][455]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.25-15.02.04:927][455]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.25-15.02.04:927][455]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.25-15.02.04:927][455]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.25-15.02.04:927][455]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.25-15.02.04:927][455]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.25-15.02.04:927][455]AssetCheck: /Game/FirstPerson/Maps/MainMenu Validating asset
+[2025.02.25-15.05.33:928][169]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11573.588867
+[2025.02.25-15.05.34:092][183]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.25-15.05.34:092][183]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11573.741211, Update Interval: 333.882874
+[2025.02.25-15.11.41:646][135]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11941.758789
+[2025.02.25-15.11.41:799][148]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.25-15.11.41:799][148]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11941.899414, Update Interval: 358.258606
+[2025.02.25-15.12.04:871][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.02.25-15.12.04:872][ 61]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/MainMenu' took 0.029
+[2025.02.25-15.12.04:872][ 61]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/UI/UI_Mainmenu] ([2] browsable assets)...
+[2025.02.25-15.12.04:872][ 61]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/UI_Mainmenu]
+[2025.02.25-15.12.04:872][ 61]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_Mainmenu" FILE="../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Saved/Autosaves/Game/UI/UI_Mainmenu_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2025.02.25-15.12.04:877][ 61]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/UI/UI_Mainmenu_Auto3
+[2025.02.25-15.12.04:877][ 61]LogSavePackage: Moving '../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Saved/UI_Mainmenu_Auto3EA153FD14303F8AC0EBD7D95001D63C3.tmp' to '../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Saved/Autosaves/Game/UI/UI_Mainmenu_Auto3.uasset'
+[2025.02.25-15.12.04:877][ 61]LogFileHelpers: Auto-saving content packages took 0.006
+[2025.02.25-15.13.02:139][101]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.02.25-15.13.33:430][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.02.25-15.13.33:920][140]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.25-15.13.33:953][140]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UI/UI_Mainmenu] ([2] browsable assets)...
+[2025.02.25-15.13.33:955][140]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UI/UI_Mainmenu.UI_Mainmenu]
+[2025.02.25-15.13.33:955][140]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/UI_Mainmenu]
+[2025.02.25-15.13.33:955][140]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_Mainmenu" FILE="../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Content/UI/UI_Mainmenu.uasset" SILENT=true
+[2025.02.25-15.13.33:960][140]LogSavePackage: Moving output files for package: /Game/UI/UI_Mainmenu
+[2025.02.25-15.13.33:961][140]LogSavePackage: Moving '../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Saved/UI_Mainmenu57C2358C4036BD4CE961ED8D7C0EBBCE.tmp' to '../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Content/UI/UI_Mainmenu.uasset'
+[2025.02.25-15.13.33:969][140]LogFileHelpers: InternalPromptForCheckoutAndSave took 48.941 ms (total: 1.30 sec)
+[2025.02.25-15.13.34:021][140]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.25-15.13.34:021][140]LogContentValidation: Enabled validators:
+[2025.02.25-15.13.34:021][140]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.25-15.13.34:021][140]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.25-15.13.34:021][140]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.25-15.13.34:021][140]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.25-15.13.34:021][140]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.25-15.13.34:021][140]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.25-15.13.34:022][140]AssetCheck: /Game/UI/UI_Mainmenu Validating asset
+[2025.02.25-15.13.36:766][457]LogSlate: Window 'MainMenu' being destroyed
+[2025.02.25-15.13.36:770][457]LogSlate: Window 'MainMenu' being destroyed
+[2025.02.25-15.13.36:776][457]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2025.02.25-15.13.36:777][457]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.25-15.13.36:784][457]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2025.02.25-15.13.36:784][457]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.25-15.13.36:815][457]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2025.02.25-15.13.36:815][457]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.25-15.13.36:847][457]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2025.02.25-15.13.36:847][457]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.25-15.13.36:886][457]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.02.25-15.13.41:427][968]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.02.25-15.13.43:864][251]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2025.02.25-15.13.43:922][251]LogStall: Shutdown...
+[2025.02.25-15.13.43:922][251]LogStall: Shutdown complete.
+[2025.02.25-15.13.43:971][251]LogSlate: Window 'unyielding_corridor - Unreal Editor' being destroyed
+[2025.02.25-15.13.44:032][251]Cmd: QUIT_EDITOR
+[2025.02.25-15.13.44:033][251]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.02.25-15.13.44:040][252]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.02.25-15.13.44:041][252]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.02.25-15.13.44:041][252]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.02.25-15.13.44:041][252]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2025.02.25-15.13.44:041][252]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.25-15.13.44:058][252]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.02.25-15.13.44:062][252]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.02.25-15.13.44:066][252]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.02.25-15.13.44:066][252]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.25-15.13.44:068][252]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.02.25-15.13.44:068][252]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.25-15.13.44:074][252]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.02.25-15.13.44:080][252]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroying ET Analytics provider
+[2025.02.25-15.13.44:080][252]LogAnalytics: Display: [UEEditor.Rocket.Release] Ended ET Analytics provider session
+[2025.02.25-15.13.44:080][252]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroyed ET Analytics provider
+[2025.02.25-15.13.45:039][252]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.02.25-15.13.45:039][252]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.02.25-15.13.45:039][252]LogAudio: Display: Audio Device unregistered from world 'MainMenu'.
+[2025.02.25-15.13.45:039][252]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.02.25-15.13.45:039][252]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.02.25-15.13.45:042][252]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.02.25-15.13.45:051][252]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.02.25-15.13.45:051][252]LogAudio: Display: Audio Device Manager Shutdown
+[2025.02.25-15.13.45:051][252]LogWindowsTextInputMethodSystem: Activated input method: Deutsch (Deutschland) - (Keyboard).
+[2025.02.25-15.13.45:054][252]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.02.25-15.13.45:054][252]LogExit: Preparing to exit.
+[2025.02.25-15.13.45:089][252]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2025.02.25-15.13.45:095][252]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.02.25-15.13.45:096][252]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.02.25-15.13.45:097][252]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_null_above_selected_PY.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.02.25-15.13.45:097][252]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.02.25-15.13.45:097][252]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.02.25-15.13.45:097][252]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.02.25-15.13.45:097][252]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.02.25-15.13.45:097][252]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.02.25-15.13.45:097][252]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.02.25-15.13.45:097][252]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.02.25-15.13.45:097][252]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.02.25-15.13.45:097][252]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.02.25-15.13.45:097][252]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.02.25-15.13.45:097][252]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.02.25-15.13.45:097][252]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.02.25-15.13.45:097][252]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.02.25-15.13.45:097][252]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.02.25-15.13.45:097][252]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.02.25-15.13.45:098][252]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/set_bone_reference_pose_PY.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.02.25-15.13.45:098][252]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.02.25-15.13.45:098][252]LogPython: Display: Object '/MovieRenderPipeline/Python/MoviePipelineExampleRuntimeExecutor_PY.MoviePipelineExampleRuntimeExecutor' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.02.25-15.13.45:098][252]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.02.25-15.13.45:941][252]LogEditorDataStorage: Deinitializing
+[2025.02.25-15.13.46:050][252]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.02.25-15.13.46:093][252]LogExit: Editor shut down
+[2025.02.25-15.13.46:097][252]LogExit: Transaction tracking system shut down
+[2025.02.25-15.13.46:337][252]LogExit: Object subsystem successfully closed.
+[2025.02.25-15.13.46:378][252]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.02.25-15.13.46:791][252]LogMemoryProfiler: Shutdown
+[2025.02.25-15.13.46:791][252]LogNetworkingProfiler: Shutdown
+[2025.02.25-15.13.46:791][252]LoadingProfiler: Shutdown
+[2025.02.25-15.13.46:792][252]LogTimingProfiler: Shutdown
+[2025.02.25-15.13.47:275][252]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.02.25-15.13.47:281][252]LogStudioTelemetry: Display: Shutdown StudioTelemetry Module
+[2025.02.25-15.13.47:281][252]LogNFORDenoise: NFORDenoise function shutting down
+[2025.02.25-15.13.47:312][252]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.02.25-15.13.47:312][252]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B327F4A1C-4789-3D02-9050-D4894A05F2E5%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.0-37670630%2B%2B%2BUE5%2BRelease-5.5&UserID=d27b68094ed359d4c62c979870d193f1%7C8ba5f9944a824a8b8cfdf53c67b52d54%7Cb07c8c7a-84ab-4166-bed4-c16aea1495d5&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.02.25-15.13.47:846][252]LogEOSSDK: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.02.25-15.13.47:847][252]RenderDocPlugin: plugin has been unloaded.
+[2025.02.25-15.13.47:849][252]LogXGEController: Cleaning working directory: C:/Users/schueler/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2025.02.25-15.13.47:853][252]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.02.25-15.13.47:853][252]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.02.25-15.13.47:853][252]LogPakFile: Destroying PakPlatformFile
+[2025.02.25-15.13.48:139][252]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.02.25-15.13.48:178][252]LogExit: Exiting.
+[2025.02.25-15.13.48:205][252]Log file closed, 02/25/25 16:13:48

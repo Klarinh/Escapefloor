@@ -5,6 +5,11 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"F:/fork/Escapefloor/Content/FirstPerson/Blueprints/Inspect/BP_Inspect_Item.uasset",
+				"F:/fork/Escapefloor/Content/UI/W_inspect.uasset",
+				"F:/fork/Escapefloor/Content/UI/W_letter.uasset",
+				"F:/fork/Escapefloor/Content/FirstPerson/Maps/Corridor_v01.umap",
+				"F:/fork/Escapefloor/Content/BP_trigger/BP_BaseNOTE.uasset",
 				"C:/Program Files/Epic Games/UE_5.5/Engine/Content/EditorShellMaterials/M_ShellMaster.uasset",
 				"C:/Program Files/Epic Games/UE_5.5/Engine/Content/VREditor/BasicMeshes/M_Floor_01.uasset",
 				"C:/Program Files/Epic Games/UE_5.5/Engine/Plugins/Interchange/Assets/Content/gltf/M_Default.uasset",

@@ -1,0 +1,1461 @@
+﻿Log file open, 04/28/25 12:47:04
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogProfilingDebugging: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogWindows: Started CrashReportClient (pid=8532)
+LogWindows: Enabling Tpause support
+LogWindows: Warning: Failed to set completion port for job object "UE.ShaderCompileWorker.JobGroup": Falscher Parameter.
+LogWindows: Custom abort handler registered for crash reporting.
+LogInit: Display: Running engine for game: unyielding_corridor
+LogCore: UTS: Unreal Trace Server launched successfully
+LogTrace: Initializing trace...
+LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+LogTrace: Display: Display Control listening on port 39112
+LogTrace: Finished trace initialization.
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.5-CL-39772772"
+LogCsvProfiler: Display: Metadata set : engineversion="5.5.3-39772772+++UE5+Release-5.5"
+LogCsvProfiler: Display: Metadata set : os="Windows 10 (22H2) [10.0.19045.4717] "
+LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|12th Gen Intel(R) Core(TM) i7-12700F"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+LogCsvProfiler: Display: Metadata set : asan="0"
+LogCsvProfiler: Display: Metadata set : commandline="" ../../../../../../Users/schueler/Documents/GitHub/Escapefloor/unyielding_corridor.uproject -BaseDir="C:/Program Files/Epic Games/UE_5.5/Engine/Binaries/Win64/" -Unattended -RunningFromUnrealEd -AbsLog=C:/Users/schueler/Documents/GitHub/Escapefloor/Saved/Logs/WorldPartition/WorldPartitionHLODsBuilder-00003e08-2025-04-28T12.47.03.646Z.log /Game/FirstPerson/Maps/Dachboden_v02 -run=WorldPartitionBuilderCommandlet -Builder=WorldPartitionHLODsBuilder -SetupHLODs -BuildHLODs -AllowCommandletRendering""
+LogCsvProfiler: Display: Metadata set : loginid="d27b68094ed359d4c62c979870d193f1"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogStats: Stats thread started at 0.244649
+LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Windows-2106A1774F490967AEEFCD82B595E888
+         Session CrashGUID >====================================================
+LogConfig: No local boot hotfix file found at: [../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Saved/PersistentDownloadDir/HotfixForNextBoot.txt]
+LogPluginManager: Looking for build plugins target receipt
+LogPluginManager: Unable to find target receipt in path: ../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Binaries/Win64/*.target
+LogConfig: Display: Loading VulkanPC ini files took 0.04 seconds
+LogAssetRegistry: Display: Asset registry cache read as 39.7 MiB from ../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Intermediate/CachedAssetRegistry_0.bin
+LogConfig: Display: Loading Mac ini files took 0.07 seconds
+LogConfig: Display: Loading TVOS ini files took 0.07 seconds
+LogConfig: Display: Loading IOS ini files took 0.07 seconds
+LogConfig: Display: Loading Unix ini files took 0.07 seconds
+LogConfig: Display: Loading Android ini files took 0.07 seconds
+LogConfig: Display: Loading Windows ini files took 0.07 seconds
+LogConfig: Display: Loading VisionOS ini files took 0.08 seconds
+LogConfig: Display: Loading Linux ini files took 0.09 seconds
+LogConfig: Display: Loading LinuxArm64 ini files took 0.09 seconds
+LogPluginManager: Found matching target receipt: ../../../Engine/Binaries/Win64/UnrealEditor.target
+LogPluginManager: Looking for enabled plugins target receipt
+LogPluginManager: Unable to find target receipt in path: ../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Binaries/Win64/*.target
+LogPluginManager: Found matching target receipt: ../../../Engine/Binaries/Win64/UnrealEditor.target
+LogPluginManager: Mounting Engine plugin Bridge
+LogPluginManager: Mounting Engine plugin ChaosCloth
+LogPluginManager: Mounting Engine plugin ChaosClothAsset
+LogPluginManager: Mounting Engine plugin ChaosVD
+LogPluginManager: Mounting Engine plugin CmdLinkServer
+LogPluginManager: Mounting Engine plugin EnhancedInput
+LogPluginManager: Mounting Engine plugin Fab
+LogPluginManager: Mounting Engine plugin FastBuildController
+LogPluginManager: Mounting Engine plugin MeshPainting
+LogPluginManager: Mounting Engine plugin RenderGraphInsights
+LogPluginManager: Mounting Engine plugin TraceUtilities
+LogPluginManager: Mounting Engine plugin UbaController
+LogPluginManager: Mounting Engine plugin WorldMetrics
+LogPluginManager: Mounting Engine plugin XGEController
+LogPluginManager: Mounting Engine plugin OodleNetwork
+LogPluginManager: Mounting Engine plugin DatasmithContent
+LogPluginManager: Mounting Engine plugin GLTFExporter
+LogPluginManager: Mounting Engine plugin VariantManager
+LogPluginManager: Mounting Engine plugin VariantManagerContent
+LogPluginManager: Mounting Engine plugin Niagara
+LogPluginManager: Mounting Engine plugin NiagaraSimCaching
+LogPluginManager: Mounting Engine plugin AlembicImporter
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin UdpMessaging
+LogPluginManager: Mounting Engine plugin EOSShared
+LogPluginManager: Mounting Engine plugin OnlineBase
+LogPluginManager: Mounting Engine plugin OnlineServices
+LogPluginManager: Mounting Engine plugin OnlineSubsystem
+LogPluginManager: Mounting Engine plugin OnlineSubsystemNull
+LogPluginManager: Mounting Engine plugin OnlineSubsystemUtils
+LogPluginManager: Mounting Engine plugin InterchangeAssets
+LogPluginManager: Mounting Engine plugin InterchangeEditor
+LogPluginManager: Mounting Engine plugin Interchange
+LogPluginManager: Mounting Engine plugin InterchangeTests
+LogPluginManager: Mounting Engine plugin AISupport
+LogPluginManager: Mounting Engine plugin Paper2D
+LogPluginManager: Mounting Engine plugin EnvironmentQueryEditor
+LogPluginManager: Mounting Engine plugin ACLPlugin
+LogPluginManager: Mounting Engine plugin AnimationModifierLibrary
+LogPluginManager: Mounting Engine plugin AnimationData
+LogPluginManager: Mounting Engine plugin BlendSpaceMotionAnalysis
+LogPluginManager: Mounting Engine plugin ControlRigModules
+LogPluginManager: Mounting Engine plugin ControlRigSpline
+LogPluginManager: Mounting Engine plugin DeformerGraph
+LogPluginManager: Mounting Engine plugin IKRig
+LogPluginManager: Mounting Engine plugin LiveLink
+LogPluginManager: Mounting Engine plugin ControlRig
+LogPluginManager: Mounting Engine plugin RigLogic
+LogPluginManager: Mounting Engine plugin CameraShakePreviewer
+LogPluginManager: Mounting Engine plugin EngineCameras
+LogPluginManager: Mounting Engine plugin GameplayCameras
+LogPluginManager: Mounting Engine plugin OpenColorIO
+LogPluginManager: Mounting Engine plugin CLionSourceCodeAccess
+LogPluginManager: Mounting Engine plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting Engine plugin AnimationSharing
+LogPluginManager: Mounting Engine plugin DumpGPUServices
+LogPluginManager: Mounting Engine plugin GitSourceControl
+LogPluginManager: Mounting Engine plugin N10XSourceCodeAccess
+LogPluginManager: Mounting Engine plugin PerforceSourceControl
+LogPluginManager: Mounting Engine plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting Engine plugin PixWinPlugin
+LogPluginManager: Mounting Engine plugin PlasticSourceControl
+LogPluginManager: Mounting Engine plugin PluginUtils
+LogPluginManager: Mounting Engine plugin NullSourceCodeAccess
+LogPluginManager: Mounting Engine plugin RenderDocPlugin
+LogPluginManager: Mounting Engine plugin PropertyAccessNode
+LogPluginManager: Mounting Engine plugin RiderSourceCodeAccess
+LogPluginManager: Mounting Engine plugin SubversionSourceControl
+LogPluginManager: Mounting Engine plugin TextureFormatOodle
+LogPluginManager: Mounting Engine plugin UObjectPlugin
+LogPluginManager: Mounting Engine plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting Engine plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin AssetManagerEditor
+LogPluginManager: Mounting Engine plugin BlueprintHeaderView
+LogPluginManager: Mounting Engine plugin ChangelistReview
+LogPluginManager: Mounting Engine plugin ConsoleVariables
+LogPluginManager: Mounting Engine plugin ColorGrading
+LogPluginManager: Mounting Engine plugin CryptoKeys
+LogPluginManager: Mounting Engine plugin CurveEditorTools
+LogPluginManager: Mounting Engine plugin DataValidation
+LogPluginManager: Mounting Engine plugin EditorDebugTools
+LogPluginManager: Mounting Engine plugin EditorScriptingUtilities
+LogPluginManager: Mounting Engine plugin EngineAssetDefinitions
+LogPluginManager: Mounting Engine plugin FacialAnimation
+LogPluginManager: Mounting Engine plugin GameplayTagsEditor
+LogPluginManager: Mounting Engine plugin GeometryMode
+LogPluginManager: Mounting Engine plugin MacGraphicsSwitching
+LogPluginManager: Mounting Engine plugin MeshLODToolset
+LogPluginManager: Mounting Engine plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting Engine plugin ModelingToolsEditorMode
+LogPluginManager: Mounting Engine plugin ProxyLODPlugin
+LogPluginManager: Mounting Engine plugin SequencerAnimTools
+LogPluginManager: Mounting Engine plugin SpeedTreeImporter
+LogPluginManager: Mounting Engine plugin StylusInput
+LogPluginManager: Mounting Engine plugin MaterialAnalyzer
+LogPluginManager: Mounting Engine plugin UMGWidgetPreview
+LogPluginManager: Mounting Engine plugin UVEditor
+LogPluginManager: Mounting Engine plugin WorldPartitionHLODUtilities
+LogPluginManager: Mounting Engine plugin PluginBrowser
+LogPluginManager: Mounting Engine plugin AdvancedRenamer
+LogPluginManager: Mounting Engine plugin AutomationUtils
+LogPluginManager: Mounting Engine plugin BackChannel
+LogPluginManager: Mounting Engine plugin ChaosEditor
+LogPluginManager: Mounting Engine plugin ChaosNiagara
+LogPluginManager: Mounting Engine plugin ChaosSolverPlugin
+LogPluginManager: Mounting Engine plugin ChaosCaching
+LogPluginManager: Mounting Engine plugin CharacterAI
+LogPluginManager: Mounting Engine plugin ChaosUserDataPT
+LogPluginManager: Mounting Engine plugin Dataflow
+LogPluginManager: Mounting Engine plugin EditorDataStorage
+LogPluginManager: Mounting Engine plugin EditorPerformance
+LogPluginManager: Mounting Engine plugin EditorTelemetry
+LogPluginManager: Mounting Engine plugin Fracture
+LogPluginManager: Mounting Engine plugin FullBodyIK
+LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
+LogPluginManager: Mounting Engine plugin GeometryFlow
+LogPluginManager: Mounting Engine plugin LocalizableMessage
+LogPluginManager: Mounting Engine plugin LowLevelNetTrace
+LogPluginManager: Mounting Engine plugin MeshModelingToolsetExp
+LogPluginManager: Mounting Engine plugin NFORDenoise
+LogPluginManager: Mounting Engine plugin PlanarCut
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogPluginManager: Mounting Engine plugin PythonScriptPlugin
+LogPluginManager: Mounting Engine plugin SkeletalReduction
+LogPluginManager: Mounting Engine plugin StudioTelemetry
+LogPluginManager: Mounting Engine plugin ToolPresets
+LogPluginManager: Mounting Engine plugin AndroidMedia
+LogPluginManager: Mounting Engine plugin AvfMedia
+LogPluginManager: Mounting Engine plugin ImgMedia
+LogPluginManager: Mounting Engine plugin MediaCompositing
+LogPluginManager: Mounting Engine plugin MediaPlate
+LogPluginManager: Mounting Engine plugin WebMMedia
+LogPluginManager: Mounting Engine plugin WmfMedia
+LogPluginManager: Mounting Engine plugin ActorSequence
+LogPluginManager: Mounting Engine plugin MoviePipelineMaskRenderPass
+LogPluginManager: Mounting Engine plugin MovieRenderPipeline
+LogPluginManager: Mounting Engine plugin SequencerScripting
+LogPluginManager: Mounting Engine plugin LevelSequenceEditor
+LogPluginManager: Mounting Engine plugin TemplateSequence
+LogPluginManager: Mounting Engine plugin NNEDenoiser
+LogPluginManager: Mounting Engine plugin NNERuntimeORT
+LogPluginManager: Mounting Engine plugin LauncherChunkInstaller
+LogPluginManager: Mounting Engine plugin ActorLayerUtilities
+LogPluginManager: Mounting Engine plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin AndroidPermission
+LogPluginManager: Mounting Engine plugin AndroidFileServer
+LogPluginManager: Mounting Engine plugin MediaPlayerEditor
+LogPluginManager: Mounting Engine plugin AndroidMoviePlayer
+LogPluginManager: Mounting Engine plugin AudioCapture
+LogPluginManager: Mounting Engine plugin AudioSynesthesia
+LogPluginManager: Mounting Engine plugin ArchVisCharacter
+LogPluginManager: Mounting Engine plugin AudioWidgets
+LogPluginManager: Mounting Engine plugin AppleImageUtils
+LogPluginManager: Mounting Engine plugin ChunkDownloader
+LogPluginManager: Mounting Engine plugin CableComponent
+LogPluginManager: Mounting Engine plugin CustomMeshComponent
+LogPluginManager: Mounting Engine plugin ComputeFramework
+LogPluginManager: Mounting Engine plugin AssetTags
+LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin GeometryCache
+LogPluginManager: Mounting Engine plugin GeometryProcessing
+LogPluginManager: Mounting Engine plugin GooglePAD
+LogPluginManager: Mounting Engine plugin HairStrands
+LogPluginManager: Mounting Engine plugin GoogleCloudMessaging
+LogPluginManager: Mounting Engine plugin InputDebugging
+LogPluginManager: Mounting Engine plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LocationServicesBPLibrary
+LogPluginManager: Mounting Engine plugin Metasound
+LogPluginManager: Mounting Engine plugin MeshModelingToolset
+LogPluginManager: Mounting Engine plugin AppleMoviePlayer
+LogPluginManager: Mounting Engine plugin MsQuic
+LogPluginManager: Mounting Engine plugin MobilePatchingUtils
+LogPluginManager: Mounting Engine plugin PropertyAccessEditor
+LogPluginManager: Mounting Engine plugin RigVM
+LogPluginManager: Mounting Engine plugin SignificanceManager
+LogPluginManager: Mounting Engine plugin SoundFields
+LogPluginManager: Mounting Engine plugin ResonanceAudio
+LogPluginManager: Mounting Engine plugin StateTree
+LogPluginManager: Mounting Engine plugin Synthesis
+LogPluginManager: Mounting Engine plugin USDCore
+LogPluginManager: Mounting Engine plugin WaveTable
+LogPluginManager: Mounting Engine plugin WebMMoviePlayer
+LogPluginManager: Mounting Engine plugin WindowsMoviePlayer
+LogPluginManager: Mounting Engine plugin WindowsDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
+LogPluginManager: Mounting Engine plugin Takes
+LogPluginManager: Mounting Engine plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting Engine plugin PortableObjectFileDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting Engine plugin LightMixer
+LogPluginManager: Mounting Engine plugin ObjectMixer
+LogPluginManager: Mounting Engine plugin ConcertMain
+LogPluginManager: Mounting Engine plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting Engine plugin XInputDevice
+LogPluginManager: Mounting Engine plugin HoldoutComposite
+LogPluginManager: Mounting Engine plugin SQLiteCore
+LogPluginManager: Mounting Engine plugin MetaHumanSDK
+LogPluginManager: Mounting Engine plugin OnlineSubsystemIOS
+LogPluginManager: Mounting Engine plugin SkeletalMeshModelingTools
+LogPluginManager: Mounting Engine plugin BaseCharacterFXEditor
+LogPluginManager: Mounting Engine plugin ConcertSharedSlate
+LogPluginManager: Mounting Engine plugin ConcertSyncClient
+LogPluginManager: Mounting Engine plugin ConcertSyncCore
+SourceControl: Revision control is disabled
+SourceControl: Revision control is disabled
+SourceControl: Revision control is disabled
+LogEOSSDK: Initializing EOSSDK Version:1.16.4-36651368
+LogInit: Using libcurl 8.4.0
+LogInit:  - built for Windows
+LogInit:  - supports SSL with OpenSSL/1.1.1t
+LogInit:  - supports HTTP deflate (compression) using libz 1.3
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_HTTP2
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: CreateHttpThread using FCurlMultiPollEventLoopHttpThread
+LogInit: Creating http thread with maximum 2147483647 concurrent requests
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: Created online subsystem instance for: NULL
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+LogWindows: Failed to load 'WinPixGpuCapturer.dll' (GetLastError=126)
+LogWindows: File 'WinPixGpuCapturer.dll' does not exist
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogConfig: Applying CVar settings from Section [/Script/RenderDocPlugin.RenderDocPluginSettings] File [Engine]
+RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+LogNFORDenoise: NFORDenoise function starting up
+LogStudioTelemetry: Display: Starting StudioTelemetry Module
+LogStudioTelemetry: Started StudioTelemetry Session
+LogInit: ExecutableName: UnrealEditor.exe
+LogInit: Build: ++UE5+Release-5.5-CL-39772772
+LogInit: Platform=WindowsEditor
+LogInit: MachineId=d27b68094ed359d4c62c979870d193f1
+LogInit: DeviceId=
+LogInit: Engine Version: 5.5.3-39772772+++UE5+Release-5.5
+LogInit: Compatible Engine Version: 5.5.0-37670630+++UE5+Release-5.5
+LogInit: Net CL: 37670630
+LogInit: OS: Windows 10 (22H2) [10.0.19045.4717] (), CPU: 12th Gen Intel(R) Core(TM) i7-12700F, GPU: NVIDIA GeForce RTX 3070
+LogInit: Compiled (64-bit): Feb  5 2025 22:32:48
+LogInit: Architecture: x64
+LogInit: Compiled with Visual C++: 19.38.33130.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE5+Release-5.5
+LogInit: Command Line:  ../../../../../../Users/schueler/Documents/GitHub/Escapefloor/unyielding_corridor.uproject -BaseDir="C:/Program Files/Epic Games/UE_5.5/Engine/Binaries/Win64/" -Unattended -RunningFromUnrealEd -AbsLog=C:/Users/schueler/Documents/GitHub/Escapefloor/Saved/Logs/WorldPartition/WorldPartitionHLODsBuilder-00003e08-2025-04-28T12.47.03.646Z.log /Game/FirstPerson/Maps/Dachboden_v02 -run=WorldPartitionBuilderCommandlet -Builder=WorldPartitionHLODsBuilder -SetupHLODs -BuildHLODs -AllowCommandletRendering
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_5.5/Engine/Binaries/Win64/
+LogInit: Allocator: Mimalloc
+LogInit: Installed Engine Build: 1
+LogInit: This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+LogDevObjectVersion: Number of dev versions registered: 36
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 20
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 49
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 170
+LogDevObjectVersion:   FortniteValkyrie (8DBC2C5B-54A7-43E0-A768-FCBB7DA29060): 8
+LogDevObjectVersion:   FortniteSeason (5B4C06B7-2463-4AF8-805B-BF70CDF5D0DD): 13
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 15
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   UE5-Main (697DD581-E64F-41AB-AA4A-51ECBEB7B628): 119
+LogDevObjectVersion:   UE5-Release (D89B5E42-24BD-4D46-8412-ACA8DF641779): 51
+LogDevObjectVersion:   UE5-PrivateFrosty (59DA5D52-1232-4948-B878-597870B8E98B): 8
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogDevObjectVersion:   Dev-NaniteResearch (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
+LogDevObjectVersion:   Dev-ComputeFramework (6304A3E7-0059-4F59-8CFC-21BD7721FD4E): 0
+LogConfig: Branch 'EditorLayout' had been unloaded. Reloading on-demand took 0.95ms
+LogConfig: Branch 'Bridge' had been unloaded. Reloading on-demand took 0.13ms
+LogConfig: Branch 'ChaosCloth' had been unloaded. Reloading on-demand took 0.13ms
+LogConfig: Branch 'ChaosClothAsset' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'CmdLinkServer' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'FastBuildController' had been unloaded. Reloading on-demand took 0.13ms
+LogConfig: Branch 'MeshPainting' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'RenderGraphInsights' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'UbaController' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'WorldMetrics' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'XGEController' had been unloaded. Reloading on-demand took 0.11ms
+LogConfig: Branch 'OodleNetwork' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'VariantManager' had been unloaded. Reloading on-demand took 0.13ms
+LogConfig: Branch 'NiagaraSimCaching' had been unloaded. Reloading on-demand took 0.13ms
+LogConfig: Branch 'AlembicImporter' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'TcpMessaging' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'UdpMessaging' had been unloaded. Reloading on-demand took 0.11ms
+LogConfig: Branch 'EOSShared' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'OnlineBase' had been unloaded. Reloading on-demand took 0.11ms
+LogConfig: Branch 'OnlineServices' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'OnlineSubsystem' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'OnlineSubsystemNull' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'OnlineSubsystemUtils' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'InterchangeEditor' had been unloaded. Reloading on-demand took 0.14ms
+LogConfig: Branch 'InterchangeTests' had been unloaded. Reloading on-demand took 0.13ms
+LogConfig: Branch 'AISupport' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'EnvironmentQueryEditor' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'ACLPlugin' had been unloaded. Reloading on-demand took 0.11ms
+LogConfig: Branch 'AnimationModifierLibrary' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'AnimationData' had been unloaded. Reloading on-demand took 0.11ms
+LogConfig: Branch 'BlendSpaceMotionAnalysis' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'ControlRigModules' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'ControlRigSpline' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'RigLogic' had been unloaded. Reloading on-demand took 0.14ms
+LogConfig: Branch 'CameraShakePreviewer' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'EngineCameras' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'CLionSourceCodeAccess' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'CodeLiteSourceCodeAccess' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'AnimationSharing' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'DumpGPUServices' had been unloaded. Reloading on-demand took 0.11ms
+LogConfig: Branch 'GitSourceControl' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'N10XSourceCodeAccess' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'PerforceSourceControl' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'KDevelopSourceCodeAccess' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'PixWinPlugin' had been unloaded. Reloading on-demand took 0.11ms
+LogConfig: Branch 'PlasticSourceControl' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'PluginUtils' had been unloaded. Reloading on-demand took 0.11ms
+LogConfig: Branch 'NullSourceCodeAccess' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'RenderDocPlugin' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'PropertyAccessNode' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'RiderSourceCodeAccess' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'SubversionSourceControl' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'TextureFormatOodle' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'UObjectPlugin' had been unloaded. Reloading on-demand took 0.11ms
+LogConfig: Branch 'VisualStudioCodeSourceCodeAccess' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'VisualStudioSourceCodeAccess' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'XCodeSourceCodeAccess' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'AssetManagerEditor' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'BlueprintHeaderView' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'ChangelistReview' had been unloaded. Reloading on-demand took 0.11ms
+LogConfig: Branch 'ColorGrading' had been unloaded. Reloading on-demand took 0.11ms
+LogConfig: Branch 'CryptoKeys' had been unloaded. Reloading on-demand took 0.11ms
+LogConfig: Branch 'CurveEditorTools' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'DataValidation' had been unloaded. Reloading on-demand took 0.11ms
+LogConfig: Branch 'EditorDebugTools' had been unloaded. Reloading on-demand took 0.11ms
+LogConfig: Branch 'EngineAssetDefinitions' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'FacialAnimation' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'GameplayTagsEditor' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'GeometryMode' had been unloaded. Reloading on-demand took 0.11ms
+LogConfig: Branch 'MacGraphicsSwitching' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'MeshLODToolset' had been unloaded. Reloading on-demand took 0.11ms
+LogConfig: Branch 'MobileLauncherProfileWizard' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'ModelingToolsEditorMode' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'ProxyLODPlugin' had been unloaded. Reloading on-demand took 0.11ms
+LogConfig: Branch 'SequencerAnimTools' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'SpeedTreeImporter' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'StylusInput' had been unloaded. Reloading on-demand took 0.11ms
+LogConfig: Branch 'MaterialAnalyzer' had been unloaded. Reloading on-demand took 0.11ms
+LogConfig: Branch 'UMGWidgetPreview' had been unloaded. Reloading on-demand took 0.11ms
+LogConfig: Branch 'UVEditor' had been unloaded. Reloading on-demand took 0.11ms
+LogConfig: Branch 'WorldPartitionHLODUtilities' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'PluginBrowser' had been unloaded. Reloading on-demand took 0.11ms
+LogConfig: Branch 'AdvancedRenamer' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'AutomationUtils' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'BackChannel' had been unloaded. Reloading on-demand took 0.11ms
+LogConfig: Branch 'ChaosEditor' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'ChaosNiagara' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'ChaosSolverPlugin' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'ChaosCaching' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'CharacterAI' had been unloaded. Reloading on-demand took 0.11ms
+LogConfig: Branch 'ChaosUserDataPT' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'Dataflow' had been unloaded. Reloading on-demand took 0.11ms
+LogConfig: Branch 'EditorDataStorage' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'EditorPerformance' had been unloaded. Reloading on-demand took 0.11ms
+LogConfig: Branch 'EditorTelemetry' had been unloaded. Reloading on-demand took 0.11ms
+LogConfig: Branch 'Fracture' had been unloaded. Reloading on-demand took 0.11ms
+LogConfig: Branch 'GeometryCollectionPlugin' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'GeometryFlow' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'LocalizableMessage' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'LowLevelNetTrace' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'MeshModelingToolsetExp' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'NFORDenoise' had been unloaded. Reloading on-demand took 0.11ms
+LogConfig: Branch 'PlanarCut' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'PlatformCrypto' had been unloaded. Reloading on-demand took 0.13ms
+LogConfig: Branch 'PythonScriptPlugin' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'SkeletalReduction' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'StudioTelemetry' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'AndroidMedia' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'AvfMedia' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'ImgMedia' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'MediaCompositing' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'MediaPlate' had been unloaded. Reloading on-demand took 0.11ms
+LogConfig: Branch 'WebMMedia' had been unloaded. Reloading on-demand took 0.11ms
+LogConfig: Branch 'WmfMedia' had been unloaded. Reloading on-demand took 0.11ms
+LogConfig: Branch 'ActorSequence' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'MoviePipelineMaskRenderPass' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'SequencerScripting' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'LevelSequenceEditor' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'TemplateSequence' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'NNEDenoiser' had been unloaded. Reloading on-demand took 0.11ms
+LogConfig: Branch 'NNERuntimeORT' had been unloaded. Reloading on-demand took 0.11ms
+LogConfig: Branch 'LauncherChunkInstaller' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'ActorLayerUtilities' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'AndroidDeviceProfileSelector' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'AndroidPermission' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'AndroidFileServer' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'MediaPlayerEditor' had been unloaded. Reloading on-demand took 0.13ms
+LogConfig: Branch 'AndroidMoviePlayer' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'AudioCapture' had been unloaded. Reloading on-demand took 0.14ms
+LogConfig: Branch 'AudioSynesthesia' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'ArchVisCharacter' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'AudioWidgets' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'AppleImageUtils' had been unloaded. Reloading on-demand took 0.11ms
+LogConfig: Branch 'ChunkDownloader' had been unloaded. Reloading on-demand took 0.11ms
+LogConfig: Branch 'CableComponent' had been unloaded. Reloading on-demand took 0.11ms
+LogConfig: Branch 'CustomMeshComponent' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'ComputeFramework' had been unloaded. Reloading on-demand took 0.11ms
+LogConfig: Branch 'AssetTags' had been unloaded. Reloading on-demand took 0.11ms
+LogConfig: Branch 'ExampleDeviceProfileSelector' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'GeometryCache' had been unloaded. Reloading on-demand took 0.11ms
+LogConfig: Branch 'GeometryProcessing' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'GooglePAD' had been unloaded. Reloading on-demand took 0.11ms
+LogConfig: Branch 'GoogleCloudMessaging' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'InputDebugging' had been unloaded. Reloading on-demand took 0.11ms
+LogConfig: Branch 'IOSDeviceProfileSelector' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'LinuxDeviceProfileSelector' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'LocationServicesBPLibrary' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'MeshModelingToolset' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'AppleMoviePlayer' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'MsQuic' had been unloaded. Reloading on-demand took 0.11ms
+LogConfig: Branch 'MobilePatchingUtils' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'PropertyAccessEditor' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'SignificanceManager' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'SoundFields' had been unloaded. Reloading on-demand took 0.11ms
+LogConfig: Branch 'ResonanceAudio' had been unloaded. Reloading on-demand took 0.11ms
+LogConfig: Branch 'WaveTable' had been unloaded. Reloading on-demand took 0.13ms
+LogConfig: Branch 'WebMMoviePlayer' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'WindowsMoviePlayer' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'WindowsDeviceProfileSelector' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'ProceduralMeshComponent' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'ContentBrowserAssetDataSource' had been unloaded. Reloading on-demand took 0.13ms
+LogConfig: Branch 'ContentBrowserClassDataSource' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'PortableObjectFileDataSource' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'ContentBrowserFileDataSource' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'LightMixer' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'ObjectMixer' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'ConcertMain' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'OnlineSubsystemGooglePlay' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'XInputDevice' had been unloaded. Reloading on-demand took 0.11ms
+LogConfig: Branch 'SQLiteCore' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'OnlineSubsystemIOS' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'SkeletalMeshModelingTools' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'BaseCharacterFXEditor' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'ConcertSharedSlate' had been unloaded. Reloading on-demand took 0.12ms
+LogConfig: Branch 'ConcertSyncClient' had been unloaded. Reloading on-demand took 0.12ms
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC.
+LogStreaming: Display: AsyncLoading2 - Created: Event Driven Loader: false, Async Loading Thread: false, Async Post Load: false
+LogStreaming: Display: AsyncLoading2 - Initialized
+LogInit: Object subsystem initialized
+LogConfig: Set CVar [[con.DebugEarlyDefault:1]]
+LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+LogConfig: Set CVar [[r.setres:1280x720]]
+LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+LogConfig: Set CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
+LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable created
+LogConfig: Set CVar [[r.Nanite.Streaming.ReservedResources:1]]
+LogConfig: Set CVar [[r.Nanite.Streaming.AsyncCompute:0	; Temporary workaround for Nanite geometry corruption (FORT-805141)]]
+LogConfig: CVar [[D3D12.Bindless.ResourceDescriptorHeapSize:32768]] deferred - dummy variable created
+LogConfig: CVar [[D3D12.Bindless.SamplerDescriptorHeapSize:2048]] deferred - dummy variable created
+LogConfig: Set CVar [[r.PSOPrecache.GlobalShaders:1]]
+LogConfig: Set CVar [[r.DynamicRes.DynamicFrameTime:1]]
+LogConfig: Set CVar [[r.VRS.EnableSoftware:1]]
+LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[D3D12.Bindless.ResourceDescriptorHeapSize:32768]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[D3D12.Bindless.SamplerDescriptorHeapSize:2048]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [Engine]
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[VisualizeCalibrationColorMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationColor.PPM_DefaultCalibrationColor]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[VisualizeCalibrationGrayscaleMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale.PPM_DefaultCalibrationGrayscale]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.GPUCrashDebugging:0]]
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[MaxSkinBones:(Default=65536,PerPlatform=(("Mobile", 256)))]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.ReflectionMethod:1]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.GenerateMeshDistanceFields:1]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.DynamicGlobalIlluminationMethod:1]]
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[r.Mobile.EnableNoPrecomputedLightingCSMShader:1]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.SkinCache.CompileShaders:1]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.RayTracing:1]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.Shadow.Virtual.Enable:1]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.DefaultFeature.LocalExposure.HighlightContrastScale:0.8]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.DefaultFeature.LocalExposure.ShadowContrastScale:0.8]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.DefaultFeature.AutoExposure:0]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.Shaders.RemoveUnusedInterpolators:1]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [Engine]
+[2025.04.28-10.47.05:934][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [Engine]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[s.AsyncLoadingThreadEnabled:1]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[s.EventDrivenLoaderEnabled:1]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[s.UseBackgroundLevelStreaming:1]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[s.MaxPackageSummarySize:16384]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[s.FlushStreamingOnExit:1]]
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__SoundBase]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__MaterialInterface]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__DeviceProfileManager]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [Engine]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[gc.FlushStreamingOnGC:0]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[gc.AllowParallelGC:1]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[gc.MaxObjectsInEditor:25165824]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[gc.CreateGCClusters:1]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[gc.MinGCClusterSize:5]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[gc.AssetClustreringEnabled:0]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[gc.ActorClusteringEnabled:0]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[gc.VerifyUObjectsAreNotFGCObjects:0]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[gc.GarbageEliminationEnabled:1]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [Engine]
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Average",ToolTip="Simulates average internet conditions")]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Bad",ToolTip="Simulates laggy internet conditions")]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [Engine]
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[DefaultASTCQualityBySpeed:2]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[DefaultASTCQualityBySize:3]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[DefaultASTCQualityBySizeHQ:4]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:WidgetBlueprint]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GroupActor]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MetaData]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ObjectRedirector]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NavMeshRenderingComponent]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ReflectionCaptureComponent]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:TextRenderComponent]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:Font]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:InterpCurveEdSetup]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MaterialExpression]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraEmitter]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraScript]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleEmitter]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleLODLevel]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleModule]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SubUVAnimation]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SoundNode]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GameplayEffectUIData]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:AmbientSound]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:WidgetBlueprint]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:GroupActor]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:MetaData]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:ObjectRedirector]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:InterpCurveEdSetup]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[VersionedIntRValues:r.AllowStaticLighting]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[VersionedIntRValues:r.MaterialEditor.LWCTruncateMode]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[VersionedIntRValues:r.GBuffer]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[VersionedIntRValues:r.VelocityOutputPass]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[VersionedIntRValues:r.SelectiveBasePassOutputs]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[VersionedIntRValues:r.DBuffer]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[VersionedIntRValues:r.Mobile.DBuffer]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Symbols]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.GenerateSymbols]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.WriteSymbols]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.AllowUniqueSymbols]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.ExtraData]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Optimize]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[VersionedIntRValues:r.CompileShadersForDevelopment]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[VersionedIntRValues:r.MobileHDR]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[VersionedIntRValues:r.UsePreExposure]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: CVar [[bCookOnTheFlyForLaunchOn:0]] deferred - dummy variable created
+[2025.04.28-10.47.05:934][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Scalability]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.SkeletalMeshLODBias:0]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.ViewDistanceScale:1.0]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.FXAA.Quality:4]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.TemporalAA.Quality:2]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.TSR.History.R11G11B10:1]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.TSR.History.ScreenPercentage:200]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.TSR.History.UpdateQuality:3]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.TSR.ShadingRejection.Flickering:1]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.TSR.RejectionAntiAliasingQuality:2]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.TSR.ReprojectionField:1]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.TSR.Resurrection:1]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.LightFunctionQuality:1]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.ShadowQuality:5]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.Shadow.MaxResolution:2048]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.Shadow.DistanceScale:1.0]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.DistanceFieldShadowing:1]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.VolumetricFog:1]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:1]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.CapsuleShadows:1]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:4096]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectional:-1.5]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectionalMoving:-1.5]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocal:0.0]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocalMoving:1.0]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:8]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:4]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:8]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:4]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.DistanceFieldAO:1]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.AOQuality:2]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.Lumen.DiffuseIndirect.Allow:1]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.ProbeSpacing:4]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.HemisphereProbeResolution:4]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.Lumen.TraceMeshSDFs.Allow:1]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.ProbeResolution:32]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.NumProbesToTraceBudget:300]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.DownsampleFactor:16]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TracingOctahedronResolution:8]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.IrradianceFormat:0]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.StochasticInterpolation:0]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.FullResolutionJitterWidth:1]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TwoSidedFoliageBackfaceDiffuse:1]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ScreenTraces.HZBTraversal.FullResDepth:1]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ShortRangeAO.HardwareRayTracing:0]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.GridPixelSize:32]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TraceFromVolume:1]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TracingOctahedronResolution:3]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.ProbeResolution:8]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.NumProbesToTraceBudget:200]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.RayTracing.Scene.BuildMode:1]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Applying CVar settings from Section [ReflectionQuality@3] File [Scalability]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.SSR.Quality:3]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.SSR.HalfResSceneColor:0]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.Lumen.Reflections.Allow:1]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.Lumen.Reflections.DownsampleFactor:1]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.Lumen.Reflections.MaxRoughnessToTraceForFoliage:0.4]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.MaxRoughnessToEvaluateRoughSpecularForFoliage:0.8]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.Lumen.Reflections.ScreenSpaceReconstruction.TonemapMode:1]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.Lumen.Reflections.ScreenSpaceReconstruction.MinWeight:0]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Allow:1]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Enable:0]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Scalability]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.MotionBlurQuality:4]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.MotionBlur.HalfResGather:0]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.AmbientOcclusionLevels:-1]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.DepthOfFieldQuality:2]]
+[2025.04.28-10.47.05:934][  0]LogConfig: Set CVar [[r.RenderTargetPoolMin:400]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.LensFlareQuality:2]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.SceneColorFringeQuality:1]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.EyeAdaptationQuality:2]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.BloomQuality:5]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.Bloom.ScreenPercentage:50.000]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.FastBlurThreshold:100]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.Upscale.Quality:3]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.LightShaftQuality:1]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.Filter.SizeScale:1]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.Tonemapper.Quality:5]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.DOF.Gather.ResolutionDivisor:2         ; lower gathering resolution]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Scalability]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.Streaming.MipBias:0]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.Streaming.Boost:1]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.MaxAnisotropy:8]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.VT.MaxAnisotropy:8]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.Streaming.PoolSize:1000]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Scalability]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.RefractionQuality:2]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.SceneColorFormat:4]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.DetailMode:3]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.TranslucencyVolumeBlur:1]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.SSS.Scale:1]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.SSS.SampleSet:2]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.SSS.Quality:1]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.SSS.HalfRes:0]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.SSGI.Quality:3]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.EmitterSpawnRateScale:1.0]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.ParticleLightQuality:2]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[fx.Niagara.QualityLevel:3]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.Refraction.OffsetQuality:1]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.DownsampleFactor:1]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.MaxStepCount:512]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.Shadows.Resolution:512]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Scalability]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[foliage.DensityScale:1.0]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[grass.DensityScale:1.0]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Scalability]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Set CVar [[r.AnisotropicMaterials:1]]
+[2025.04.28-10.47.05:935][  0]LogConfig: Applying CVar settings from Section [LandscapeQuality@3] File [Scalability]
+[2025.04.28-10.47.05:938][  0]LogRHI: Using Default RHI: D3D12
+[2025.04.28-10.47.05:938][  0]LogRHI: Using Highest Feature Level of D3D12: SM6
+[2025.04.28-10.47.05:938][  0]LogRHI: Loading RHI module D3D12RHI
+[2025.04.28-10.47.05:941][  0]LogD3D12RHI: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+[2025.04.28-10.47.05:941][  0]LogRHI: Checking if RHI D3D12 with Feature Level SM6 is supported by your system.
+[2025.04.28-10.47.06:100][  0]LogD3D12RHI: Found D3D12 adapter 0: NVIDIA GeForce RTX 3070 (VendorId: 10de, DeviceId: 2488, SubSysId: 404e1458, Revision: 00a1
+[2025.04.28-10.47.06:100][  0]LogD3D12RHI:   Max supported Feature Level 12_2, shader model 6.7, binding tier 3, wave ops supported, atomic64 supported
+[2025.04.28-10.47.06:100][  0]LogD3D12RHI:   Adapter has 8018MB of dedicated video memory, 0MB of dedicated system memory, and 16301MB of shared system memory, 2 output[s]
+[2025.04.28-10.47.06:101][  0]LogD3D12RHI:   Driver Version: 560.94 (internal:32.0.15.6094, unified:560.94)
+[2025.04.28-10.47.06:101][  0]LogD3D12RHI:      Driver Date: 8-14-2024
+[2025.04.28-10.47.06:103][  0]LogD3D12RHI: Found D3D12 adapter 1: Microsoft Basic Render Driver (VendorId: 1414, DeviceId: 008c, SubSysId: 0000, Revision: 0000
+[2025.04.28-10.47.06:103][  0]LogD3D12RHI:   Max supported Feature Level 12_1, shader model 6.2, binding tier 3, wave ops supported, atomic64 unsupported
+[2025.04.28-10.47.06:103][  0]LogD3D12RHI:   Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 16301MB of shared system memory, 0 output[s]
+[2025.04.28-10.47.06:103][  0]LogD3D12RHI: DirectX Agility SDK runtime found.
+[2025.04.28-10.47.06:103][  0]LogD3D12RHI: Chosen D3D12 Adapter Id = 0
+[2025.04.28-10.47.06:103][  0]LogRHI: RHI D3D12 with Feature Level SM6 is supported and will be used.
+[2025.04.28-10.47.06:103][  0]LogInit: Selected Device Profile: [WindowsEditor]
+[2025.04.28-10.47.06:103][  0]LogHAL: Display: Platform has ~ 32 GB [34187685888 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2025.04.28-10.47.06:104][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [Windows]
+[2025.04.28-10.47.06:104][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2025.04.28-10.47.06:104][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[UI.SlateSDFText.RasterizationMode:Bitmap -> Msdf]]
+[2025.04.28-10.47.06:104][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[UI.SlateSDFText.ResolutionLevel:2 -> 2]]
+[2025.04.28-10.47.06:104][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2025.04.28-10.47.06:104][  0]LogConfig: Set CVar [[r.DumpShaderDebugInfo:2]]
+[2025.04.28-10.47.06:104][  0]LogConfig: Set CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2025.04.28-10.47.06:104][  0]LogConfig: Set CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2025.04.28-10.47.06:104][  0]LogConfig: CVar [[ds.CADTranslator.Meshing.ActivateThinZoneMeshing:0]] deferred - dummy variable created
+[2025.04.28-10.47.06:104][  0]LogConfig: CVar [[ds.CADTranslator.Stitching.RemoveThinFaces:0]] deferred - dummy variable created
+[2025.04.28-10.47.06:104][  0]LogConfig: Applying CVar settings from Section [Startup_Windows] File [../../../Engine/Config/ConsoleVariables.ini]
+[2025.04.28-10.47.06:104][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2025.04.28-10.47.06:104][  0]LogConfig: Set CVar [[memory.MemoryPressureCriticalThresholdMB:512]]
+[2025.04.28-10.47.06:104][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/schueler/Documents/GitHub/Escapefloor/Saved/Config/WindowsEditor/Editor.ini]
+[2025.04.28-10.47.06:104][  0]LogInit: Computer: DSSN419-18
+[2025.04.28-10.47.06:104][  0]LogInit: User: schueler
+[2025.04.28-10.47.06:104][  0]LogInit: CPU Page size=4096, Cores=12
+[2025.04.28-10.47.06:104][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2025.04.28-10.47.06:254][  0]LogMemory: Process is running as part of a Windows Job with separate resource limits
+[2025.04.28-10.47.06:254][  0]LogMemory: Memory total: Physical=31.8GB (32GB approx) Virtual=40.8GB
+[2025.04.28-10.47.06:254][  0]LogMemory: Platform Memory Stats for WindowsEditor
+[2025.04.28-10.47.06:254][  0]LogMemory: Process Physical Memory: 609.54 MB used, 621.48 MB peak
+[2025.04.28-10.47.06:254][  0]LogMemory: Process Virtual Memory: 653.61 MB used, 653.61 MB peak
+[2025.04.28-10.47.06:254][  0]LogMemory: Physical Memory: 18722.36 MB used,  13881.55 MB free, 32603.92 MB total
+[2025.04.28-10.47.06:254][  0]LogMemory: Virtual Memory: 33003.77 MB used,  8795.27 MB free, 41799.04 MB total
+[2025.04.28-10.47.06:254][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2025.04.28-10.47.06:257][  0]LogWindows: WindowsPlatformFeatures enabled
+[2025.04.28-10.47.06:262][  0]LogChaosDD: Chaos Debug Draw Startup
+[2025.04.28-10.47.06:262][  0]LogInit: Physics initialised using underlying interface: Chaos
+[2025.04.28-10.47.06:262][  0]LogInit: Overriding language with editor language configuration option (en).
+[2025.04.28-10.47.06:262][  0]LogInit: Using OS detected locale (de-DE).
+[2025.04.28-10.47.09:045][  0]LogRHI: Using Default RHI: D3D12
+[2025.04.28-10.47.09:045][  0]LogRHI: Using Highest Feature Level of D3D12: SM6
+[2025.04.28-10.47.09:045][  0]LogRHI: Loading RHI module D3D12RHI
+[2025.04.28-10.47.09:045][  0]LogRHI: Checking if RHI D3D12 with Feature Level SM6 is supported by your system.
+[2025.04.28-10.47.09:045][  0]LogRHI: RHI D3D12 with Feature Level SM6 is supported and will be used.
+[2025.04.28-10.47.09:045][  0]LogD3D12RHI: Display: Creating D3D12 RHI with Max Feature Level SM6
+[2025.04.28-10.47.09:047][  0]LogWindows: Attached monitors:
+[2025.04.28-10.47.09:047][  0]LogWindows:     resolution: 1920x1080, work area: (0, 0) -> (1920, 1040), device: '\\.\DISPLAY1' [PRIMARY]
+[2025.04.28-10.47.09:047][  0]LogWindows:     resolution: 1920x1080, work area: (1920, 0) -> (3840, 1040), device: '\\.\DISPLAY2'
+[2025.04.28-10.47.09:047][  0]LogWindows: Found 2 attached monitors.
+[2025.04.28-10.47.09:047][  0]LogWindows: Gathering driver information using Windows Setup API
+[2025.04.28-10.47.09:047][  0]LogRHI: RHI Adapter Info:
+[2025.04.28-10.47.09:047][  0]LogRHI:             Name: NVIDIA GeForce RTX 3070
+[2025.04.28-10.47.09:047][  0]LogRHI:   Driver Version: 560.94 (internal:32.0.15.6094, unified:560.94)
+[2025.04.28-10.47.09:047][  0]LogRHI:      Driver Date: 8-14-2024
+[2025.04.28-10.47.09:047][  0]LogD3D12RHI:     GPU DeviceId: 0x2488 (for the marketing name, search the web for "GPU Device Id")
+[2025.04.28-10.47.09:047][  0]LogD3D12RHI: InitD3DDevice: -D3DDebug = off -D3D12GPUValidation = off
+[2025.04.28-10.47.09:110][  0]LogNvidiaAftermath: Aftermath initialized
+[2025.04.28-10.47.09:110][  0]LogD3D12RHI: Emitting draw events for PIX profiling.
+[2025.04.28-10.47.09:148][  0]LogNvidiaAftermath: Aftermath enabled. Active feature flags: 
+[2025.04.28-10.47.09:148][  0]LogNvidiaAftermath:  - Feature: EnableResourceTracking
+[2025.04.28-10.47.09:148][  0]LogD3D12RHI: ID3D12Device1 is supported.
+[2025.04.28-10.47.09:148][  0]LogD3D12RHI: ID3D12Device2 is supported.
+[2025.04.28-10.47.09:148][  0]LogD3D12RHI: ID3D12Device3 is supported.
+[2025.04.28-10.47.09:148][  0]LogD3D12RHI: ID3D12Device4 is supported.
+[2025.04.28-10.47.09:148][  0]LogD3D12RHI: ID3D12Device5 is supported.
+[2025.04.28-10.47.09:148][  0]LogD3D12RHI: ID3D12Device6 is supported.
+[2025.04.28-10.47.09:148][  0]LogD3D12RHI: ID3D12Device7 is supported.
+[2025.04.28-10.47.09:148][  0]LogD3D12RHI: ID3D12Device8 is supported.
+[2025.04.28-10.47.09:148][  0]LogD3D12RHI: ID3D12Device9 is supported.
+[2025.04.28-10.47.09:148][  0]LogD3D12RHI: ID3D12Device10 is supported.
+[2025.04.28-10.47.09:148][  0]LogD3D12RHI: ID3D12Device11 is supported.
+[2025.04.28-10.47.09:148][  0]LogD3D12RHI: ID3D12Device12 is supported.
+[2025.04.28-10.47.09:148][  0]LogD3D12RHI: Bindless resources are supported
+[2025.04.28-10.47.09:148][  0]LogD3D12RHI: Stencil ref from pixel shader is not supported
+[2025.04.28-10.47.09:148][  0]LogD3D12RHI: Raster order views are supported
+[2025.04.28-10.47.09:148][  0]LogD3D12RHI: Wave Operations are supported (wave size: min=32 max=32).
+[2025.04.28-10.47.09:148][  0]LogD3D12RHI: D3D12 ray tracing tier 1.1 and bindless resources are supported.
+[2025.04.28-10.47.09:148][  0]LogD3D12RHI: Mesh shader tier 1.0 is supported
+[2025.04.28-10.47.09:148][  0]LogD3D12RHI: AtomicInt64OnTypedResource is supported
+[2025.04.28-10.47.09:148][  0]LogD3D12RHI: AtomicInt64OnGroupShared is supported
+[2025.04.28-10.47.09:148][  0]LogD3D12RHI: AtomicInt64OnDescriptorHeapResource is supported
+[2025.04.28-10.47.09:148][  0]LogD3D12RHI: Shader Model 6.6 atomic64 is supported
+[2025.04.28-10.47.09:148][  0]LogD3D12RHI: Work Graphs are supported
+[2025.04.28-10.47.09:192][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for DiagnosticBuffer (Queue: 0x000009469ED73B00)
+[2025.04.28-10.47.09:193][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for DiagnosticBuffer (Queue: 0x000009469ED73D80)
+[2025.04.28-10.47.09:193][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for DiagnosticBuffer (Queue: 0x000009469ED74000)
+[2025.04.28-10.47.09:193][  0]LogD3D12RHI: Display: Not using pipeline state disk cache per r.D3D12.PSO.DiskCache=0
+[2025.04.28-10.47.09:193][  0]LogD3D12RHI: Display: Not using driver-optimized pipeline state disk cache per r.D3D12.PSO.DriverOptimizedDiskCache=0
+[2025.04.28-10.47.09:193][  0]LogRHI: Texture pool is 4567 MB (70% of 6525 MB)
+[2025.04.28-10.47.09:193][  0]LogD3D12RHI: Async texture creation enabled
+[2025.04.28-10.47.09:193][  0]LogD3D12RHI: RHI has support for 64 bit atomics
+[2025.04.28-10.47.09:206][  0]LogVRS: Current RHI supports per-draw and screenspace Variable Rate Shading
+[2025.04.28-10.47.09:207][  0]LogInit: Initializing FReadOnlyCVARCache
+[2025.04.28-10.47.09:224][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+[2025.04.28-10.47.09:224][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+[2025.04.28-10.47.09:224][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+[2025.04.28-10.47.09:224][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+[2025.04.28-10.47.09:224][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+[2025.04.28-10.47.09:224][  0]LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.12
+[2025.04.28-10.47.09:224][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.12.dll
+[2025.04.28-10.47.09:225][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.5.dll
+[2025.04.28-10.47.09:225][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+[2025.04.28-10.47.09:250][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2025.04.28-10.47.09:250][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2025.04.28-10.47.09:250][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2025.04.28-10.47.09:250][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2025.04.28-10.47.09:250][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2025.04.28-10.47.09:250][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2025.04.28-10.47.09:250][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2025.04.28-10.47.09:250][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2025.04.28-10.47.09:250][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2025.04.28-10.47.09:250][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2025.04.28-10.47.09:265][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2025.04.28-10.47.09:265][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2025.04.28-10.47.09:278][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2025.04.28-10.47.09:278][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxEditor'
+[2025.04.28-10.47.09:278][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2025.04.28-10.47.09:278][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2025.04.28-10.47.09:292][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64'
+[2025.04.28-10.47.09:292][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Server'
+[2025.04.28-10.47.09:292][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Client'
+[2025.04.28-10.47.09:306][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2025.04.28-10.47.09:307][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacEditor'
+[2025.04.28-10.47.09:307][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2025.04.28-10.47.09:307][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2025.04.28-10.47.09:320][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2025.04.28-10.47.09:320][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2025.04.28-10.47.09:333][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2025.04.28-10.47.09:333][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2025.04.28-10.47.09:333][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2025.04.28-10.47.09:333][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2025.04.28-10.47.09:333][  0]LogTargetPlatformManager: Display: Building Assets For WindowsEditor
+[2025.04.28-10.47.09:340][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2025.04.28-10.47.09:365][  0]LogTargetPlatformManager: Unable to find shader format SF_METAL from hinted modules, loading all potential format modules to find it
+[2025.04.28-10.47.09:367][  0]LogTargetPlatformManager: Loaded format module MetalShaderFormat
+[2025.04.28-10.47.09:367][  0]LogTargetPlatformManager:   SF_METAL
+[2025.04.28-10.47.09:367][  0]LogTargetPlatformManager:   SF_METAL_MRT
+[2025.04.28-10.47.09:367][  0]LogTargetPlatformManager:   SF_METAL_TVOS
+[2025.04.28-10.47.09:367][  0]LogTargetPlatformManager:   SF_METAL_MRT_TVOS
+[2025.04.28-10.47.09:367][  0]LogTargetPlatformManager:   SF_METAL_SM5
+[2025.04.28-10.47.09:367][  0]LogTargetPlatformManager:   SF_METAL_SM6
+[2025.04.28-10.47.09:367][  0]LogTargetPlatformManager:   SF_METAL_SIM
+[2025.04.28-10.47.09:367][  0]LogTargetPlatformManager:   SF_METAL_MACES3_1
+[2025.04.28-10.47.09:367][  0]LogTargetPlatformManager:   SF_METAL_MRT_MAC
+[2025.04.28-10.47.09:367][  0]LogTargetPlatformManager: Loaded format module ShaderFormatD3D
+[2025.04.28-10.47.09:367][  0]LogTargetPlatformManager:   PCD3D_SM6
+[2025.04.28-10.47.09:367][  0]LogTargetPlatformManager:   PCD3D_SM5
+[2025.04.28-10.47.09:367][  0]LogTargetPlatformManager:   PCD3D_ES31
+[2025.04.28-10.47.09:367][  0]LogTargetPlatformManager: Loaded format module ShaderFormatOpenGL
+[2025.04.28-10.47.09:367][  0]LogTargetPlatformManager:   GLSL_150_ES31
+[2025.04.28-10.47.09:367][  0]LogTargetPlatformManager:   GLSL_ES3_1_ANDROID
+[2025.04.28-10.47.09:367][  0]LogTargetPlatformManager: Loaded format module ShaderFormatVectorVM
+[2025.04.28-10.47.09:367][  0]LogTargetPlatformManager:   VVM_1_0
+[2025.04.28-10.47.09:367][  0]LogTargetPlatformManager: Loaded format module VulkanShaderFormat
+[2025.04.28-10.47.09:367][  0]LogTargetPlatformManager:   SF_VULKAN_SM5
+[2025.04.28-10.47.09:367][  0]LogTargetPlatformManager:   SF_VULKAN_ES31_ANDROID
+[2025.04.28-10.47.09:367][  0]LogTargetPlatformManager:   SF_VULKAN_ES31
+[2025.04.28-10.47.09:367][  0]LogTargetPlatformManager:   SF_VULKAN_SM5_ANDROID
+[2025.04.28-10.47.09:367][  0]LogTargetPlatformManager:   SF_VULKAN_SM6
+[2025.04.28-10.47.09:367][  0]LogRendererCore: Ray tracing is enabled (dynamic). Reason: r.RayTracing=1 and r.RayTracing.EnableOnDemand=1.
+[2025.04.28-10.47.09:367][  0]LogRendererCore: Ray tracing shaders are enabled.
+[2025.04.28-10.47.09:369][  0]LogDerivedDataCache: Display: Memory: Max Cache Size: -1 MB
+[2025.04.28-10.47.09:369][  0]LogDerivedDataCache: FDerivedDataBackendGraph: Pak pak cache file ../../../../../../Users/schueler/Documents/GitHub/Escapefloor/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2025.04.28-10.47.09:369][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchy Hierarchy.
+[2025.04.28-10.47.09:369][  0]LogDerivedDataCache: FDerivedDataBackendGraph: CompressedPak pak cache file ../../../../../../Users/schueler/Documents/GitHub/Escapefloor/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2025.04.28-10.47.09:369][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchy Hierarchy.
+[2025.04.28-10.47.09:423][  0]LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1583 MiB)
+[2025.04.28-10.47.09:423][  0]LogDerivedDataCache: FDerivedDataBackendGraph: EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2025.04.28-10.47.09:423][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchy Hierarchy.
+[2025.04.28-10.47.09:423][  0]LogZenServiceInstance: Found subprocess environment variable UE-ZenSubprocessDataPath=C:/Users/schueler/AppData/Local/UnrealEngine/Common/Zen/Data
+[2025.04.28-10.47.09:429][  0]LogZenServiceInstance: InTree version at 'C:/Program Files/Epic Games/UE_5.5/Engine/Binaries/Win64/zenserver.exe' is '5.5.7-202409112143-windows-x64-release-f523a01'
+[2025.04.28-10.47.09:429][  0]LogZenServiceInstance: Installed version at 'C:/Users/schueler/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe' is '5.5.7-202409112143-windows-x64-release-f523a01'
+[2025.04.28-10.47.09:439][  0]LogZenServiceInstance: Found existing instance running on port 8558 matching our settings, no actions needed
+[2025.04.28-10.47.09:441][  0]LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at [::1]:8558 status: OK!.
+[2025.04.28-10.47.09:441][  0]LogZenServiceInstance: Local ZenServer AutoLaunch initialization completed in 0.018 seconds
+[2025.04.28-10.47.09:442][  0]LogDerivedDataCache: Display: ZenLocal: Using ZenServer HTTP service at http://[::1]:8558/ with namespace ue.ddc status: OK!.
+[2025.04.28-10.47.09:490][  0]LogDerivedDataCache: C:/Users/schueler/AppData/Local/UnrealEngine/Common/DerivedDataCache: Speed tests took 0.05 seconds.
+[2025.04.28-10.47.09:490][  0]LogDerivedDataCache: Display: C:/Users/schueler/AppData/Local/UnrealEngine/Common/DerivedDataCache: Performance: Latency=0.02ms. RandomReadSpeed=22.59MBs, RandomWriteSpeed=188.16MBs. Assigned SpeedClass 'Local'
+[2025.04.28-10.47.09:495][  0]LogDerivedDataCache: Local: Using data cache path C:/Users/schueler/AppData/Local/UnrealEngine/Common/DerivedDataCache: DeleteOnly
+[2025.04.28-10.47.09:496][  0]LogDerivedDataCache: ZenShared: Disabled because Host is set to 'None'
+[2025.04.28-10.47.09:496][  0]LogDerivedDataCache: Unable to find inner node ZenShared for hierarchy Hierarchy.
+[2025.04.28-10.47.09:496][  0]LogDerivedDataCache: Shared: Disabled because no path is configured.
+[2025.04.28-10.47.09:496][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchy Hierarchy.
+[2025.04.28-10.47.09:496][  0]LogDerivedDataCache: Cloud: Disabled because Host is set to 'None'
+[2025.04.28-10.47.09:496][  0]LogDerivedDataCache: Unable to find inner node Cloud for hierarchy Hierarchy.
+[2025.04.28-10.47.09:496][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Intermediate/Shaders/WorkingDirectory/4800/).
+[2025.04.28-10.47.09:496][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/schueler/AppData/Local/Temp/UnrealShaderWorkingDir/BD404FF44044177E1FDAF3B67C5903D5/'.
+[2025.04.28-10.47.09:496][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2025.04.28-10.47.09:496][  0]LogShaderCompilers: Display: Using Local Shader Compiler with 17 workers.
+[2025.04.28-10.47.09:498][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+[2025.04.28-10.47.09:503][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2025.04.28-10.47.15:722][  0]LogAssetRegistry: FAssetRegistry took 0.0032 seconds to start up
+[2025.04.28-10.47.15:723][  0]LogEditorDomain: Display: EditorDomain is Disabled
+[2025.04.28-10.47.15:728][  0]LogAssetRegistry: Display: AssetDataGatherer spent 0.001s loading caches ../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Intermediate/CachedAssetRegistry_*.bin.
+[2025.04.28-10.47.15:858][  0]LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.28-10.47.15:865][  0]LogTextureEncodingSettings: Display: Texture Encode Speed: Final (cook).
+[2025.04.28-10.47.15:865][  0]LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2025.04.28-10.47.15:865][  0]LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+[2025.04.28-10.47.15:875][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+[2025.04.28-10.47.15:875][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+[2025.04.28-10.47.15:894][  0]LogDeviceProfileManager: Active device profile: [00000946BC777E00][00000946BCC28000 66] WindowsEditor
+[2025.04.28-10.47.15:894][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2025.04.28-10.47.15:942][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.04.28-10.47.15:946][  0]LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness has reached state ExportsDone > CreateLinkerLoadExports, releasing request 8 to allow recursive sync load to finish
+[2025.04.28-10.47.15:946][  0]LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.04.28-10.47.15:946][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.04.28-10.47.15:946][  0]LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness has reached state ExportsDone > CreateLinkerLoadExports, releasing request 9 to allow recursive sync load to finish
+[2025.04.28-10.47.15:946][  0]LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.04.28-10.47.15:946][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.04.28-10.47.15:950][  0]LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec has reached state ExportsDone > CreateLinkerLoadExports, releasing request 10 to allow recursive sync load to finish
+[2025.04.28-10.47.15:950][  0]LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.04.28-10.47.15:950][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.04.28-10.47.15:950][  0]LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec has reached state ExportsDone > CreateLinkerLoadExports, releasing request 11 to allow recursive sync load to finish
+[2025.04.28-10.47.15:951][  0]LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.04.28-10.47.15:951][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/WorldGridMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.04.28-10.47.15:966][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: ExportsDone) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.04.28-10.47.15:975][  0]LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness has reached state ExportsDone > CreateLinkerLoadExports, releasing request 13 to allow recursive sync load to finish
+[2025.04.28-10.47.15:975][  0]LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness with requester package /Engine/EngineMaterials/WorldGridMaterial
+[2025.04.28-10.47.15:975][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: ExportsDone) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.04.28-10.47.15:975][  0]LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec has reached state ExportsDone > CreateLinkerLoadExports, releasing request 14 to allow recursive sync load to finish
+[2025.04.28-10.47.15:975][  0]LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec with requester package /Engine/EngineMaterials/WorldGridMaterial
+[2025.04.28-10.47.15:975][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.04.28-10.47.15:976][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.04.28-10.47.15:976][  0]LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness has reached state ExportsDone > CreateLinkerLoadExports, releasing request 16 to allow recursive sync load to finish
+[2025.04.28-10.47.15:976][  0]LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness with requester package /Engine/EngineMaterials/DefaultDeferredDecalMaterial
+[2025.04.28-10.47.15:976][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.04.28-10.47.15:976][  0]LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec has reached state ExportsDone > CreateLinkerLoadExports, releasing request 17 to allow recursive sync load to finish
+[2025.04.28-10.47.15:976][  0]LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec with requester package /Engine/EngineMaterials/DefaultDeferredDecalMaterial
+[2025.04.28-10.47.15:976][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.04.28-10.47.15:981][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.04.28-10.47.15:981][  0]LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness has reached state ExportsDone > CreateLinkerLoadExports, releasing request 19 to allow recursive sync load to finish
+[2025.04.28-10.47.16:076][  0]LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness with requester package /Engine/EngineMaterials/DefaultLightFunctionMaterial
+[2025.04.28-10.47.16:076][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.04.28-10.47.16:076][  0]LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec has reached state ExportsDone > CreateLinkerLoadExports, releasing request 20 to allow recursive sync load to finish
+[2025.04.28-10.47.16:076][  0]LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec with requester package /Engine/EngineMaterials/DefaultLightFunctionMaterial
+[2025.04.28-10.47.16:076][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.04.28-10.47.16:076][  0]LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/DefaultDiffuse with requester package /Engine/EngineMaterials/DefaultLightFunctionMaterial
+[2025.04.28-10.47.16:076][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.04.28-10.47.16:076][  0]LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness has reached state ExportsDone > CreateLinkerLoadExports, releasing request 22 to allow recursive sync load to finish
+[2025.04.28-10.47.16:076][  0]LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness with requester package /Engine/EngineMaterials/DefaultPostProcessMaterial
+[2025.04.28-10.47.16:076][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.04.28-10.47.16:076][  0]LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec has reached state ExportsDone > CreateLinkerLoadExports, releasing request 23 to allow recursive sync load to finish
+[2025.04.28-10.47.16:076][  0]LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec with requester package /Engine/EngineMaterials/DefaultPostProcessMaterial
+[2025.04.28-10.47.16:076][  0]LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components with requester package /Engine/EngineMaterials/DefaultLightFunctionMaterial
+[2025.04.28-10.47.16:076][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultPostProcessMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 21 to allow recursive sync load to finish
+[2025.04.28-10.47.16:076][  0]LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/DefaultPostProcessMaterial with requester package /Engine/EngineMaterials/DefaultLightFunctionMaterial
+[2025.04.28-10.47.16:076][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.04.28-10.47.16:178][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultPostProcessMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 24 to allow recursive sync load to finish
+[2025.04.28-10.47.16:178][  0]LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/DefaultPostProcessMaterial with requester package /Engine/EngineMaterials/DefaultLightFunctionMaterial
+[2025.04.28-10.47.16:178][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 18 to allow recursive sync load to finish
+[2025.04.28-10.47.16:178][  0]LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/DefaultLightFunctionMaterial with requester package /Engine/EngineMaterials/DefaultDeferredDecalMaterial
+[2025.04.28-10.47.16:178][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.04.28-10.47.16:178][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 25 to allow recursive sync load to finish
+[2025.04.28-10.47.16:178][  0]LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/DefaultLightFunctionMaterial with requester package /Engine/EngineMaterials/DefaultDeferredDecalMaterial
+[2025.04.28-10.47.16:178][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultDeferredDecalMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 15 to allow recursive sync load to finish
+[2025.04.28-10.47.16:178][  0]LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/DefaultDeferredDecalMaterial with requester package /Engine/EngineMaterials/WorldGridMaterial
+[2025.04.28-10.47.16:178][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: ExportsDone) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.04.28-10.47.16:178][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultDeferredDecalMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 26 to allow recursive sync load to finish
+[2025.04.28-10.47.16:178][  0]LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/DefaultDeferredDecalMaterial with requester package /Engine/EngineMaterials/WorldGridMaterial
+[2025.04.28-10.47.16:178][  0]LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.04.28-10.47.16:178][  0]LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/T_Default_Material_Grid_M with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.04.28-10.47.16:178][  0]LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/T_Default_Material_Grid_N with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.04.28-10.47.16:178][  0]LogStreaming: Display: Package /Engine/EngineMaterials/WorldGridMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 12 to allow recursive sync load to finish
+[2025.04.28-10.47.16:178][  0]LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/WorldGridMaterial with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.04.28-10.47.16:178][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/WorldGridMaterial (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.04.28-10.47.16:278][  0]LogStreaming: Display: Package /Engine/EngineMaterials/WorldGridMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 27 to allow recursive sync load to finish
+[2025.04.28-10.47.16:278][  0]LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/WorldGridMaterial with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.04.28-10.47.16:278][  0]LogMaterial: Display: Missing cached shadermap for DefaultTextMaterialOpaque in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 13261860f21c43a0318fef3ac00228eb669d9eb2), compiling. 
+[2025.04.28-10.47.16:291][  0]LogMaterial: Display: Missing cached shadermap for m_SimpleVolumetricCloud in PCD3D_SM6, Default, SM6, Editor (DDC key hash: cf31537f59de329ac9a641c2edef0a04f220da58), compiling. 
+[2025.04.28-10.47.16:353][  0]LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+[2025.04.28-10.47.16:353][  0]LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+[2025.04.28-10.47.16:353][  0]LogMeshReduction: Display: Using ProxyLODMeshReduction for automatic mesh merging
+[2025.04.28-10.47.16:353][  0]LogMeshReduction: Display: No distributed automatic mesh merging module available
+[2025.04.28-10.47.16:353][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2025.04.28-10.47.16:561][  0]LogConfig: Branch 'PIEPreviewSettings' had been unloaded. Reloading on-demand took 1.23ms
+[2025.04.28-10.47.16:575][  0]LogMaterial: Display: Missing cached shadermap for Widget3DPassThrough in PCD3D_SM6, Default, SM6, Editor (DDC key hash: d8cbee8652f809d13edccf20ae6868ab2f150336), compiling. 
+[2025.04.28-10.47.16:578][  0]LogMaterial: Display: Missing cached shadermap for Widget3DPassThrough_Translucent in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 5f9c1e4b66c3075c33663266a517feb1960fc417), compiling. 
+[2025.04.28-10.47.16:589][  0]LogShaderCompilers: Error: ShaderCompileWorker terminated unexpectedly, return code -1073741819! Falling back to directly compiling which will be very slow.  Thread 1.
+[2025.04.28-10.47.16:589][  0]LogShaderCompilers: Error: SCW 2 Queued Jobs, Unknown number of processed jobs!
+[2025.04.28-10.47.16:589][  0]LogShaderCompilers: Error: Job 0 [Single] Failed: DefaultTextMaterialOpaque_36664816042156aa/Default/FLocalVertexFactory/TBasePassPSFNoLightMapPolicy/0:/Engine/Private/BasePassPixelShader.usf|MainPS VF 'FLocalVertexFactory' Type 'TBasePassPSFNoLightMapPolicy' '/Engine/Private/BasePassPixelShader.usf' Entry 'MainPS' Permutation 0 
+[2025.04.28-10.47.16:589][  0]LogShaderCompilers: Error: Job 1 [Single] Failed: DefaultTextMaterialOpaque_36664816042156aa/Default/FLocalVertexFactory/TMaterialCHSFNoLightMapPolicyFAnyHitShader/0:/Engine/Private/RayTracing/RayTracingMaterialHitShaders.usf|closesthit=MaterialCHS anyhit=MaterialAHS VF 'FLocalVertexFactory' Type 'TMaterialCHSFNoLightMapPolicyFAnyHitShader' '/Engine/Private/RayTracing/RayTracingMaterialHitShaders.usf' Entry 'closesthit=MaterialCHS anyhit=MaterialAHS' Permutation 0 
+[2025.04.28-10.47.16:604][  0]LogMaterial: Display: Missing cached shadermap for Widget3DPassThrough_Opaque in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 3d26f9586945773afff1971ec698757244449971), compiling. 
+[2025.04.28-10.47.16:619][  0]LogMaterial: Display: Missing cached shadermap for Widget3DPassThrough_Opaque_OneSided in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 1610b09cf74ad3c19c02491c801d7953ffebb156), compiling. 
+[2025.04.28-10.47.16:632][  0]LogMaterial: Display: Missing cached shadermap for Widget3DPassThrough_Masked in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 1c58e096de542389c3bf813034dbc9e32149704e), compiling. 
+[2025.04.28-10.47.16:649][  0]LogMaterial: Display: Missing cached shadermap for Widget3DPassThrough_Masked_OneSided in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 9617e2f1833ffee8d258751f6150c48ed186516d), compiling. 
+[2025.04.28-10.47.16:688][  0]LogMaterial: Display: Missing cached shadermap for Main in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 424840a4f5c0116b82acee07a084483aedf13e5e), compiling. 
+[2025.04.28-10.47.16:690][  0]LogMaterial: Display: Missing cached shadermap for Xray in PCD3D_SM6, Default, SM6, Editor (DDC key hash: a9fb532bd8916b5a39929343b94edba703a8cfed), compiling. 
+[2025.04.28-10.47.16:701][  0]LogConfig: Branch 'GameplayTagsList' had been unloaded. Reloading on-demand took 1.99ms
+[2025.04.28-10.47.16:738][  0]LogMaterial: Display: Missing cached shadermap for M_VolumeRenderSphereTracePP in PCD3D_SM6, Default, SM6, Editor (DDC key hash: a30e6803fb9da98e4736e8dfb314ff905f309af0), compiling. 
+[2025.04.28-10.47.16:747][  0]LogConfig: Branch 'TemplateDefs' had been unloaded. Reloading on-demand took 1.57ms
+[2025.04.28-10.47.16:751][  0]LogConfig: Branch 'TemplateCategories' had been unloaded. Reloading on-demand took 1.01ms
+[2025.04.28-10.47.16:882][  0]LogMaterial: Display: Missing cached shadermap for SnapGridMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: c6cb796b64e705773b5a5cea7d2c03b075c9b15e), compiling. 
+[2025.04.28-10.47.16:885][  0]LogMaterial: Display: Missing cached shadermap for TranslucentTransformGizmoMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 3dce66847fc1df6c4fba4a5982b1f0d388d2fe5c), compiling. 
+[2025.04.28-10.47.16:887][  0]LogMaterial: Display: Missing cached shadermap for TransformGizmoMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 166d045e146aaf05f14b6a42db3426eeb7fc6875), compiling. 
+[2025.04.28-10.47.16:943][  0]LogMaterial: Display: Missing cached shadermap for CineMat in PCD3D_SM6, Default, SM6, Editor (DDC key hash: d66fbd828590fa5de1754ccade1d95940cdbe48c), compiling. 
+[2025.04.28-10.47.17:017][  0]LogMaterial: Display: Missing cached shadermap for M_SimpleUnlitTranslucent in PCD3D_SM6, Default, SM6, Editor (DDC key hash: faf478c693697b351e187e2c28a3f32514bf60ee), compiling. 
+[2025.04.28-10.47.17:097][  0]LogMaterial: Display: Missing cached shadermap for SplineEditorMeshMat in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 60e96b5875610606b4b60333ea92aa65673cadf1), compiling. 
+[2025.04.28-10.47.17:166][  0]LogMaterial: Display: Missing cached shadermap for HairDebugMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 9777e0448de73b9e85a0341bd170caa758545b19), compiling. 
+[2025.04.28-10.47.17:183][  0]LogMaterial: Display: Missing cached shadermap for HairDefaultMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: a0faaf7e8dbf4dc5472bb47c7b5c3b0472d7b836), compiling. 
+[2025.04.28-10.47.17:201][  0]LogMaterial: Display: Missing cached shadermap for HairCardsDefaultMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 014ccc8946f94f6e25c5d30bcf0c23f8d0999757), compiling. 
+[2025.04.28-10.47.17:227][  0]LogMaterial: Display: Missing cached shadermap for HairMeshesDefaultMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: bd11e1a3f68c786428502373c2c8a1ad8ac7fa83), compiling. 
+[2025.04.28-10.47.17:239][  0]LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+[2025.04.28-10.47.17:239][  0]LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2025.04.28-10.47.17:277][  0]LogSlate: Border
+[2025.04.28-10.47.17:277][  0]LogSlate: BreadcrumbButton
+[2025.04.28-10.47.17:277][  0]LogSlate: Brushes.Title
+[2025.04.28-10.47.17:277][  0]LogSlate: Default
+[2025.04.28-10.47.17:277][  0]LogSlate: Icons.Save
+[2025.04.28-10.47.17:277][  0]LogSlate: Icons.Toolbar.Settings
+[2025.04.28-10.47.17:277][  0]LogSlate: ListView
+[2025.04.28-10.47.17:277][  0]LogSlate: SoftwareCursor_CardinalCross
+[2025.04.28-10.47.17:277][  0]LogSlate: SoftwareCursor_Grab
+[2025.04.28-10.47.17:277][  0]LogSlate: TableView.DarkRow
+[2025.04.28-10.47.17:277][  0]LogSlate: TableView.Row
+[2025.04.28-10.47.17:277][  0]LogSlate: TreeView
+[2025.04.28-10.47.17:386][  0]LogConfig: Branch 'TranslationPickerSettings' had been unloaded. Reloading on-demand took 1.70ms
+[2025.04.28-10.47.17:409][  0]LogMaterial: Display: Missing cached shadermap for BaseColor in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 89d00ee97b10d03b70f090ae13c36e20cca1c2a0), compiling. 
+[2025.04.28-10.47.17:427][  0]LogMaterial: Display: Missing cached shadermap for CustomDepth in PCD3D_SM6, Default, SM6, Editor (DDC key hash: e2aece4e78743f03a90603d7bd97c767a625506b), compiling. 
+[2025.04.28-10.47.17:501][  0]LogMaterial: Display: Missing cached shadermap for CustomStencil in PCD3D_SM6, Default, SM6, Editor (DDC key hash: dce11ae89986f852574cfeedf03580a590bb9121), compiling. 
+[2025.04.28-10.47.17:513][  0]LogMaterial: Display: Missing cached shadermap for FinalImage in PCD3D_SM6, Default, SM6, Editor (DDC key hash: bf66a2258bb3d9cb0754db2674faa3fc73a4850d), compiling. 
+[2025.04.28-10.47.17:524][  0]LogMaterial: Display: Missing cached shadermap for LightingModel in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 0574af5997499ee3de8c5b2c0c39d0194edd8527), compiling. 
+[2025.04.28-10.47.17:536][  0]LogMaterial: Display: Missing cached shadermap for MaterialAO in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 5e4ec007caab41a57442a631bea2d5871b772a51), compiling. 
+[2025.04.28-10.47.17:546][  0]LogMaterial: Display: Missing cached shadermap for Metallic in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 213ec11e86a364c5051d6c057934dd92205a7fac), compiling. 
+[2025.04.28-10.47.17:556][  0]LogMaterial: Display: Missing cached shadermap for Opacity in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 5f0c7ff03471d696b668df9c0161ca417bfbb830), compiling. 
+[2025.04.28-10.47.17:566][  0]LogMaterial: Display: Missing cached shadermap for Roughness in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 0a4e98755d30f247b37d4273d4008a6f073dc94e), compiling. 
+[2025.04.28-10.47.17:583][  0]LogMaterial: Display: Missing cached shadermap for Anisotropy in PCD3D_SM6, Default, SM6, Editor (DDC key hash: b0d370e3755b2ad7e4b231ac6e7264c2fd0c2422), compiling. 
+[2025.04.28-10.47.17:594][  0]LogMaterial: Display: Missing cached shadermap for SceneColor in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 9e73d7044a243bf3985aa803ee66e1443e398685), compiling. 
+[2025.04.28-10.47.17:604][  0]LogMaterial: Display: Missing cached shadermap for SceneDepth in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 0151c16bab7ab0afe4baee661233ee2c7359be99), compiling. 
+[2025.04.28-10.47.17:616][  0]LogMaterial: Display: Missing cached shadermap for SeparateTranslucencyRGB in PCD3D_SM6, Default, SM6, Editor (DDC key hash: e67b723e844a67645ec1efe6b8eaf76fe1ad1fa9), compiling. 
+[2025.04.28-10.47.17:626][  0]LogMaterial: Display: Missing cached shadermap for SeparateTranslucencyA in PCD3D_SM6, Default, SM6, Editor (DDC key hash: c0dc23eadced37f2f6a472a17d95cd2e48ef265a), compiling. 
+[2025.04.28-10.47.17:637][  0]LogMaterial: Display: Missing cached shadermap for Specular in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 1af3433a439b119467e7913a312ae05022d98be3), compiling. 
+[2025.04.28-10.47.17:649][  0]LogMaterial: Display: Missing cached shadermap for SubsurfaceColor in PCD3D_SM6, Default, SM6, Editor (DDC key hash: d2d891df156146a652ddd48ae66a56b833843453), compiling. 
+[2025.04.28-10.47.17:660][  0]LogMaterial: Display: Missing cached shadermap for WorldNormal in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 9b86cfd61194e733739515068e680d159edd0bee), compiling. 
+[2025.04.28-10.47.17:670][  0]LogMaterial: Display: Missing cached shadermap for WorldTangent in PCD3D_SM6, Default, SM6, Editor (DDC key hash: b6b4269482a39ea632b5f151e02240b7c85c5865), compiling. 
+[2025.04.28-10.47.17:687][  0]LogMaterial: Display: Missing cached shadermap for AmbientOcclusion in PCD3D_SM6, Default, SM6, Editor (DDC key hash: c5a5aa16e0aaa4f37df0aa996ce9453274654e75), compiling. 
+[2025.04.28-10.47.17:705][  0]LogMaterial: Display: Missing cached shadermap for CustomDepthWorldUnits in PCD3D_SM6, Default, SM6, Editor (DDC key hash: e3fb6b8ac9c1061707a14db06b3bd00b40a7669c), compiling. 
+[2025.04.28-10.47.17:717][  0]LogMaterial: Display: Missing cached shadermap for SceneDepthWorldUnits in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 5a2536bca2c6c687ac1c55807a16eb99f8cfa94c), compiling. 
+[2025.04.28-10.47.17:728][  0]LogMaterial: Display: Missing cached shadermap for Velocity in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 482c464a61cf40b30179b896b025392c9d52c52f), compiling. 
+[2025.04.28-10.47.17:739][  0]LogMaterial: Display: Missing cached shadermap for PreTonemapHDRColor in PCD3D_SM6, Default, SM6, Editor (DDC key hash: f6924f07b98e1e604d4dec5c691c1ff881138fb3), compiling. 
+[2025.04.28-10.47.17:751][  0]LogMaterial: Display: Missing cached shadermap for PostTonemapHDRColor in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 2dfff198e6035c54c6dde8563824a4794c922446), compiling. 
+[2025.04.28-10.47.17:782][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+[2025.04.28-10.47.17:783][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 1.466 ms
+[2025.04.28-10.47.17:791][  0]LogConfig: Branch 'Mass' had been unloaded. Reloading on-demand took 0.92ms
+[2025.04.28-10.47.17:798][  0]LogInit: XR: Instanced Stereo Rendering is Disabled
+[2025.04.28-10.47.17:798][  0]LogInit: XR: MultiViewport is Disabled
+[2025.04.28-10.47.17:798][  0]LogInit: XR: Mobile Multiview is Disabled
+[2025.04.28-10.47.17:832][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: C71221082EC44AE0800000000000BA00 | Instance: 98E39D5244BDAE07428739AE042BFD9C (DSSN419-18-4800).
+[2025.04.28-10.47.17:987][  0]LogMaterial: Display: Missing cached shadermap for ControlRigXRayMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 41168baf1a6d21bd8e732059a55324496f3fadfa), compiling. 
+[2025.04.28-10.47.18:249][  0]LogMaterial: Display: Missing cached shadermap for DefaultSpriteMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 3a78736328d78d4a30857bc19334f4f0598ff919), compiling. 
+[2025.04.28-10.47.18:263][  0]LogMaterial: Display: Missing cached shadermap for OpaqueUnlitSpriteMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: de5073d033670683bc7703e50f33da0d75580005), compiling. 
+[2025.04.28-10.47.18:329][  0]LogMaterial: Display: Missing cached shadermap for M_Manip in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 1f973315c748bbc13c2fa3dd560fc3728742754c), compiling. 
+[2025.04.28-10.47.18:373][  0]LogOpenColorIOEditor: Display: Force-disable invalid viewport transform settings.
+[2025.04.28-10.47.18:373][  0]LogOpenColorIOEditor: Display: Force-disable invalid viewport transform settings.
+[2025.04.28-10.47.18:431][  0]LogNNERuntimeORT: Available graphics and compute adapters:
+[2025.04.28-10.47.18:431][  0]LogNNERuntimeORT: 0: NVIDIA GeForce RTX 3070 (Compute, Graphics)
+[2025.04.28-10.47.18:431][  0]LogNNERuntimeORT: 1: Microsoft Basic Render Driver (Compute, Graphics)
+[2025.04.28-10.47.18:431][  0]LogNNERuntimeORT: No NPU adapter found!
+[2025.04.28-10.47.18:533][  0]LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+[2025.04.28-10.47.18:533][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2025.04.28-10.47.18:545][  0]LogMetaSound: MetaSound Engine Initialized
+[2025.04.28-10.47.18:591][  0]LogMaterial: Display: Missing cached shadermap for M_AudioMaterialToggleButton in PCD3D_SM6, Default, SM6, Editor (DDC key hash: b10b2582359ad052947adc6f951b97647bac153d), compiling. 
+[2025.04.28-10.47.18:630][  0]LogMaterial: Display: Missing cached shadermap for M_AudioMaterialKnob in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 8732c1c03eb15d5f5ca54f220d0c9f14efad7941), compiling. 
+[2025.04.28-10.47.18:656][  0]LogMaterial: Display: Missing cached shadermap for M_AudioMaterialMeter in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 4924b6e69ea8f76ebda2b2e910ab1eacecba5f28), compiling. 
+[2025.04.28-10.47.18:687][  0]LogMaterial: Display: Missing cached shadermap for M_AudioMaterialEnvelope_ADSR in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 79efc4e42c1707ab858b4b23bcf50f8104a6ca9b), compiling. 
+[2025.04.28-10.47.18:716][  0]LogMaterial: Display: Missing cached shadermap for M_AudioMaterialRoundedSlider in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 504d77408a1811de0e5e16c338effaae4d6b154b), compiling. 
+[2025.04.28-10.47.18:933][  0]SourceControl: Revision control is disabled
+[2025.04.28-10.47.18:938][  0]SourceControl: Revision control is disabled
+[2025.04.28-10.47.18:944][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2025.04.28-10.47.18:945][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2025.04.28-10.47.18:945][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2025.04.28-10.47.18:967][  0]LogConfig: Branch 'ObjectMixerSerializedData' had been unloaded. Reloading on-demand took 0.93ms
+[2025.04.28-10.47.18:977][  0]LogConfig: Branch 'Crypto' had been unloaded. Reloading on-demand took 0.87ms
+[2025.04.28-10.47.19:152][  0]LogMaterial: Display: Missing cached shadermap for SpeedTreeMaster in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 0b0967b8ba0d4d83888c44f4fd31a4a8d4d1eb69), compiling. 
+[2025.04.28-10.47.19:181][  0]LogMaterial: Display: Missing cached shadermap for SpeedTreeBillboardMaster in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 072fa3960720bcbdebc5440767ea0cf2b026f6a0), compiling. 
+[2025.04.28-10.47.19:457][  0]LogMaterial: Display: Missing cached shadermap for M_MoviePipelineRenderPreview in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 338d1ef3b12f2198ee09b2b0a4254ffbef5fbec2), compiling. 
+[2025.04.28-10.47.19:586][  0]LogMaterial: Display: Missing cached shadermap for MoviePipeline_StencilCutout in PCD3D_SM6, Default, SM6, Editor (DDC key hash: cd31984854fdd6bb157884e0119927f2a3d7648c), compiling. 
+[2025.04.28-10.47.19:601][  0]LogMaterial: Display: Missing cached shadermap for MovieRenderQueue_WorldDepth in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 522fbc009880b62d2a406fda040730c0bb836b17), compiling. 
+[2025.04.28-10.47.19:614][  0]LogMaterial: Display: Missing cached shadermap for MovieRenderQueue_MotionVectors in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 7e12b17a081bd9ac32e62bed41059ae7484b3810), compiling. 
+[2025.04.28-10.47.19:631][  0]LogConfig: Applying CVar settings from Section [/Script/NNEDenoiser.NNEDenoiserSettings] File [Engine]
+[2025.04.28-10.47.19:636][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2025.04.28-10.47.19:640][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2025.04.28-10.47.19:640][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2025.04.28-10.47.19:700][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/ndr/resources/plugInfo.json'
+[2025.04.28-10.47.19:704][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdAbc/resources/plugInfo.json'
+[2025.04.28-10.47.19:708][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/hd/resources/plugInfo.json'
+[2025.04.28-10.47.19:712][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdHydra/resources/plugInfo.json'
+[2025.04.28-10.47.19:716][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdProc/resources/plugInfo.json'
+[2025.04.28-10.47.19:720][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/glf/resources/plugInfo.json'
+[2025.04.28-10.47.19:725][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/hio/resources/plugInfo.json'
+[2025.04.28-10.47.19:729][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/hdGp/resources/plugInfo.json'
+[2025.04.28-10.47.19:734][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/sdf/resources/plugInfo.json'
+[2025.04.28-10.47.19:739][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdMtlx/resources/plugInfo.json'
+[2025.04.28-10.47.19:743][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/hdStorm/resources/plugInfo.json'
+[2025.04.28-10.47.19:748][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdProcImaging/resources/plugInfo.json'
+[2025.04.28-10.47.19:753][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdRender/resources/plugInfo.json'
+[2025.04.28-10.47.19:758][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdImagingGL/resources/plugInfo.json'
+[2025.04.28-10.47.19:767][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdUI/resources/plugInfo.json'
+[2025.04.28-10.47.19:772][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdSkelImaging/resources/plugInfo.json'
+[2025.04.28-10.47.19:777][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdShaders/resources/plugInfo.json'
+[2025.04.28-10.47.19:783][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdImaging/resources/plugInfo.json'
+[2025.04.28-10.47.19:788][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdVol/resources/plugInfo.json'
+[2025.04.28-10.47.19:793][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/hgiGL/resources/plugInfo.json'
+[2025.04.28-10.47.19:798][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdRiPxrImaging/resources/plugInfo.json'
+[2025.04.28-10.47.19:803][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/sdrGlslfx/resources/plugInfo.json'
+[2025.04.28-10.47.19:808][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdVolImaging/resources/plugInfo.json'
+[2025.04.28-10.47.19:812][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/ar/resources/plugInfo.json'
+[2025.04.28-10.47.19:818][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usd/resources/plugInfo.json'
+[2025.04.28-10.47.19:824][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdGeom/resources/plugInfo.json'
+[2025.04.28-10.47.19:830][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/hdSt/resources/plugInfo.json'
+[2025.04.28-10.47.19:835][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdSkel/resources/plugInfo.json'
+[2025.04.28-10.47.19:840][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdLux/resources/plugInfo.json'
+[2025.04.28-10.47.19:846][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdPhysics/resources/plugInfo.json'
+[2025.04.28-10.47.19:851][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdRi/resources/plugInfo.json'
+[2025.04.28-10.47.19:856][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdMedia/resources/plugInfo.json'
+[2025.04.28-10.47.19:860][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/hdx/resources/plugInfo.json'
+[2025.04.28-10.47.19:866][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdShade/resources/plugInfo.json'
+[2025.04.28-10.47.19:870][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usd/resources/codegenTemplates/plugInfo.json'
+[2025.04.28-10.47.19:902][  0]LogCollectionManager: Loaded 0 collections in 0.001670 seconds
+[2025.04.28-10.47.19:903][  0]LogFileCache: Scanning file cache for directory 'C:/Users/schueler/Documents/GitHub/Escapefloor/Saved/Collections/' took 0.00s
+[2025.04.28-10.47.19:905][  0]LogFileCache: Scanning file cache for directory 'C:/Users/schueler/Documents/GitHub/Escapefloor/Content/Developers/schueler/Collections/' took 0.00s
+[2025.04.28-10.47.19:907][  0]LogFileCache: Scanning file cache for directory 'C:/Users/schueler/Documents/GitHub/Escapefloor/Content/Collections/' took 0.00s
+[2025.04.28-10.47.20:043][  0]LogMaterial: Display: Missing cached shadermap for BasicShapeMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 254d213401ee1785bd828b7e0226fa65aba44872), compiling. 
+[2025.04.28-10.47.20:137][  0]LogMaterial: Display: Missing cached shadermap for DataflowVertexMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 6582c5ad355118b27462d7ee28165901d1ed44e8), compiling. 
+[2025.04.28-10.47.20:158][  0]LogMaterial: Display: Missing cached shadermap for DataflowTwoSidedVertexMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: a8bc0e585dc1bcc1ce7e2747856b80aeea30ab29), compiling. 
+[2025.04.28-10.47.20:202][  0]LogUObjectArray: 46898 objects as part of root set at end of initial load.
+[2025.04.28-10.47.20:202][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2025.04.28-10.47.20:222][  0]LogStreaming: Display: AsyncLoading2 - NotifyRegistrationComplete: Registered 37246 public script object entries (1006.52 KB)
+[2025.04.28-10.47.20:223][  0]LogStreaming: Display: AsyncLoading2 - Thread Started: false, IsInitialLoad: false
+[2025.04.28-10.47.20:258][  0]LogInit: Executing Class /Script/UnrealEd.WorldPartitionBuilderCommandlet
+[2025.04.28-10.47.20:259][  0]LogInit: Initializing Editor Engine...
+[2025.04.28-10.47.20:259][  0]LogEngine: Initializing Engine...
+[2025.04.28-10.47.20:269][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2025.04.28-10.47.20:277][  0]LogMaterial: Display: Missing cached shadermap for WireframeMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 0d55993c81112be55642b7ba487900c0e9abe07f), compiling. Is special engine material.
+[2025.04.28-10.47.20:319][  0]LogMaterial: Display: Missing cached shadermap for LevelColorationLitMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: ecdd65e9225b81e2b00477c14ec1891cb9c2acd0), compiling. Is special engine material.
+[2025.04.28-10.47.20:410][  0]LogMaterial: Display: Missing cached shadermap for LevelColorationUnlitMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 228e64d213987b5b19e23c66c969e9ce64982386), compiling. Is special engine material.
+[2025.04.28-10.47.20:485][  0]LogMaterial: Display: Missing cached shadermap for MAT_LevelColorationLitLightmapUV in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 8198734961851e17814aa005000cb19af1186e20), compiling. Is special engine material.
+[2025.04.28-10.47.20:572][  0]LogMaterial: Display: Missing cached shadermap for ShadedLevelColorationLitMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: dfba95a7c76336f41822a9f486c268f8a90b7273), compiling. Is special engine material.
+[2025.04.28-10.47.20:669][  0]LogMaterial: Display: Missing cached shadermap for ShadedLevelColorationUnlitMateri in PCD3D_SM6, Default, SM6, Editor (DDC key hash: be465bf93f615ca3aa9255b079212400eec1dd59), compiling. Is special engine material.
+[2025.04.28-10.47.20:722][  0]LogMaterial: Display: Missing cached shadermap for VertexColorMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: e57306087a6029a3bdf935a42119463005fd30b7), compiling. 
+[2025.04.28-10.47.20:750][  0]LogMaterial: Display: Missing cached shadermap for VertexColorViewMode_ColorOnly in PCD3D_SM6, Default, SM6, Editor (DDC key hash: b051f9b84a951bb0019e762e752c4fd6b62976ea), compiling. 
+[2025.04.28-10.47.20:771][  0]LogMaterial: Display: Missing cached shadermap for VertexColorViewMode_AlphaAsColor in PCD3D_SM6, Default, SM6, Editor (DDC key hash: e47576f8ef68ff77eb336225b01872d2b8352376), compiling. 
+[2025.04.28-10.47.20:790][  0]LogMaterial: Display: Missing cached shadermap for VertexColorViewMode_RedOnly in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 4c66000d2ca86ebbaa9c093dfb14b036b045d589), compiling. 
+[2025.04.28-10.47.20:808][  0]LogMaterial: Display: Missing cached shadermap for VertexColorViewMode_GreenOnly in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 6d7e2038a79e3864d73a99a5351c71784f915029), compiling. 
+[2025.04.28-10.47.20:828][  0]LogMaterial: Display: Missing cached shadermap for VertexColorViewMode_BlueOnly in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 2d3db091b3da287697f39022de670500fbfaa183), compiling. 
+[2025.04.28-10.47.20:851][  0]LogMaterial: Display: Missing cached shadermap for TextureColorViewMode in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 262f04318c99f9d9ceb907df170c079e6e11dd12), compiling. 
+[2025.04.28-10.47.20:869][  0]LogMaterial: Display: Missing cached shadermap for NaniteHiddenSectionMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 3c911e489f4bf7be4271451efb6ec1c6042e2331), compiling. 
+[2025.04.28-10.47.20:890][  0]LogMaterial: Display: Missing cached shadermap for RemoveSurfaceMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: cd7f1d4b608428a36d436ff8b7f2fa9bf05fb51f), compiling. 
+[2025.04.28-10.47.20:908][  0]LogMaterial: Display: Missing cached shadermap for DebugMeshMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 845543ff65047a481e09a3df7162607b7bcf93d6), compiling. 
+[2025.04.28-10.47.20:939][  0]LogMaterial: Display: Missing cached shadermap for EmissiveMeshMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 11f0e8f783e358b23f0dd655ef435451aa0df7f6), compiling. 
+[2025.04.28-10.47.20:970][  0]LogMaterial: Display: Missing cached shadermap for M_InvalidLightmapSettings in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 3e0ed5e1de4d05d11d464a4c598c8cdb1885ed75), compiling. 
+[2025.04.28-10.47.20:991][  0]LogMaterial: Display: Missing cached shadermap for GizmoMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 2aac9ad99517c6c777ed71472d1fb1582e3cb337), compiling. 
+[2025.04.28-10.47.21:008][  0]LogMaterial: Display: Missing cached shadermap for PhAT_JointLimitMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 1793020cedf514ef9604b297e37c548ec08f4295), compiling. 
+[2025.04.28-10.47.21:106][  0]LogMaterial: Display: Missing cached shadermap for FlattenMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 6d50f94fa7a10a0410597a726c6411f797732a9e), compiling. 
+[2025.04.28-10.47.21:214][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.11.dll
+[2025.04.28-10.47.21:220][  0]LogMaterial: Display: Missing cached shadermap for FlattenMaterial_VT in PCD3D_SM6, Default, SM6, Editor (DDC key hash: aef274bf34cea0953dee2703489192339b4d7dd5), compiling. 
+[2025.04.28-10.47.21:247][  0]LogMaterial: Display: Missing cached shadermap for FlattenMaterial_WS_Normal_VT in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 79cddd6a36d4bd9c36b01dbf53e372402c789658), compiling. 
+[2025.04.28-10.47.21:397][  0]LogChaosDD: Not creating Chaos Debug Draw Scene for world Untitled
+[2025.04.28-10.47.21:411][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2025.04.28-10.47.21:411][  0]LogInit: Texture streaming: Enabled
+[2025.04.28-10.47.21:420][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2025.04.28-10.47.21:424][  0]LogInit: Initializing Editor Engine Completed
+[2025.04.28-10.47.21:457][  0]LogMaterial: Display: Missing cached shadermap for M_DynamicMeshComponentVtxColor in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 87c230635a2aa9a1b43ce29b211004c104a968fa), compiling. 
+[2025.04.28-10.47.21:519][  0]LogMaterial: Display: Missing cached shadermap for DefaultMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 0fd302514f4267aefe2e49675b9ac0d24d81bf98), compiling. 
+[2025.04.28-10.47.21:582][  0]LogPython: Using Python 3.11.8
+[2025.04.28-10.47.23:145][  0]LogPython: Display: No enabled plugins with python dependencies found, skipping
+[2025.04.28-10.47.23:582][  0]LogMaterial: Display: Missing cached shadermap for PhAT_UnselectedMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: b929394f7fcad405499e2ecb5f204d46fb4f886c), compiling. 
+[2025.04.28-10.47.23:600][  0]LogMaterial: Display: Missing cached shadermap for PhAT_NoCollisionMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 26897721ea7950c4b83a279c3198526dba59e7c3), compiling. 
+[2025.04.28-10.47.23:629][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2025.04.28-10.47.23:723][  0]LogEditorDataStorage: Initializing
+[2025.04.28-10.47.23:724][  0]LogEditorDataStorage: Initialized
+[2025.04.28-10.47.23:726][  0]SourceControl: Revision control is disabled
+[2025.04.28-10.47.23:726][  0]LogWorldPartitionBuilderCommandlet: Display: Execution started...
+[2025.04.28-10.47.23:727][  0]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/FirstPerson/Maps/Dachboden_v02.
+[2025.04.28-10.47.23:727][  0]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/FirstPerson/Maps/Dachboden_v02.
+[2025.04.28-10.47.23:728][  0]LogAssetRegistry: Display: Triggering cache save on discovery complete
+[2025.04.28-10.47.24:281][  0]LogMaterial: Display: Missing cached shadermap for M_Flashlight in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 15b75d4ad261c144d33e3c57d48084f20400b6b9), compiling. 
+[2025.04.28-10.47.24:293][  0]LogMaterial: Display: Missing cached shadermap for M_door_full in PCD3D_SM6, Default, SM6, Editor (DDC key hash: baf7ad4c53cc9f6fb5a5fd247b1c59b9e19afef9), compiling. 
+[2025.04.28-10.47.24:297][  0]LogMaterial: Display: Missing cached shadermap for m_tali7 in PCD3D_SM6, Default, SM6, Editor (DDC key hash: bb75c1bb8588995c01e39827b415af232e0b7759), compiling. 
+[2025.04.28-10.47.24:308][  0]SourceControl: Revision control is disabled
+[2025.04.28-10.47.24:308][  0]LogChaosDD: Not creating Chaos Debug Draw Scene for world Dachboden_v02
+[2025.04.28-10.47.24:309][  0]LogWorldPartition: ULevel::OnLevelLoaded(Dachboden_v02)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.04.28-10.47.24:309][  0]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.28-10.47.24:309][  0]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/Dachboden_v02.Dachboden_v02, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.28-10.47.24:315][  0]LogWorldPartition: Can't find class descriptor '/Game/BP/BP_Tisch.BP_Tisch_C' for loading '/Game/FirstPerson/Maps/Dachboden_v02.Dachboden_v02:PersistentLevel.BP_Tisch_C_UAID_74563C18ECECE03102_1215088669', using '/Script/Engine.Actor'
+[2025.04.28-10.47.24:315][  0]LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_Tisch.BP_Tisch_C`: Actor: 'BP_Tisch_C_UAID_74563C18ECECE03102_1215088669' (guid '9A844CD56BCF37B48184879B7A3BD551') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/0/CH/GM9U5N0ZP14V2556EOY9WZ'
+[2025.04.28-10.47.24:315][  0]LogWorldPartition: Can't find class descriptor '/Game/BP/BP_Boden.BP_Boden_C' for loading '/Game/FirstPerson/Maps/Dachboden_v02.Dachboden_v02:PersistentLevel.BP_Boden_C_UAID_74563C18ECEC542F02_1376878049', using '/Script/Engine.Actor'
+[2025.04.28-10.47.24:315][  0]LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_Boden.BP_Boden_C`: Actor: 'BP_Boden_C_UAID_74563C18ECEC542F02_1376878049' (guid 'EF11B9E012B63B2D8B39007C7021418C') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/0/X4/IBIN13C6PSVHU3K22SN1LV'
+[2025.04.28-10.47.24:316][  0]LogWorldPartition: Can't find class descriptor '/Game/BP/BP_Buch_D.BP_Buch_D_C' for loading '/Game/FirstPerson/Maps/Dachboden_v02.Dachboden_v02:PersistentLevel.BP_Buch_D_C_UAID_74563C18ECECE73102_1271463931', using '/Script/Engine.Actor'
+[2025.04.28-10.47.24:316][  0]LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_Buch_D.BP_Buch_D_C`: Actor: 'BP_Buch_D_C_UAID_74563C18ECECE73102_1271463931' (guid '39BF4B3BEF1933F8B1371829FF4CE306') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/1/43/ASTCN45D98YH9JRJ1JMICZ'
+[2025.04.28-10.47.24:316][  0]LogWorldPartition: Can't find class descriptor '/Game/BP/BP_schaukelstuhl.BP_schaukelstuhl_C' for loading '/Game/FirstPerson/Maps/Dachboden_v02.Dachboden_v02:PersistentLevel.BP_schaukelstuhl_C_UAID_74563C18ECECE03102_1236446670', using '/Script/Engine.Actor'
+[2025.04.28-10.47.24:316][  0]LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_schaukelstuhl.BP_schaukelstuhl_C`: Actor: 'BP_schaukelstuhl_C_UAID_74563C18ECECE03102_1236446670' (guid '1C23283D7F033949A821968B0BFA275C') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/1/AB/UK4WVAHEUU82CN0ZANMNVV'
+[2025.04.28-10.47.24:317][  0]LogWorldPartition: Can't find class descriptor '/Game/BP/BP_buch_open_B.BP_buch_open_B_C' for loading '/Game/FirstPerson/Maps/Dachboden_v02.Dachboden_v02:PersistentLevel.BP_buch_open_B_C_UAID_74563C18ECECE03102_1439512681', using '/Script/Engine.Actor'
+[2025.04.28-10.47.24:317][  0]LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_buch_open_B.BP_buch_open_B_C`: Actor: 'BP_buch_open_B_C_UAID_74563C18ECECE03102_1439512681' (guid 'A87938347CD43269A749D8F65DDA99DD') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/1/QZ/NO8ZADQ4OJ00OZQXYO1KB1'
+[2025.04.28-10.47.24:318][  0]LogWorldPartition: Can't find class descriptor '/Game/BP/BP_buch_A.BP_buch_A_C' for loading '/Game/FirstPerson/Maps/Dachboden_v02.Dachboden_v02:PersistentLevel.BP_buch_A_C_UAID_74563C18ECECE03102_1422227678', using '/Script/Engine.Actor'
+[2025.04.28-10.47.24:318][  0]LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_buch_A.BP_buch_A_C`: Actor: 'BP_buch_A_C_UAID_74563C18ECECE03102_1422227678' (guid '3FECC822A06A34CFB682A331923B123D') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/2/BD/4JF9U7UFZS2SF9WD3RGCCA'
+[2025.04.28-10.47.24:318][  0]LogWorldPartition: Can't find class descriptor '/Game/BP/BP_Boden.BP_Boden_C' for loading '/Game/FirstPerson/Maps/Dachboden_v02.Dachboden_v02:PersistentLevel.BP_Boden_C_UAID_74563C18ECEC542F02_1376875047', using '/Script/Engine.Actor'
+[2025.04.28-10.47.24:318][  0]LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_Boden.BP_Boden_C`: Actor: 'BP_Boden_C_UAID_74563C18ECEC542F02_1376875047' (guid '7A71DF026CBB357E82C22F10F2BC673E') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/2/JL/IQF3WV0202M2GVYJSBZOU2'
+[2025.04.28-10.47.24:319][  0]LogWorldPartition: Can't find class descriptor '/Game/BP/BP_Boden.BP_Boden_C' for loading '/Game/FirstPerson/Maps/Dachboden_v02.Dachboden_v02:PersistentLevel.BP_Boden_C_UAID_74563C18ECEC542F02_1406659054', using '/Script/Engine.Actor'
+[2025.04.28-10.47.24:319][  0]LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_Boden.BP_Boden_C`: Actor: 'BP_Boden_C_UAID_74563C18ECEC542F02_1406659054' (guid 'EC80AAFD468231CAA1376D925E03E183') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/3/2P/UQMYP4J16M81H1P2CVUNPH'
+[2025.04.28-10.47.24:319][  0]LogWorldPartition: Can't find class descriptor '/Game/BP_trigger/DialogBP/BP_Basedialog.BP_Basedialog_C' for loading '/Game/FirstPerson/Maps/Dachboden_v02.Dachboden_v02:PersistentLevel.BP_Basedialog_C_UAID_04421A2770E5F56102_1582338048', using '/Script/Engine.Actor'
+[2025.04.28-10.47.24:319][  0]LogWorldPartition: Warning: Unknown actor base class `/Game/BP_trigger/DialogBP/BP_Basedialog.BP_Basedialog_C`: Actor: 'BP_Basedialog_C_UAID_04421A2770E5F56102_1582338048' (guid '99AC62B34954A3C8B69B3988E7B09576') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/5/72/J5L2BEU331J8WIBGAWGD76'
+[2025.04.28-10.47.24:320][  0]LogWorldPartition: Can't find class descriptor '/Game/BP/BP_Buch_C.BP_Buch_C_C' for loading '/Game/FirstPerson/Maps/Dachboden_v02.Dachboden_v02:PersistentLevel.BP_Buch_C_C_UAID_74563C18ECECE03102_1473642683', using '/Script/Engine.Actor'
+[2025.04.28-10.47.24:320][  0]LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_Buch_C.BP_Buch_C_C`: Actor: 'BP_Buch_C_C_UAID_74563C18ECECE03102_1473642683' (guid '6527D61DF5193EEFAE1E30581DC96140') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/5/LV/MBBMF4GQ4IA09F6AHEX7E2'
+[2025.04.28-10.47.24:321][  0]LogWorldPartition: Can't find class descriptor '/Game/BP_trigger/Trigger_Demon.Trigger_Demon_C' for loading '/Game/FirstPerson/Maps/Dachboden_v02.Dachboden_v02:PersistentLevel.Trigger_Demon_C_UAID_04421A2770E5083202_1109013711', using '/Script/Engine.Actor'
+[2025.04.28-10.47.24:321][  0]LogWorldPartition: Warning: Unknown actor base class `/Game/BP_trigger/Trigger_Demon.Trigger_Demon_C`: Actor: 'Trigger_Demon_C_UAID_04421A2770E5083202_1109013711' (guid 'AF192A570812378AB70ADBA3BECD8B02') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/5/P7/4KUEOOBW3A8WWEEC0ME4X1'
+[2025.04.28-10.47.24:321][  0]LogWorldPartition: Can't find class descriptor '/Game/BP/BP_Boden.BP_Boden_C' for loading '/Game/FirstPerson/Maps/Dachboden_v02.Dachboden_v02:PersistentLevel.BP_Boden_C_UAID_74563C18ECEC542F02_1406654050', using '/Script/Engine.Actor'
+[2025.04.28-10.47.24:321][  0]LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_Boden.BP_Boden_C`: Actor: 'BP_Boden_C_UAID_74563C18ECEC542F02_1406654050' (guid 'D39E03D9097A35C5BD1DC6F2B530F8CD') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/5/TK/2CU7SF6H8KPK0GSUH0EQUM'
+[2025.04.28-10.47.24:387][  0]LogWorldPartition: Can't find class descriptor '/Game/BP/BP_Boden.BP_Boden_C' for loading '/Game/FirstPerson/Maps/Dachboden_v02.Dachboden_v02:PersistentLevel.BP_Boden_C_UAID_74563C18ECEC542F02_1421162056', using '/Script/Engine.Actor'
+[2025.04.28-10.47.24:387][  0]LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_Boden.BP_Boden_C`: Actor: 'BP_Boden_C_UAID_74563C18ECEC542F02_1421162056' (guid '5B3D84A6D00C3CDF938149D81B4D4C0A') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/6/9G/33HNIH55V21F3SV94QPNIB'
+[2025.04.28-10.47.24:389][  0]LogWorldPartition: Can't find class descriptor '/Game/cNiagara/Niagara_candle/BP_candle.BP_candle_C' for loading '/Game/FirstPerson/Maps/Dachboden_v02.Dachboden_v02:PersistentLevel.BP_candle_C_UAID_74563C18ECEC434102_1384040929', using '/Script/Engine.Actor'
+[2025.04.28-10.47.24:389][  0]LogWorldPartition: Warning: Unknown actor base class `/Game/cNiagara/Niagara_candle/BP_candle.BP_candle_C`: Actor: 'BP_candle_C_UAID_74563C18ECEC434102_1384040929' (guid '0AA592FBE01E32B786ECFA996B8FA6AF') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/6/JX/GTIWC8MJDEHQW54VRD04U5'
+[2025.04.28-10.47.24:392][  0]LogWorldPartition: Can't find class descriptor '/Game/BP/BP_Boden.BP_Boden_C' for loading '/Game/FirstPerson/Maps/Dachboden_v02.Dachboden_v02:PersistentLevel.BP_Boden_C_UAID_74563C18ECEC542F02_1421165058', using '/Script/Engine.Actor'
+[2025.04.28-10.47.24:392][  0]LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_Boden.BP_Boden_C`: Actor: 'BP_Boden_C_UAID_74563C18ECEC542F02_1421165058' (guid '8A2059DBFF4B3DA5BECDA8FA7EEB04EF') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/6/TJ/GM28PFTXVGJY1B9LQD1LFS'
+[2025.04.28-10.47.24:394][  0]LogWorldPartition: Can't find class descriptor '/Game/BP/bp_bulb.bp_bulb_C' for loading '/Game/FirstPerson/Maps/Dachboden_v02.Dachboden_v02:PersistentLevel.bp_bulb_C_UAID_74563C18ECEC173402_1712079455', using '/Script/Engine.Actor'
+[2025.04.28-10.47.24:394][  0]LogWorldPartition: Warning: Unknown actor base class `/Game/BP/bp_bulb.bp_bulb_C`: Actor: 'bp_bulb_C_UAID_74563C18ECEC173402_1712079455' (guid '1721994913F23BB68BC3E0D631520E66') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/6/WY/2TKMK3ITFAMVNN7NP40IBD'
+[2025.04.28-10.47.24:396][  0]LogWorldPartition: Can't find class descriptor '/Game/BP/BP_Tisch.BP_Tisch_C' for loading '/Game/FirstPerson/Maps/Dachboden_v02.Dachboden_v02:PersistentLevel.BP_Tisch_C_UAID_74563C18ECECE03102_1318713671', using '/Script/Engine.Actor'
+[2025.04.28-10.47.24:396][  0]LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_Tisch.BP_Tisch_C`: Actor: 'BP_Tisch_C_UAID_74563C18ECECE03102_1318713671' (guid 'F89E724C2F7A36598B2959974B2F047F') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/7/9T/PUUV9RDG7W8UOY4UBZZMWQ'
+[2025.04.28-10.47.24:397][  0]LogWorldPartition: Can't find class descriptor '/Game/BP/BP_Boden.BP_Boden_C' for loading '/Game/FirstPerson/Maps/Dachboden_v02.Dachboden_v02:PersistentLevel.BP_Boden_C_UAID_74563C18ECEC542F02_1421164057', using '/Script/Engine.Actor'
+[2025.04.28-10.47.24:397][  0]LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_Boden.BP_Boden_C`: Actor: 'BP_Boden_C_UAID_74563C18ECEC542F02_1421164057' (guid '93A6ACD003FB3414B76FA341FECB0F2D') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/7/JY/BSC0MBXPFEFKH7F343AGIV'
+[2025.04.28-10.47.24:398][  0]LogWorldPartition: Can't find class descriptor '/Game/BP/BP_Boden.BP_Boden_C' for loading '/Game/FirstPerson/Maps/Dachboden_v02.Dachboden_v02:PersistentLevel.BP_Boden_C_UAID_74563C18ECEC542F02_1406657052', using '/Script/Engine.Actor'
+[2025.04.28-10.47.24:398][  0]LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_Boden.BP_Boden_C`: Actor: 'BP_Boden_C_UAID_74563C18ECEC542F02_1406657052' (guid '0DBF47DDF1763263B38283C7529140AC') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/7/YC/LGUDMBT113328MHI0HPFYF'
+[2025.04.28-10.47.24:399][  0]LogWorldPartition: Can't find class descriptor '/Game/cNiagara/Niagara_candle/BP_candle.BP_candle_C' for loading '/Game/FirstPerson/Maps/Dachboden_v02.Dachboden_v02:PersistentLevel.BP_candle_C_UAID_74563C18ECEC434102_1368679927', using '/Script/Engine.Actor'
+[2025.04.28-10.47.24:399][  0]LogWorldPartition: Warning: Unknown actor base class `/Game/cNiagara/Niagara_candle/BP_candle.BP_candle_C`: Actor: 'BP_candle_C_UAID_74563C18ECEC434102_1368679927' (guid '58D1C3257A56306B8E0DDB466DD5B0EC') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/7/ZC/JBOVJBO4H49UQRKKV3Y35Y'
+[2025.04.28-10.47.24:401][  0]LogWorldPartition: Can't find class descriptor '/Game/BP/BP_box_A.BP_box_A_C' for loading '/Game/FirstPerson/Maps/Dachboden_v02.Dachboden_v02:PersistentLevel.BP_box_A_C_UAID_74563C18ECECE03102_1502017685', using '/Script/Engine.Actor'
+[2025.04.28-10.47.24:401][  0]LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_box_A.BP_box_A_C`: Actor: 'BP_box_A_C_UAID_74563C18ECECE03102_1502017685' (guid 'FD713FCA0A323F0C8BE0294465C16D08') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/8/30/T3LDNXESV26847TM4BV8HM'
+[2025.04.28-10.47.24:402][  0]LogWorldPartition: Can't find class descriptor '/Game/BP/BP_buch_open_B.BP_buch_open_B_C' for loading '/Game/FirstPerson/Maps/Dachboden_v02.Dachboden_v02:PersistentLevel.BP_buch_open_B_C_UAID_74563C18ECECE53102_1748406578', using '/Script/Engine.Actor'
+[2025.04.28-10.47.24:402][  0]LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_buch_open_B.BP_buch_open_B_C`: Actor: 'BP_buch_open_B_C_UAID_74563C18ECECE53102_1748406578' (guid '116EBC06229232208C49C21EDC110E04') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/9/1Q/5OKLPZGAMWQ1PM0QMVCZ3U'
+[2025.04.28-10.47.24:405][  0]LogWorldPartition: Can't find class descriptor '/Game/BP/BP_Boden.BP_Boden_C' for loading '/Game/FirstPerson/Maps/Dachboden_v02.Dachboden_v02:PersistentLevel.BP_Boden_C_UAID_74563C18ECEC542F02_1314389045', using '/Script/Engine.Actor'
+[2025.04.28-10.47.24:405][  0]LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_Boden.BP_Boden_C`: Actor: 'BP_Boden_C_UAID_74563C18ECEC542F02_1314389045' (guid '3E23448F077231BB9C4E1A29DD9321AF') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/A/7N/LY6TRZ6C33V3FKQYNQH8NO'
+[2025.04.28-10.47.24:408][  0]LogWorldPartition: Can't find class descriptor '/Game/BP/BP_Fenster.BP_Fenster_C' for loading '/Game/FirstPerson/Maps/Dachboden_v02.Dachboden_v02:PersistentLevel.BP_Fenster_C_UAID_74563C18ECECE03102_1561468686', using '/Script/Engine.Actor'
+[2025.04.28-10.47.24:408][  0]LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_Fenster.BP_Fenster_C`: Actor: 'BP_Fenster_C_UAID_74563C18ECECE03102_1561468686' (guid '7F633FB789B5365BA3DF6AABF3812B9A') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/A/HL/6F1T6WNNVP1LMYBKH2YFEB'
+[2025.04.28-10.47.24:410][  0]LogWorldPartition: Can't find class descriptor '/Game/BP/BP_box_closed_.BP_box_closed__C' for loading '/Game/FirstPerson/Maps/Dachboden_v02.Dachboden_v02:PersistentLevel.BP_box_closed__C_UAID_74563C18ECECE03102_1349895673', using '/Script/Engine.Actor'
+[2025.04.28-10.47.24:410][  0]LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_box_closed_.BP_box_closed__C`: Actor: 'BP_box_closed__C_UAID_74563C18ECECE03102_1349895673' (guid '31CF16FD1B3E3703A257CC4E8540ED1A') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/B/CV/JN55ZBL39NFF3A487UNA2O'
+[2025.04.28-10.47.24:489][  0]LogWorldPartition: Can't find class descriptor '/Game/BP/BP_box_closed_.BP_box_closed__C' for loading '/Game/FirstPerson/Maps/Dachboden_v02.Dachboden_v02:PersistentLevel.BP_box_closed__C_UAID_74563C18ECECE03102_1362177674', using '/Script/Engine.Actor'
+[2025.04.28-10.47.24:489][  0]LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_box_closed_.BP_box_closed__C`: Actor: 'BP_box_closed__C_UAID_74563C18ECECE03102_1362177674' (guid 'B7CB76784D083DFFAEC5E91E4DFC6A1E') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/B/GM/D4IVY8ZI892ACFQ7ZW3CGR'
+[2025.04.28-10.47.24:490][  0]LogWorldPartition: Can't find class descriptor '/Game/BP/BP_box_closed_.BP_box_closed__C' for loading '/Game/FirstPerson/Maps/Dachboden_v02.Dachboden_v02:PersistentLevel.BP_box_closed__C_UAID_74563C18ECECE03102_1375481675', using '/Script/Engine.Actor'
+[2025.04.28-10.47.24:490][  0]LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_box_closed_.BP_box_closed__C`: Actor: 'BP_box_closed__C_UAID_74563C18ECECE03102_1375481675' (guid '77F8870F889439ADBCE331F1075322B4') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/B/UU/HNMMYPFD2ZFJ3J6DQ3UV24'
+[2025.04.28-10.47.24:490][  0]LogWorldPartition: Can't find class descriptor '/Game/BP/BP_box_closed_.BP_box_closed__C' for loading '/Game/FirstPerson/Maps/Dachboden_v02.Dachboden_v02:PersistentLevel.BP_box_closed__C_UAID_74563C18ECECE03102_1392686677', using '/Script/Engine.Actor'
+[2025.04.28-10.47.24:490][  0]LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_box_closed_.BP_box_closed__C`: Actor: 'BP_box_closed__C_UAID_74563C18ECECE03102_1392686677' (guid '04BB03C43CA93E2198BF24DD1837146D') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/C/8E/MMH4HDEIXUM3O4L0087ZJL'
+[2025.04.28-10.47.24:491][  0]LogWorldPartition: Can't find class descriptor '/Game/BP/BP_tv1.BP_tv1_C' for loading '/Game/FirstPerson/Maps/Dachboden_v02.Dachboden_v02:PersistentLevel.BP_tv1_C_UAID_74563C18ECEC6E3802_1877282991', using '/Script/Engine.Actor'
+[2025.04.28-10.47.24:491][  0]LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_tv1.BP_tv1_C`: Actor: 'BP_tv1_C_UAID_74563C18ECEC6E3802_1877282991' (guid '38DE3D376BD232E89F935F3B7710BDB1') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/C/9Q/U8Q80SQFNHLOUNHFRL7J34'
+[2025.04.28-10.47.24:491][  0]LogWorldPartition: Can't find class descriptor '/Game/BP/BP_Boden.BP_Boden_C' for loading '/Game/FirstPerson/Maps/Dachboden_v02.Dachboden_v02:PersistentLevel.BP_Boden_C_UAID_74563C18ECEC542F02_1242300043', using '/Script/Engine.Actor'
+[2025.04.28-10.47.24:491][  0]LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_Boden.BP_Boden_C`: Actor: 'BP_Boden_C_UAID_74563C18ECEC542F02_1242300043' (guid '3172A7F33EF83CC1BD889306EC7C7080') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/C/N6/1SZA6RAJDVMZ71LGSBPXJ9'
+[2025.04.28-10.47.24:492][  0]LogWorldPartition: Can't find class descriptor '/Game/BP/BP_Boden.BP_Boden_C' for loading '/Game/FirstPerson/Maps/Dachboden_v02.Dachboden_v02:PersistentLevel.BP_Boden_C_UAID_74563C18ECEC542F02_1406656051', using '/Script/Engine.Actor'
+[2025.04.28-10.47.24:492][  0]LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_Boden.BP_Boden_C`: Actor: 'BP_Boden_C_UAID_74563C18ECEC542F02_1406656051' (guid 'E12A49C09E7C3281839C3F37451EEED4') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/C/XV/UZU9CUCN22AD5NJX3VAL5C'
+[2025.04.28-10.47.24:493][  0]LogWorldPartition: Can't find class descriptor '/Game/BP/BP_Boden.BP_Boden_C' for loading '/Game/FirstPerson/Maps/Dachboden_v02.Dachboden_v02:PersistentLevel.BP_Boden_C_UAID_74563C18ECEC542F02_1406658053', using '/Script/Engine.Actor'
+[2025.04.28-10.47.24:493][  0]LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_Boden.BP_Boden_C`: Actor: 'BP_Boden_C_UAID_74563C18ECEC542F02_1406658053' (guid '73C3B67863193A4B88B0F3D6E30F7C22') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/D/7L/EKA4LVBPC8NQHQWH7R77X3'
+[2025.04.28-10.47.24:493][  0]LogWorldPartition: Can't find class descriptor '/Game/BP_trigger/Trigger_Demonlight.Trigger_Demonlight_C' for loading '/Game/FirstPerson/Maps/Dachboden_v02.Dachboden_v02:PersistentLevel.Trigger_Demonlight_C_UAID_04421A2770E5073202_1717292533', using '/Script/Engine.Actor'
+[2025.04.28-10.47.24:493][  0]LogWorldPartition: Warning: Unknown actor base class `/Game/BP_trigger/Trigger_Demonlight.Trigger_Demonlight_C`: Actor: 'Trigger_Demonlight_C_UAID_04421A2770E5073202_1717292533' (guid '1D6B54D8A4E3356A9BC35DD8DCCAB33E') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/D/8W/UM0XL5F6B7GO8BUMI694FN'
+[2025.04.28-10.47.24:494][  0]LogWorldPartition: Can't find class descriptor '/Game/cNiagara/Niagara_candle/BP_candle.BP_candle_C' for loading '/Game/FirstPerson/Maps/Dachboden_v02.Dachboden_v02:PersistentLevel.BP_candle_C_UAID_74563C18ECEC434102_1374634928', using '/Script/Engine.Actor'
+[2025.04.28-10.47.24:494][  0]LogWorldPartition: Warning: Unknown actor base class `/Game/cNiagara/Niagara_candle/BP_candle.BP_candle_C`: Actor: 'BP_candle_C_UAID_74563C18ECEC434102_1374634928' (guid 'E4C09C820C0C3C7A997D00020706A9B1') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/D/90/UAITQ375SPKJKSQUNGG7O6'
+[2025.04.28-10.47.24:494][  0]LogWorldPartition: Can't find class descriptor '/Game/BP/BP_box_A.BP_box_A_C' for loading '/Game/FirstPerson/Maps/Dachboden_v02.Dachboden_v02:PersistentLevel.BP_box_A_C_UAID_74563C18ECECE03102_1328988672', using '/Script/Engine.Actor'
+[2025.04.28-10.47.24:494][  0]LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_box_A.BP_box_A_C`: Actor: 'BP_box_A_C_UAID_74563C18ECECE03102_1328988672' (guid 'B2097B8043DA318B9CFD2014DB19328D') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/D/9Z/FTR84Q7RC9W3Y42C5N899A'
+[2025.04.28-10.47.24:495][  0]LogWorldPartition: Can't find class descriptor '/Game/BP/BP_Fenster1.BP_Fenster1_C' for loading '/Game/FirstPerson/Maps/Dachboden_v02.Dachboden_v02:PersistentLevel.BP_Fenster1_C_UAID_74563C18ECECBC3302_1632411444', using '/Script/Engine.Actor'
+[2025.04.28-10.47.24:495][  0]LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_Fenster1.BP_Fenster1_C`: Actor: 'BP_Fenster1_C_UAID_74563C18ECECBC3302_1632411444' (guid '3E69E381C3573EEB94AC47571ACF21FD') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/E/8L/15QV1V58M3SEPGH7M1TS08'
+[2025.04.28-10.47.24:495][  0]LogWorldPartition: Can't find class descriptor '/Game/BP/BP_Boden.BP_Boden_C' for loading '/Game/FirstPerson/Maps/Dachboden_v02.Dachboden_v02:PersistentLevel.BP_Boden_C_UAID_74563C18ECEC542F02_1338332046', using '/Script/Engine.Actor'
+[2025.04.28-10.47.24:495][  0]LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_Boden.BP_Boden_C`: Actor: 'BP_Boden_C_UAID_74563C18ECEC542F02_1338332046' (guid '5FC4A875B98F3157A5DB310B80009438') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/E/8X/3QT2H4MCG67UD4SNKNFVO6'
+[2025.04.28-10.47.24:589][  0]LogWorldPartition: Can't find class descriptor '/Game/BP/BP_box_A.BP_box_A_C' for loading '/Game/FirstPerson/Maps/Dachboden_v02.Dachboden_v02:PersistentLevel.BP_box_A_C_UAID_74563C18ECECE03102_1380381676', using '/Script/Engine.Actor'
+[2025.04.28-10.47.24:589][  0]LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_box_A.BP_box_A_C`: Actor: 'BP_box_A_C_UAID_74563C18ECECE03102_1380381676' (guid '6277B23380FE3C708867CB9A87855046') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/E/PF/NLK3EBJYXWHJ6PZ7XAID5Q'
+[2025.04.28-10.47.24:590][  0]LogWorldPartition: Can't find class descriptor '/Game/cNiagara/Niagara_candle/BP_candle.BP_candle_C' for loading '/Game/FirstPerson/Maps/Dachboden_v02.Dachboden_v02:PersistentLevel.BP_candle_C_UAID_74563C18ECEC434102_1393071930', using '/Script/Engine.Actor'
+[2025.04.28-10.47.24:590][  0]LogWorldPartition: Warning: Unknown actor base class `/Game/cNiagara/Niagara_candle/BP_candle.BP_candle_C`: Actor: 'BP_candle_C_UAID_74563C18ECEC434102_1393071930' (guid '901DD7AE0BD93224B7AACAC91814D34B') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/E/PU/HBCE02DIKMVAASKGTZ2WCM'
+[2025.04.28-10.47.24:591][  0]LogWorldPartition: Can't find class descriptor '/Game/BP/BP_Boden.BP_Boden_C' for loading '/Game/FirstPerson/Maps/Dachboden_v02.Dachboden_v02:PersistentLevel.BP_Boden_C_UAID_74563C18ECEC542F02_1406660055', using '/Script/Engine.Actor'
+[2025.04.28-10.47.24:591][  0]LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_Boden.BP_Boden_C`: Actor: 'BP_Boden_C_UAID_74563C18ECEC542F02_1406660055' (guid '0BC797E6F1DD39B0BAADB01F5B44A5C9') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/E/U9/SVX7JPSPZFICWS9XHIIIM3'
+[2025.04.28-10.47.24:591][  0]LogWorldPartition: Can't find class descriptor '/Game/BP/BP_Boden.BP_Boden_C' for loading '/Game/FirstPerson/Maps/Dachboden_v02.Dachboden_v02:PersistentLevel.BP_Boden_C_UAID_74563C18ECEC542F02_1376877048', using '/Script/Engine.Actor'
+[2025.04.28-10.47.24:591][  0]LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_Boden.BP_Boden_C`: Actor: 'BP_Boden_C_UAID_74563C18ECEC542F02_1376877048' (guid '0BA644F37E023FB49191D463CC983BAB') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/E/ZB/6RQPJJWSBSNXSQFXRXIJ2D'
+[2025.04.28-10.47.24:592][  0]LogWorldPartition: Can't find class descriptor '/Game/BP/BP_Buch_B.BP_Buch_B_C' for loading '/Game/FirstPerson/Maps/Dachboden_v02.Dachboden_v02:PersistentLevel.BP_Buch_B_C_UAID_74563C18ECECE03102_1460310682', using '/Script/Engine.Actor'
+[2025.04.28-10.47.24:592][  0]LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_Buch_B.BP_Buch_B_C`: Actor: 'BP_Buch_B_C_UAID_74563C18ECECE03102_1460310682' (guid 'B8B066AFFD9432C4A4D276CFA5A5695A') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/E/ZJ/LFJXDJA0BHRE91WIWH3UIB'
+[2025.04.28-10.47.24:600][  0]LogMaterial: Display: Missing cached shadermap for mat_balk_tria in PCD3D_SM6, Default, SM6, Editor (DDC key hash: f1fd90a8b55923c543d04d46f46ee4b84ae17a16), compiling. 
+[2025.04.28-10.47.24:603][  0]LogMaterial: Display: Missing cached shadermap for mat_balken in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 913068ad71cd87c868f187531e8069a0c4e1061c), compiling. 
+[2025.04.28-10.47.24:709][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.10.dll
+[2025.04.28-10.47.24:711][  0]LogMaterial: Display: Missing cached shadermap for M_MS_Decal in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 50511a6fc1a64add1204782eefb57b3108d20bc1), compiling. 
+[2025.04.28-10.47.24:754][  0]LogAssetRegistry: Display: Asset registry cache written as 39.7 MiB to ../../../../../../Users/schueler/Documents/GitHub/Escapefloor/Intermediate/CachedAssetRegistry_*.bin
+[2025.04.28-10.47.24:785][  0]LogMaterial: Display: Missing cached shadermap for mat_wandschraeg in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 57d89c9fcfad67b13d08466173ec9659fcb9d820), compiling. 
+[2025.04.28-10.47.24:810][  0]LogMaterial: Display: Missing cached shadermap for mat_wandgerade in PCD3D_SM6, Default, SM6, Editor (DDC key hash: d5f9832ae3b4ba7fe587468f5301545cbf72ec8d), compiling. 
+[2025.04.28-10.47.24:850][  0]LogMaterial: Display: Missing cached shadermap for m_grafiti_001 in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 5d213d77ccd6c065d69a4571ba3da1dc904bd8a2), compiling. 
+[2025.04.28-10.47.24:862][  0]LogWorldPartition: Display: WorldPartition initialize took 553.036 ms
+[2025.04.28-10.47.24:882][  0]LogWorldPartitionHLODsBuilder: Display: #### World HLOD actors ####
+[2025.04.28-10.47.24:882][  0]LogWorldPartitionHLODsBuilder: Display: #### World contains 0 HLOD actors ####
+[2025.04.28-10.47.24:882][  0]LogWorldPartitionHLODsBuilder: Display: #### Building 0 HLOD actors ####
+[2025.04.28-10.47.24:882][  0]LogWorldPartitionHLODsBuilder: Display: #### Built 0 HLOD actors ####
+[2025.04.28-10.47.24:883][  0]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/Dachboden_v02.Dachboden_v02
+[2025.04.28-10.47.24:883][  0]LogWorldPartitionBuilderCommandlet: Display: Execution took 1.15 sec
+[2025.04.28-10.47.24:883][  0]LogCore: Engine exit requested (reason: Commandlet WorldPartitionBuilderCommandlet_0 finished execution (result 0))
+[2025.04.28-10.47.24:883][  0]LogInit: Display: 
+[2025.04.28-10.47.24:883][  0]LogInit: Display: Warning/Error Summary (Unique only)
+[2025.04.28-10.47.24:883][  0]LogInit: Display: -----------------------------------
+[2025.04.28-10.47.24:883][  0]LogInit: Display: LogShaderCompilers: Error: ShaderCompileWorker terminated unexpectedly, return code -1073741819! Falling back to directly compiling which will be very slow.  Thread 1.
+[2025.04.28-10.47.24:883][  0]LogInit: Display: LogShaderCompilers: Error: SCW 2 Queued Jobs, Unknown number of processed jobs!
+[2025.04.28-10.47.24:883][  0]LogInit: Display: LogShaderCompilers: Error: Job 0 [Single] Failed: DefaultTextMaterialOpaque_36664816042156aa/Default/FLocalVertexFactory/TBasePassPSFNoLightMapPolicy/0:/Engine/Private/BasePassPixelShader.usf|MainPS VF 'FLocalVertexFactory' Type 'TBasePassPSFNoLightMapPolicy' '/Engine/Private/BasePassPixelShader.usf' Entry 'MainPS' Permutation 0 
+[2025.04.28-10.47.24:884][  0]LogInit: Display: LogShaderCompilers: Error: Job 1 [Single] Failed: DefaultTextMaterialOpaque_36664816042156aa/Default/FLocalVertexFactory/TMaterialCHSFNoLightMapPolicyFAnyHitShader/0:/Engine/Private/RayTracing/RayTracingMaterialHitShaders.usf|closesthit=MaterialCHS anyhit=MaterialAHS VF 'FLocalVertexFactory' Type 'TMaterialCHSFNoLightMapPolicyFAnyHitShader' '/Engine/Private/RayTracing/RayTracingMaterialHitShaders.usf' Entry 'closesthit=MaterialCHS anyhit=MaterialAHS' Permutation 0 
+[2025.04.28-10.47.24:884][  0]LogInit: Display: LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_Tisch.BP_Tisch_C`: Actor: 'BP_Tisch_C_UAID_74563C18ECECE03102_1215088669' (guid '9A844CD56BCF37B48184879B7A3BD551') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/0/CH/GM9U5N0ZP14V2556EOY9WZ'
+[2025.04.28-10.47.24:884][  0]LogInit: Display: LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_Boden.BP_Boden_C`: Actor: 'BP_Boden_C_UAID_74563C18ECEC542F02_1376878049' (guid 'EF11B9E012B63B2D8B39007C7021418C') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/0/X4/IBIN13C6PSVHU3K22SN1LV'
+[2025.04.28-10.47.24:884][  0]LogInit: Display: LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_Buch_D.BP_Buch_D_C`: Actor: 'BP_Buch_D_C_UAID_74563C18ECECE73102_1271463931' (guid '39BF4B3BEF1933F8B1371829FF4CE306') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/1/43/ASTCN45D98YH9JRJ1JMICZ'
+[2025.04.28-10.47.24:884][  0]LogInit: Display: LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_schaukelstuhl.BP_schaukelstuhl_C`: Actor: 'BP_schaukelstuhl_C_UAID_74563C18ECECE03102_1236446670' (guid '1C23283D7F033949A821968B0BFA275C') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/1/AB/UK4WVAHEUU82CN0ZANMNVV'
+[2025.04.28-10.47.24:885][  0]LogInit: Display: LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_buch_open_B.BP_buch_open_B_C`: Actor: 'BP_buch_open_B_C_UAID_74563C18ECECE03102_1439512681' (guid 'A87938347CD43269A749D8F65DDA99DD') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/1/QZ/NO8ZADQ4OJ00OZQXYO1KB1'
+[2025.04.28-10.47.24:895][  0]LogInit: Display: LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_buch_A.BP_buch_A_C`: Actor: 'BP_buch_A_C_UAID_74563C18ECECE03102_1422227678' (guid '3FECC822A06A34CFB682A331923B123D') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/2/BD/4JF9U7UFZS2SF9WD3RGCCA'
+[2025.04.28-10.47.24:895][  0]LogInit: Display: LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_Boden.BP_Boden_C`: Actor: 'BP_Boden_C_UAID_74563C18ECEC542F02_1376875047' (guid '7A71DF026CBB357E82C22F10F2BC673E') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/2/JL/IQF3WV0202M2GVYJSBZOU2'
+[2025.04.28-10.47.24:896][  0]LogInit: Display: LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_Boden.BP_Boden_C`: Actor: 'BP_Boden_C_UAID_74563C18ECEC542F02_1406659054' (guid 'EC80AAFD468231CAA1376D925E03E183') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/3/2P/UQMYP4J16M81H1P2CVUNPH'
+[2025.04.28-10.47.24:896][  0]LogInit: Display: LogWorldPartition: Warning: Unknown actor base class `/Game/BP_trigger/DialogBP/BP_Basedialog.BP_Basedialog_C`: Actor: 'BP_Basedialog_C_UAID_04421A2770E5F56102_1582338048' (guid '99AC62B34954A3C8B69B3988E7B09576') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/5/72/J5L2BEU331J8WIBGAWGD76'
+[2025.04.28-10.47.24:896][  0]LogInit: Display: LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_Buch_C.BP_Buch_C_C`: Actor: 'BP_Buch_C_C_UAID_74563C18ECECE03102_1473642683' (guid '6527D61DF5193EEFAE1E30581DC96140') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/5/LV/MBBMF4GQ4IA09F6AHEX7E2'
+[2025.04.28-10.47.24:896][  0]LogInit: Display: LogWorldPartition: Warning: Unknown actor base class `/Game/BP_trigger/Trigger_Demon.Trigger_Demon_C`: Actor: 'Trigger_Demon_C_UAID_04421A2770E5083202_1109013711' (guid 'AF192A570812378AB70ADBA3BECD8B02') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/5/P7/4KUEOOBW3A8WWEEC0ME4X1'
+[2025.04.28-10.47.24:896][  0]LogInit: Display: LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_Boden.BP_Boden_C`: Actor: 'BP_Boden_C_UAID_74563C18ECEC542F02_1406654050' (guid 'D39E03D9097A35C5BD1DC6F2B530F8CD') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/5/TK/2CU7SF6H8KPK0GSUH0EQUM'
+[2025.04.28-10.47.24:896][  0]LogInit: Display: LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_Boden.BP_Boden_C`: Actor: 'BP_Boden_C_UAID_74563C18ECEC542F02_1421162056' (guid '5B3D84A6D00C3CDF938149D81B4D4C0A') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/6/9G/33HNIH55V21F3SV94QPNIB'
+[2025.04.28-10.47.24:897][  0]LogInit: Display: LogWorldPartition: Warning: Unknown actor base class `/Game/cNiagara/Niagara_candle/BP_candle.BP_candle_C`: Actor: 'BP_candle_C_UAID_74563C18ECEC434102_1384040929' (guid '0AA592FBE01E32B786ECFA996B8FA6AF') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/6/JX/GTIWC8MJDEHQW54VRD04U5'
+[2025.04.28-10.47.24:897][  0]LogInit: Display: LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_Boden.BP_Boden_C`: Actor: 'BP_Boden_C_UAID_74563C18ECEC542F02_1421165058' (guid '8A2059DBFF4B3DA5BECDA8FA7EEB04EF') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/6/TJ/GM28PFTXVGJY1B9LQD1LFS'
+[2025.04.28-10.47.24:897][  0]LogInit: Display: LogWorldPartition: Warning: Unknown actor base class `/Game/BP/bp_bulb.bp_bulb_C`: Actor: 'bp_bulb_C_UAID_74563C18ECEC173402_1712079455' (guid '1721994913F23BB68BC3E0D631520E66') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/6/WY/2TKMK3ITFAMVNN7NP40IBD'
+[2025.04.28-10.47.24:897][  0]LogInit: Display: LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_Tisch.BP_Tisch_C`: Actor: 'BP_Tisch_C_UAID_74563C18ECECE03102_1318713671' (guid 'F89E724C2F7A36598B2959974B2F047F') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/7/9T/PUUV9RDG7W8UOY4UBZZMWQ'
+[2025.04.28-10.47.24:996][  0]LogInit: Display: LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_Boden.BP_Boden_C`: Actor: 'BP_Boden_C_UAID_74563C18ECEC542F02_1421164057' (guid '93A6ACD003FB3414B76FA341FECB0F2D') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/7/JY/BSC0MBXPFEFKH7F343AGIV'
+[2025.04.28-10.47.24:996][  0]LogInit: Display: LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_Boden.BP_Boden_C`: Actor: 'BP_Boden_C_UAID_74563C18ECEC542F02_1406657052' (guid '0DBF47DDF1763263B38283C7529140AC') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/7/YC/LGUDMBT113328MHI0HPFYF'
+[2025.04.28-10.47.24:996][  0]LogInit: Display: LogWorldPartition: Warning: Unknown actor base class `/Game/cNiagara/Niagara_candle/BP_candle.BP_candle_C`: Actor: 'BP_candle_C_UAID_74563C18ECEC434102_1368679927' (guid '58D1C3257A56306B8E0DDB466DD5B0EC') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/7/ZC/JBOVJBO4H49UQRKKV3Y35Y'
+[2025.04.28-10.47.24:997][  0]LogInit: Display: LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_box_A.BP_box_A_C`: Actor: 'BP_box_A_C_UAID_74563C18ECECE03102_1502017685' (guid 'FD713FCA0A323F0C8BE0294465C16D08') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/8/30/T3LDNXESV26847TM4BV8HM'
+[2025.04.28-10.47.24:997][  0]LogInit: Display: LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_buch_open_B.BP_buch_open_B_C`: Actor: 'BP_buch_open_B_C_UAID_74563C18ECECE53102_1748406578' (guid '116EBC06229232208C49C21EDC110E04') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/9/1Q/5OKLPZGAMWQ1PM0QMVCZ3U'
+[2025.04.28-10.47.24:997][  0]LogInit: Display: LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_Boden.BP_Boden_C`: Actor: 'BP_Boden_C_UAID_74563C18ECEC542F02_1314389045' (guid '3E23448F077231BB9C4E1A29DD9321AF') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/A/7N/LY6TRZ6C33V3FKQYNQH8NO'
+[2025.04.28-10.47.24:997][  0]LogInit: Display: LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_Fenster.BP_Fenster_C`: Actor: 'BP_Fenster_C_UAID_74563C18ECECE03102_1561468686' (guid '7F633FB789B5365BA3DF6AABF3812B9A') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/A/HL/6F1T6WNNVP1LMYBKH2YFEB'
+[2025.04.28-10.47.24:997][  0]LogInit: Display: LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_box_closed_.BP_box_closed__C`: Actor: 'BP_box_closed__C_UAID_74563C18ECECE03102_1349895673' (guid '31CF16FD1B3E3703A257CC4E8540ED1A') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/B/CV/JN55ZBL39NFF3A487UNA2O'
+[2025.04.28-10.47.24:997][  0]LogInit: Display: LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_box_closed_.BP_box_closed__C`: Actor: 'BP_box_closed__C_UAID_74563C18ECECE03102_1362177674' (guid 'B7CB76784D083DFFAEC5E91E4DFC6A1E') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/B/GM/D4IVY8ZI892ACFQ7ZW3CGR'
+[2025.04.28-10.47.24:998][  0]LogInit: Display: LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_box_closed_.BP_box_closed__C`: Actor: 'BP_box_closed__C_UAID_74563C18ECECE03102_1375481675' (guid '77F8870F889439ADBCE331F1075322B4') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/B/UU/HNMMYPFD2ZFJ3J6DQ3UV24'
+[2025.04.28-10.47.24:998][  0]LogInit: Display: LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_box_closed_.BP_box_closed__C`: Actor: 'BP_box_closed__C_UAID_74563C18ECECE03102_1392686677' (guid '04BB03C43CA93E2198BF24DD1837146D') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/C/8E/MMH4HDEIXUM3O4L0087ZJL'
+[2025.04.28-10.47.24:998][  0]LogInit: Display: LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_tv1.BP_tv1_C`: Actor: 'BP_tv1_C_UAID_74563C18ECEC6E3802_1877282991' (guid '38DE3D376BD232E89F935F3B7710BDB1') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/C/9Q/U8Q80SQFNHLOUNHFRL7J34'
+[2025.04.28-10.47.25:098][  0]LogInit: Display: LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_Boden.BP_Boden_C`: Actor: 'BP_Boden_C_UAID_74563C18ECEC542F02_1242300043' (guid '3172A7F33EF83CC1BD889306EC7C7080') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/C/N6/1SZA6RAJDVMZ71LGSBPXJ9'
+[2025.04.28-10.47.25:098][  0]LogInit: Display: LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_Boden.BP_Boden_C`: Actor: 'BP_Boden_C_UAID_74563C18ECEC542F02_1406656051' (guid 'E12A49C09E7C3281839C3F37451EEED4') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/C/XV/UZU9CUCN22AD5NJX3VAL5C'
+[2025.04.28-10.47.25:098][  0]LogInit: Display: LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_Boden.BP_Boden_C`: Actor: 'BP_Boden_C_UAID_74563C18ECEC542F02_1406658053' (guid '73C3B67863193A4B88B0F3D6E30F7C22') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/D/7L/EKA4LVBPC8NQHQWH7R77X3'
+[2025.04.28-10.47.25:098][  0]LogInit: Display: LogWorldPartition: Warning: Unknown actor base class `/Game/BP_trigger/Trigger_Demonlight.Trigger_Demonlight_C`: Actor: 'Trigger_Demonlight_C_UAID_04421A2770E5073202_1717292533' (guid '1D6B54D8A4E3356A9BC35DD8DCCAB33E') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/D/8W/UM0XL5F6B7GO8BUMI694FN'
+[2025.04.28-10.47.25:098][  0]LogInit: Display: LogWorldPartition: Warning: Unknown actor base class `/Game/cNiagara/Niagara_candle/BP_candle.BP_candle_C`: Actor: 'BP_candle_C_UAID_74563C18ECEC434102_1374634928' (guid 'E4C09C820C0C3C7A997D00020706A9B1') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/D/90/UAITQ375SPKJKSQUNGG7O6'
+[2025.04.28-10.47.25:099][  0]LogInit: Display: LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_box_A.BP_box_A_C`: Actor: 'BP_box_A_C_UAID_74563C18ECECE03102_1328988672' (guid 'B2097B8043DA318B9CFD2014DB19328D') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/D/9Z/FTR84Q7RC9W3Y42C5N899A'
+[2025.04.28-10.47.25:099][  0]LogInit: Display: LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_Fenster1.BP_Fenster1_C`: Actor: 'BP_Fenster1_C_UAID_74563C18ECECBC3302_1632411444' (guid '3E69E381C3573EEB94AC47571ACF21FD') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/E/8L/15QV1V58M3SEPGH7M1TS08'
+[2025.04.28-10.47.25:099][  0]LogInit: Display: LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_Boden.BP_Boden_C`: Actor: 'BP_Boden_C_UAID_74563C18ECEC542F02_1338332046' (guid '5FC4A875B98F3157A5DB310B80009438') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/E/8X/3QT2H4MCG67UD4SNKNFVO6'
+[2025.04.28-10.47.25:099][  0]LogInit: Display: LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_box_A.BP_box_A_C`: Actor: 'BP_box_A_C_UAID_74563C18ECECE03102_1380381676' (guid '6277B23380FE3C708867CB9A87855046') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/E/PF/NLK3EBJYXWHJ6PZ7XAID5Q'
+[2025.04.28-10.47.25:099][  0]LogInit: Display: LogWorldPartition: Warning: Unknown actor base class `/Game/cNiagara/Niagara_candle/BP_candle.BP_candle_C`: Actor: 'BP_candle_C_UAID_74563C18ECEC434102_1393071930' (guid '901DD7AE0BD93224B7AACAC91814D34B') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/E/PU/HBCE02DIKMVAASKGTZ2WCM'
+[2025.04.28-10.47.25:099][  0]LogInit: Display: LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_Boden.BP_Boden_C`: Actor: 'BP_Boden_C_UAID_74563C18ECEC542F02_1406660055' (guid '0BC797E6F1DD39B0BAADB01F5B44A5C9') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/E/U9/SVX7JPSPZFICWS9XHIIIM3'
+[2025.04.28-10.47.25:100][  0]LogInit: Display: LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_Boden.BP_Boden_C`: Actor: 'BP_Boden_C_UAID_74563C18ECEC542F02_1376877048' (guid '0BA644F37E023FB49191D463CC983BAB') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/E/ZB/6RQPJJWSBSNXSQFXRXIJ2D'
+[2025.04.28-10.47.25:100][  0]LogInit: Display: LogWorldPartition: Warning: Unknown actor base class `/Game/BP/BP_Buch_B.BP_Buch_B_C`: Actor: 'BP_Buch_B_C_UAID_74563C18ECECE03102_1460310682' (guid 'B8B066AFFD9432C4A4D276CFA5A5695A') from package '/Game/__ExternalActors__/FirstPerson/Maps/Dachboden_v02/E/ZJ/LFJXDJA0BHRE91WIWH3UIB'
+[2025.04.28-10.47.25:199][  0]LogInit: Display: 
+[2025.04.28-10.47.25:199][  0]LogInit: Display: Failure - 4 error(s), 42 warning(s)
+[2025.04.28-10.47.25:199][  0]LogInit: Display: 
+Execution of commandlet took:  1.16 seconds
+[2025.04.28-10.47.25:199][  0]LogWindows: FPlatformMisc::RequestExitWithStatus(1, 0, <NoCallSiteInfo>)
+[2025.04.28-10.47.25:199][  0]LogCore: Engine exit requested (reason: Win RequestExit; note: exit was already requested)
